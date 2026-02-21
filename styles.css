@@ -75,6 +75,18 @@ body {
   font-weight: 700;
 }
 
+.monogram-photo {
+  padding: 0;
+  overflow: hidden;
+}
+
+.monogram-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .brand-text .name {
   font-weight: 600;
   font-size: 1.05rem;
