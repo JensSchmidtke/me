@@ -325,6 +325,43 @@ body {
   margin-bottom: 0.6rem;
 }
 
+.project-figure-list {
+  margin-top: 2.5rem;
+  display: grid;
+  gap: 1.6rem;
+}
+
+.project-figure-row {
+  display: grid;
+  grid-template-columns: minmax(220px, 360px) 1fr;
+  gap: 1.6rem;
+  align-items: center;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 1.2rem;
+  box-shadow: 0 10px 30px var(--shadow);
+}
+
+.project-figure-row img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid rgba(27, 26, 22, 0.08);
+  background: #fff;
+}
+
+.project-figure-row h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 900px) {
+  .project-figure-row {
+    grid-template-columns: 1fr;
+  }
+}
+
 .project-meta {
   margin-top: 1.8rem;
   display: grid;
