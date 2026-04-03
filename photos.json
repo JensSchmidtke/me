@@ -1,0 +1,22 @@
+{
+  "Jordan": [
+    { "file": "jordanian_flag.JPG", "caption": "on the highest mountain in Jordan" },
+    { "file": "petra.JPG", "caption": "the monastery in Petra" },
+    { "file": "sunset_dana.JPG", "caption": "sunset in the Dana nature reserve" },
+    { "file": "sunset_wadi_rum.JPG", "caption": "sunset in Wadi Rum" },
+    { "file": "wadi.JPG", "caption": "a wadi near the Dead Sea" },
+    { "file": "wadi_ghweir.JPG", "caption": "an Oasis in the desert" }
+  ],
+  "Israel": [
+    { "file": "commute.jpeg", "caption": "the commute to the University of Haifa" },
+    { "file": "haifa_sunset.jpeg", "caption": "sunset in Haifa" },
+    { "file": "mitzpe_ramon.jpeg", "caption": "Mitzpe Ramon" },
+    { "file": "mount_carmel.jpeg", "caption": "view from the university" },
+    { "file": "spring.jpeg", "caption": "spring in the north of Israel" },
+    { "file": "wild_tulips.jpeg", "caption": "wild flowers on Mount Carmel" }
+  ],
+  "USA": [
+    { "file": "lake_michigan.jpeg", "caption": "Lake Michigan" },
+    { "file": "lansing_winter.jpeg", "caption": "winter in Lansing" }
+  ]
+}

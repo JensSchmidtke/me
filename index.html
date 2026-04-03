@@ -15,15 +15,16 @@
             <img src="assets/IMG_6203.PNG" alt="Portrait of Jens Schmidtke" />
           </div>
           <div class="brand-text">
-            <div class="name">Jens Schmidtke</div>
-            <div class="role">Assessment Specialist • Goethe-Institute (Munich) • Research Collaborator, Leipzig University</div>
+            <div class="name">Jens Schmidtke, Ph.D.</div>
+            <div class="role">Data Analyst • Research Methodology • Language Assessment and Teaching</div>
           </div>
         </div>
         <nav class="nav">
           <a href="#about">About</a>
-          <a href="#work">Work</a>
+          <a href="#work">Projects</a>
           <a href="#teaching">Teaching</a>
-          <a href="#tabs">Research</a>
+          <a href="research.html" target="_blank" rel="noreferrer">Research</a>
+          <a href="field-notes.html" target="_blank" rel="noreferrer">Field Notes</a>
           <a href="#contact">Contact</a>
         </nav>
       </div>
@@ -33,14 +34,16 @@
       <section class="hero">
         <div class="container">
           <div class="hero-text">
-            <h1>Research that makes the invisible visible.</h1>
+            <h1>Turning Data into Insight</h1>
             <p>
-              I am interested in teaching and learning foreign languages. On the learning side, I study language processing, listening effort, and bilingualism using behavioral
-              methods and pupillometry. On the teaching side, I have worked on curriculum development for German for specific purposes. Lately, I have thought of ways to combine 
-              my interest in computational data processing and teaching language skills. Check out my projects page for more.
+              I work at the intersection of language, data analysis, and learning. My background includes 
+              analyzing behavioral data to understand how people process information, as well as developing 
+              and structuring learning materials.
+              More recently, I have focused on combining data-driven approaches with language teaching, 
+              assessment, and training.
             </p>
             <div class="hero-actions">
-              <a class="button" href="#tabs">View Research</a>
+              <a class="button" href="research.html" target="_blank" rel="noreferrer">View Research</a>
               <a class="button ghost" href="https://scholar.google.com/citations?user=u3pjdiYAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
             </div>
           </div>
@@ -49,11 +52,11 @@
               <img src="assets/IMG_6203.PNG" alt="Portrait of Jens Schmidtke" />
             </div>
             <div class="card-label">Now</div>
-            <div class="card-title">Research Focus</div>
+            <div class="card-title">Research and Methods</div>
             <ul class="card-list">
-              <li>Speech perception in noise</li>
-              <li>Pupillometry &amp; listening effort</li>
-              <li>Bilingual language processing</li>
+              <li>Language processing in challenging conditions</li>
+              <li>Measuring Cognitive Effort</li>
+              <li>Multilingual Data Analysis</li>
             </ul>
             <div class="card-footer">Open to collaborations in 2026</div>
           </div>
@@ -65,12 +68,12 @@
           <div>
             <h2>About</h2>
             <p>
-              I am an Assessment Specialist at the Goethe-Institute (Munich) and a Research
-              Collaborator at Leipzig University. My work focuses on speech perception in
-              noise, bilingual listening effort, and pupillometry-based measures of language
-              processing.
+              I have worked across assessment, research, and data analysis, 
+              with experience in test development, experimental design, 
+              statistical analysis, and the analysis of behavioral data.
             </p>
           </div>
+          <!--
           <div class="stats">
             <div class="stat">
               <div class="stat-value">10+</div>
@@ -85,6 +88,7 @@
               <div class="stat-label">Research Areas</div>
             </div>
           </div>
+          -->
         </div>
       </section>
 
@@ -94,7 +98,7 @@
           <div class="grid">
             <a class="tile tile-link" href="projects/project-one.html" target="_blank" rel="noreferrer">
               <h3>Vocabulary Acquisition</h3>
-              <p>Short summary of the research project, methods, and impact.</p>
+              <p>Using eye-tracking to gain insights how we learn new words in a foreign language.</p>
               <div class="tags">
                 <span>Eye tracking</span>
                 <span>Data analysis</span>
@@ -102,7 +106,7 @@
             </a>
             <a class="tile tile-link" href="projects/project-two.html" target="_blank" rel="noreferrer">
               <h3>Digital Humanities</h3>
-              <p>Short summary of the research project, methods, and impact.</p>
+              <p>Using natural language processing to gain insights into text.</p>
               <div class="tags">
                 <span>Python</span>
                 <span>Mixed Methods</span>
@@ -122,136 +126,60 @@
 
       <section id="teaching" class="section">
         <div class="container">
-          <h2>Teaching</h2>
-          <div class="teaching-grid">
-            <div class="teaching-card">
-              <div class="teaching-term">Winter 2024/25</div>
-              <h3>Academic Writing</h3>
-              <p>Bachelor’s Program, German as a Second Language — University of Leipzig.</p>
+          <div class="panel-header">
+            <h2>Teaching</h2>
+            <div class="panel-actions">
+              <a class="button small" href="teaching.html" target="_blank" rel="noreferrer">View All Courses</a>
             </div>
-            <div class="teaching-card">
-              <div class="teaching-term">Spring 2023</div>
-              <h3>Introduction to German Culture after 1945</h3>
-              <p>Master’s Program in German and European Studies — University of Haifa.</p>
+          </div>
+          <div class="teaching-grid" id="teaching-grid" data-limit="3"></div>
+        </div>
+      </section>
+
+      <section id="research" class="section alt">
+        <div class="container">
+          <div class="panel-header">
+            <h2>Research &amp; Papers</h2>
+            <div class="panel-actions">
+              <a class="button small" href="research.html" target="_blank" rel="noreferrer">View All Papers</a>
+              <a class="button small ghost" href="https://scholar.google.com/citations?user=u3pjdiYAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
             </div>
-            <div class="teaching-card">
-              <div class="teaching-term">Spring 2015</div>
-              <h3>Second and Foreign Language Learning (LLT 361)</h3>
-              <p>Second Language Studies Program — Michigan State University.</p>
-            </div>
-            <div class="teaching-card">
-              <div class="teaching-term">Spring 2026</div>
-              <h3>Rater training - Speaking and Writing C1</h3>
-              <p>Workshop given at the Goethe Institute</p>
-            </div>
+          </div>
+          <div class="papers">
+            <article class="paper">
+              <div class="paper-year">2025</div>
+              <div>
+                <h3>How lexical frequency, language dominance and noise affect listening effort – insights from pupillometry</h3>
+                <p>Schmidtke, J., Bsharat‑Maalouf, D., Degani, T., &amp; Karawani, H. Language, Cognition and Neuroscience (online first), 1–14.</p>
+                <div class="paper-links">
+                  <a href="https://doi.org/10.1080/23273798.2024.2427832" target="_blank" rel="noreferrer">DOI</a>
+                </div>
+              </div>
+            </article>
+            <article class="paper">
+              <div class="paper-year">2024</div>
+              <div>
+                <h3>Through the pupils’ lens: Multilingual effort in first and second language listening</h3>
+                <p>Bsharat‑Maalouf, D., Schmidtke, J., Degani, T., &amp; Karawani, H. Ear and Hearing.</p>
+              </div>
+            </article>
+            <article class="paper">
+              <div class="paper-year">2024</div>
+              <div>
+                <h3>Pupillometry in language research</h3>
+                <p>Schmidtke, J., &amp; Tobin, S. In: Papesh, M. &amp; Goldinger, S. (eds.), Modern Pupillometry. Springer.</p>
+              </div>
+            </article>
           </div>
         </div>
       </section>
 
-      <section id="tabs" class="section">
+      <section id="field-notes" class="section">
         <div class="container">
-          <div class="tabs">
-            <button class="tab active" data-tab="research">Research</button>
-            <button class="tab" data-tab="personal">Personal</button>
-          </div>
-
-          <div id="research" class="tab-panel active">
-            <div class="panel-header">
-              <h2>Research &amp; Papers</h2>
-              <div class="panel-actions">
-                <a class="button small" href="https://scholar.google.com/citations?user=u3pjdiYAAAAJ&hl=en" target="_blank" rel="noreferrer">View Google Scholar</a>
-              </div>
-            </div>
-            <div class="papers">
-              <article class="paper">
-                <div class="paper-year">2025</div>
-                <div>
-                  <h3>How lexical frequency, language dominance and noise affect listening effort – insights from pupillometry</h3>
-                  <p>Schmidtke, J., Bsharat‑Maalouf, D., Degani, T., &amp; Karawani, H. Language, Cognition and Neuroscience (online first), 1–14.</p>
-                  <div class="paper-links">
-                    <a href="https://doi.org/10.1080/23273798.2024.2427832" target="_blank" rel="noreferrer">DOI</a>
-                  </div>
-                </div>
-              </article>
-              <article class="paper">
-                <div class="paper-year">2024</div>
-                <div>
-                  <h3>Through the pupils’ lens: Multilingual effort in first and second language listening</h3>
-                  <p>Bsharat‑Maalouf, D., Schmidtke, J., Degani, T., &amp; Karawani, H. Ear and Hearing.</p>
-                </div>
-              </article>
-              <article class="paper">
-                <div class="paper-year">2024</div>
-                <div>
-                  <h3>Pupillometry in language research</h3>
-                  <p>Schmidtke, J., &amp; Tobin, S. In: Papesh, M. &amp; Goldinger, S. (eds.), Modern Pupillometry. Springer.</p>
-                </div>
-              </article>
-              <article class="paper">
-                <div class="paper-year">2018</div>
-                <div>
-                  <h3>Pupillometry in linguistic research: an introduction and review for second language researchers</h3>
-                  <p>Studies in Second Language Acquisition, 40(3), 529–549.</p>
-                </div>
-              </article>
-              <article class="paper">
-                <div class="paper-year">2017</div>
-                <div>
-                  <h3>Home and Community Language Proficiency in Spanish–English Early Bilingual University Students</h3>
-                  <p>Journal of Speech Language and Hearing Research, 60(10), 2879–2890.</p>
-                </div>
-              </article>
-              <article class="paper">
-                <div class="paper-year">2016</div>
-                <div>
-                  <h3>The Bilingual Disadvantage in Speech Understanding in Noise Is Likely a Frequency Effect Related to Reduced Language Exposure</h3>
-                  <p>Frontiers in Psychology, 7(678).</p>
-                </div>
-              </article>
-              <article class="paper">
-                <div class="paper-year">2014</div>
-                <div>
-                  <h3>Second language experience modulates word retrieval effort in bilinguals: Evidence from pupillometry</h3>
-                  <p>Frontiers in Psychology, 5(137).</p>
-                </div>
-              </article>
-              <article class="paper">
-                <div class="paper-year">2013</div>
-                <div>
-                  <h3>What do eye movements tell us about awareness? A triangulation of eye‑movement data, verbal reports and vocabulary learning scores</h3>
-                  <p>Godfroid, A. &amp; Schmidtke, J. In: Bergsleithner, J. M., Frota, S., &amp; Yoshioka, J. K. (eds.), Noticing: L2 studies and essays in honor of Richard Schmidt.</p>
-                </div>
-              </article>
-              <article class="paper">
-                <div class="paper-year">2013</div>
-                <div>
-                  <h3>Statistical Literacy among Applied Linguists and Second Language Acquisition Researchers</h3>
-                  <p>Loewen, S., Lavolette, B., Spino, L., Papi, M., Schmidtke, J., Sterling, S., &amp; Wolf, D. TESOL Quarterly, 48, 360–388.</p>
-                  <div class="paper-links">
-                    <a href="https://doi.org/10.1002/tesq.128" target="_blank" rel="noreferrer">DOI</a>
-                  </div>
-                </div>
-              </article>
-              <article class="paper">
-                <div class="paper-year">2010</div>
-                <div>
-                  <h3>The Cambridge handbook of child language (book review)</h3>
-                  <p>Anastas, J., Gindin, L., Kelty, E., Rimzhim, A., Zhao, J., Andrade, B., … Schmidtke, J., Tobin, S., Naigles, L. Journal of Child Language, 37(5), 1133–1140.</p>
-                </div>
-              </article>
-            </div>
-          </div>
-
-          <div id="personal" class="tab-panel">
-            <div class="panel-header">
-              <h2>World Map</h2>
-              <p class="panel-subtitle">Places I have lived in the past</p>
-            </div>
-            <div class="map-card">
-              <div class="map">
-                <img class="map-image" src="assets/world-map.png" alt="World map (NASA Blue Marble)" />
-                <div class="map-pins" id="map-pins"></div>
-              </div>
+          <div class="panel-header">
+            <h2>Field Notes</h2>
+            <div class="panel-actions">
+              <a class="button small" href="field-notes.html" target="_blank" rel="noreferrer">Open Field Notes</a>
             </div>
           </div>
         </div>
@@ -268,6 +196,7 @@
               <div class="contact-label">Email</div>
               <div class="contact-value">jens.schmidtke - at - me.com</div>
             </div>
+            <!--
             <div>
               <div class="contact-label">Affiliations</div>
               <div class="contact-value">Goethe-Institute, Munich</div>
@@ -276,6 +205,7 @@
               <div class="contact-label">Elsewhere</div>
               <div class="contact-value">Google Scholar, LinkedIn, GitHub</div>
             </div>
+            -->
           </div>
         </div>
       </section>
@@ -284,7 +214,7 @@
     <footer class="site-footer">
       <div class="container">
         <span>© 2026 Jens Schmidtke</span>
-        <span>Last updated: February 2026</span>
+        <span>Last updated: April 2026</span>
       </div>
     </footer>
 
