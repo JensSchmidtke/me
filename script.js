@@ -306,3 +306,23 @@ if (photoSections) {
     });
   });
 }
+
+const contactButton = document.querySelector(".contact-button");
+if (contactButton) {
+  contactButton.addEventListener("click", () => {
+    const user = contactButton.dataset.user || "";
+    const domain = contactButton.dataset.domain || "";
+    if (!user || !domain) return;
+    const email = `${user}@${domain}`;
+    const emailContainer = document.querySelector(".contact-email");
+    if (emailContainer) {
+      const link = document.createElement("a");
+      link.href = `mailto:${email}`;
+      link.textContent = email;
+      emailContainer.innerHTML = "";
+      emailContainer.appendChild(link);
+    }
+    contactButton.disabled = true;
+    contactButton.textContent = "Email Shown";
+  });
+}
