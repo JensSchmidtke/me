@@ -1,0 +1,2781 @@
+{
+  "Ausweis": {
+    "file": "Ausweis.jpg",
+    "unsplash_id": "ucBuijvbyyg",
+    "unsplash_link": "https://unsplash.com/photos/text-ucBuijvbyyg",
+    "photographer": "Woliul Hasan",
+    "photographer_link": "https://unsplash.com/@shotbywoliul"
+  },
+  "Baby": {
+    "file": "Baby.jpg",
+    "unsplash_id": "oko_4WnoM98",
+    "unsplash_link": "https://unsplash.com/photos/baby-lying-on-fabric-cloth-oko_4WnoM98",
+    "photographer": "Filip Mroz",
+    "photographer_link": "https://unsplash.com/@mroz"
+  },
+  "Ehefrau": {
+    "file": "Ehefrau.jpg",
+    "unsplash_id": "LwdVXgdcrUo",
+    "unsplash_link": "https://unsplash.com/photos/man-in-white-crew-neck-t-shirt-standing-beside-woman-in-black-and-white-polka-dot-LwdVXgdcrUo",
+    "photographer": "Luwadlin Bosman",
+    "photographer_link": "https://unsplash.com/@luwadlinbosman"
+  },
+  "Ehemann": {
+    "file": "Ehemann.jpg",
+    "unsplash_id": "LwdVXgdcrUo",
+    "unsplash_link": "https://unsplash.com/photos/man-in-white-crew-neck-t-shirt-standing-beside-woman-in-black-and-white-polka-dot-LwdVXgdcrUo",
+    "photographer": "Luwadlin Bosman",
+    "photographer_link": "https://unsplash.com/@luwadlinbosman"
+  },
+  "Eltern": {
+    "file": "Eltern.jpg",
+    "unsplash_id": "6xY7iAJnpzQ",
+    "unsplash_link": "https://unsplash.com/photos/family-walking-on-a-path-covered-with-autumn-leaves-6xY7iAJnpzQ",
+    "photographer": "Filip Rankovic Grobgaard",
+    "photographer_link": "https://unsplash.com/@filipgrobgaard"
+  },
+  "Großeltern": {
+    "file": "Großeltern.jpg",
+    "unsplash_id": "zmMtb3PtsrE",
+    "unsplash_link": "https://unsplash.com/photos/man-and-woman-walking-near-closed-wooden-door-zmMtb3PtsrE",
+    "photographer": "WONSUNG JANG",
+    "photographer_link": "https://unsplash.com/@pzlvrs"
+  },
+  "Großmutter": {
+    "file": "Großmutter.jpg",
+    "unsplash_id": "apRVMbyfQko",
+    "unsplash_link": "https://unsplash.com/photos/woman-playing-with-child-using-basketball-apRVMbyfQko",
+    "photographer": "Clément Falize",
+    "photographer_link": "https://unsplash.com/@centelm"
+  },
+  "Großvater": {
+    "file": "Großvater.jpg",
+    "unsplash_id": "Sv9xCQ7RBCs",
+    "unsplash_link": "https://unsplash.com/photos/grayscale-photo-of-man-Sv9xCQ7RBCs",
+    "photographer": "Mile Modic",
+    "photographer_link": "https://unsplash.com/@ltlhouse"
+  },
+  "Junge": {
+    "file": "Junge.jpg",
+    "unsplash_id": "VDjRQUch4sk",
+    "unsplash_link": "https://unsplash.com/photos/a-young-boy-sitting-at-a-table-with-his-arms-crossed-VDjRQUch4sk",
+    "photographer": "frank mckenna",
+    "photographer_link": "https://unsplash.com/@frankiefoto"
+  },
+  "Kind": {
+    "file": "Kind.jpg",
+    "unsplash_id": "d2KGu5d_fyk",
+    "unsplash_link": "https://unsplash.com/photos/kid-smiling-close-up-photography-d2KGu5d_fyk",
+    "photographer": "Ashwini Chaudhary(Monty)",
+    "photographer_link": "https://unsplash.com/@suicide_chewbacca"
+  },
+  "Kollege": {
+    "file": "Kollege.jpg",
+    "unsplash_id": "JwP90y9wgr4",
+    "unsplash_link": "https://unsplash.com/photos/womens-beige-turtle-neck-top-JwP90y9wgr4",
+    "photographer": "True Agency",
+    "photographer_link": "https://unsplash.com/@trueagency"
+  },
+  "Mann": {
+    "file": "Mann.jpg",
+    "unsplash_id": "84E44EdD18o",
+    "unsplash_link": "https://unsplash.com/photos/man-in-gray-denim-jacket-wearing-black-framed-eyeglasses-84E44EdD18o",
+    "photographer": "Christian Buehner",
+    "photographer_link": "https://unsplash.com/@christianbuehner"
+  },
+  "Mutter": {
+    "file": "Mutter.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a hexagonal metal lug nut, viewed from a slight angle showing thickness, white background, simple line drawing, single object"
+  },
+  "Tochter": {
+    "file": "Tochter.jpg",
+    "unsplash_id": "vppMdk_GMo4",
+    "unsplash_link": "https://unsplash.com/photos/silhouette-of-man-throwing-girl-in-air-vppMdk_GMo4",
+    "photographer": "lauren lulu taylor",
+    "photographer_link": "https://unsplash.com/@laurenlulutaylor"
+  },
+  "Vater": {
+    "file": "Vater.jpg",
+    "unsplash_id": "zJ68VId-X7I",
+    "unsplash_link": "https://unsplash.com/photos/man-in-grey-polo-shirt-holding-baby-zJ68VId-X7I",
+    "photographer": "Annie Spratt",
+    "photographer_link": "https://unsplash.com/@anniespratt"
+  },
+  "Bad": {
+    "file": "Bad.jpg",
+    "unsplash_id": "6TY_WrJTwSI",
+    "unsplash_link": "https://unsplash.com/photos/white-ceramic-bathtub-near-white-framed-window-6TY_WrJTwSI",
+    "photographer": "Chastity Cortijo",
+    "photographer_link": "https://unsplash.com/@chastityco"
+  },
+  "Balkon": {
+    "file": "Balkon.jpg",
+    "unsplash_id": "1vieZivk1As",
+    "unsplash_link": "https://unsplash.com/photos/2-brown-wooden-armchairs-beside-white-wall-1vieZivk1As",
+    "photographer": "Spacejoy",
+    "photographer_link": "https://unsplash.com/@spacejoy"
+  },
+  "Bett": {
+    "file": "Bett.jpg",
+    "unsplash_id": "3AvEi1EoIyM",
+    "unsplash_link": "https://unsplash.com/photos/a-bed-with-a-white-cover-and-pillows-on-top-of-it-3AvEi1EoIyM",
+    "photographer": "Zulian Firmansyah",
+    "photographer_link": "https://unsplash.com/@lianfirmansyah"
+  },
+  "Eingang": {
+    "file": "Eingang.jpg",
+    "unsplash_id": "ObMTUFpZ7F4",
+    "unsplash_link": "https://unsplash.com/photos/old-wooden-double-doors-with-overgrown-plants-ObMTUFpZ7F4",
+    "photographer": "Stacy",
+    "photographer_link": "https://unsplash.com/@stacysuxx"
+  },
+  "Garten": {
+    "file": "Garten.jpg",
+    "unsplash_id": "NZmzlQBn1Hc",
+    "unsplash_link": "https://unsplash.com/photos/green-plants-on-brown-concrete-fountain-NZmzlQBn1Hc",
+    "photographer": "Kornrawee Sawasdeephol",
+    "photographer_link": "https://unsplash.com/@kornraweesawasdeephol"
+  },
+  "Haus": {
+    "file": "Haus.jpg",
+    "unsplash_id": "Dr6VBM0KNsw",
+    "unsplash_link": "https://unsplash.com/photos/birds-flying-above-white-and-gray-house-during-daytime-Dr6VBM0KNsw",
+    "photographer": "Alexander Andrews",
+    "photographer_link": "https://unsplash.com/@alex_andrews"
+  },
+  "Herd": {
+    "file": "Herd.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a freestanding kitchen stove with four burners on top and an oven below, front view, white background, simple line drawing"
+  },
+  "Küche": {
+    "file": "Küche.jpg",
+    "unsplash_id": "ZMIrSYeDEsc",
+    "unsplash_link": "https://unsplash.com/photos/black-coffee-maker-on-brown-wooden-kitchen-table-ZMIrSYeDEsc",
+    "photographer": "Mikael Cho",
+    "photographer_link": "https://unsplash.com/@mikael"
+  },
+  "Kühlschrank": {
+    "file": "Kühlschrank.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a refrigerator seen from a slight angle with door slightly open showing shelves inside, white background, clipart style, centered"
+  },
+  "Sofa": {
+    "file": "Sofa.jpg",
+    "unsplash_id": "4Co4l84sJWg",
+    "unsplash_link": "https://unsplash.com/photos/a-brown-leather-couch-sitting-on-top-of-a-white-floor-4Co4l84sJWg",
+    "photographer": "personalgraphic.com",
+    "photographer_link": "https://unsplash.com/@personal_graphic"
+  },
+  "Toilette": {
+    "file": "Toilette.jpg",
+    "unsplash_id": "xmt2zNMPNh0",
+    "unsplash_link": "https://unsplash.com/photos/white-ceramic-sink-with-faucet-xmt2zNMPNh0",
+    "photographer": "Emily Silverstein",
+    "photographer_link": "https://unsplash.com/@urbanoreganics"
+  },
+  "Treppe": {
+    "file": "Treppe.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat sketch of a staircase steps from the side, minimal line drawing, white background, centered"
+  },
+  "Wohnung": {
+    "file": "Wohnung.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of an apartment building facade with windows and balconies, white background, clipart style, centered"
+  },
+  "Zimmer": {
+    "file": "Zimmer.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a simple bedroom interior with a bed, window, and door visible, white background, simple line drawing"
+  },
+  "Aufzug": {
+    "file": "Aufzug.jpg",
+    "source": "flux-schnell",
+    "prompt": "a closed elevator door with call button panel on the wall, interior hallway, clean architectural photo"
+  },
+  "Dusche": {
+    "file": "Dusche.jpg",
+    "unsplash_id": "_tWMmC9CQXQ",
+    "unsplash_link": "https://unsplash.com/photos/gray-stainless-steel-shower-head-hanged-on-wall-during-daytime-_tWMmC9CQXQ",
+    "photographer": "yip vick",
+    "photographer_link": "https://unsplash.com/@yipvick"
+  },
+  "Apfel": {
+    "file": "Apfel.jpg",
+    "unsplash_id": "lKWL2esVNlQ",
+    "unsplash_link": "https://unsplash.com/photos/a-green-apple-sitting-on-top-of-a-white-table-lKWL2esVNlQ",
+    "photographer": "Andrey Haimin",
+    "photographer_link": "https://unsplash.com/@akb001"
+  },
+  "Banane": {
+    "file": "Banane.jpg",
+    "unsplash_id": "Kl3467edwsE",
+    "unsplash_link": "https://unsplash.com/photos/yellow-banana-on-white-background-Kl3467edwsE",
+    "photographer": "Mockup Graphics",
+    "photographer_link": "https://unsplash.com/@mockupgraphics"
+  },
+  "Bier": {
+    "file": "Bier.jpg",
+    "unsplash_id": "sUhMjrynw5k",
+    "unsplash_link": "https://unsplash.com/photos/wiltshire-gold-beer-bottle-sUhMjrynw5k",
+    "photographer": "Brett Jordan",
+    "photographer_link": "https://unsplash.com/@brett_jordan"
+  },
+  "Birne": {
+    "file": "Birne.jpg",
+    "unsplash_id": "XaOXpy5DdbM",
+    "unsplash_link": "https://unsplash.com/photos/green-pears-and-one-peach-on-a-patterned-cloth-XaOXpy5DdbM",
+    "photographer": "Stacy",
+    "photographer_link": "https://unsplash.com/@stacysuxx"
+  },
+  "Brot": {
+    "file": "Brot.jpg",
+    "unsplash_id": "BxsGyQwjwaw",
+    "unsplash_link": "https://unsplash.com/photos/baked-breads-BxsGyQwjwaw",
+    "photographer": "Mae Mu",
+    "photographer_link": "https://unsplash.com/@picoftasty"
+  },
+  "Ei": {
+    "file": "Ei.jpg",
+    "unsplash_id": "UQawLoFS4uM",
+    "unsplash_link": "https://unsplash.com/photos/a-brown-egg-sitting-on-top-of-a-white-surface-UQawLoFS4uM",
+    "photographer": "personalgraphic.com",
+    "photographer_link": "https://unsplash.com/@personal_graphic"
+  },
+  "Fleisch": {
+    "file": "Fleisch.jpg",
+    "source": "flux-schnell",
+    "prompt": "a piece of raw red meat with visible marbling on a white background, color photo, single object"
+  },
+  "Hähnchen": {
+    "file": "Hähnchen.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a whole roast chicken, white background, clipart style, centered, single object"
+  },
+  "Kaffee": {
+    "file": "Kaffee.jpg",
+    "unsplash_id": "-sKBWdCyBLg",
+    "unsplash_link": "https://unsplash.com/photos/clear-glass-mug-filled-with-brown-liquid--sKBWdCyBLg",
+    "photographer": "Ben Kolde",
+    "photographer_link": "https://unsplash.com/@benkolde"
+  },
+  "Kartoffel": {
+    "file": "Kartoffel.jpg",
+    "unsplash_id": "xxSWZwlmB3g",
+    "unsplash_link": "https://unsplash.com/photos/a-pile-of-baked-goods-xxSWZwlmB3g",
+    "photographer": "Jossuha Théophile",
+    "photographer_link": "https://unsplash.com/@nunchakouy"
+  },
+  "Lebensmittel": {
+    "file": "Lebensmittel.jpg",
+    "unsplash_id": "Gk8LG7dsHWA",
+    "unsplash_link": "https://unsplash.com/photos/woman-in-white-coat-holding-green-shopping-cart-Gk8LG7dsHWA",
+    "photographer": "Tara Clark",
+    "photographer_link": "https://unsplash.com/@socialtyvr"
+  },
+  "Obst": {
+    "file": "Obst.jpg",
+    "unsplash_id": "h5yMpgOI5nI",
+    "unsplash_link": "https://unsplash.com/photos/sliced-fruits-on-white-surface-h5yMpgOI5nI",
+    "photographer": "Shamblen Studios",
+    "photographer_link": "https://unsplash.com/@shamblenstudios"
+  },
+  "Pommes frites": {
+    "file": "Pommes_frites.jpg",
+    "unsplash_id": "nXjvUlE8418",
+    "unsplash_link": "https://unsplash.com/photos/french-fries-on-white-background-nXjvUlE8418",
+    "photographer": "Mockup Graphics",
+    "photographer_link": "https://unsplash.com/@mockupgraphics"
+  },
+  "Saft": {
+    "file": "Saft.jpg",
+    "unsplash_id": "R73VCYxTBjc",
+    "unsplash_link": "https://unsplash.com/photos/a-group-of-colorful-candles-R73VCYxTBjc",
+    "photographer": "Sajad Darvishi",
+    "photographer_link": "https://unsplash.com/@sajaddarvishi"
+  },
+  "Salat": {
+    "file": "Salat.jpg",
+    "unsplash_id": "kcA-c3f_3FE",
+    "unsplash_link": "https://unsplash.com/photos/vegetable-and-meat-on-bowl-kcA-c3f_3FE",
+    "photographer": "Anh Nguyen",
+    "photographer_link": "https://unsplash.com/@pwign"
+  },
+  "Tee": {
+    "file": "Tee.jpg",
+    "unsplash_id": "mxytp5r205M",
+    "unsplash_link": "https://unsplash.com/photos/white-red-and-green-ceramic-mug-with-brown-liquid-mxytp5r205M",
+    "photographer": "Alvin Mahmudov",
+    "photographer_link": "https://unsplash.com/@alvinmahmudov"
+  },
+  "Tomate": {
+    "file": "Tomate.jpg",
+    "unsplash_id": "AvvdZlhDowA",
+    "unsplash_link": "https://unsplash.com/photos/water-on-orange-tomato-AvvdZlhDowA",
+    "photographer": "Ed O'Neil",
+    "photographer_link": "https://unsplash.com/@edoneil"
+  },
+  "Wein": {
+    "file": "Wein.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a wine glass filled with red wine, white background, simple line drawing, single object"
+  },
+  "Durst": {
+    "file": "Durst.jpg",
+    "unsplash_id": "MY0zSQpmADg",
+    "unsplash_link": "https://unsplash.com/photos/a-woman-drinking-water-from-a-plastic-bottle-MY0zSQpmADg",
+    "photographer": "Mineragua Sparkling Water",
+    "photographer_link": "https://unsplash.com/@mineragua"
+  },
+  "Bäckerei": {
+    "file": "Bäckerei.jpg",
+    "unsplash_id": "R3iAcQxylmE",
+    "unsplash_link": "https://unsplash.com/photos/pantry-display-counter-R3iAcQxylmE",
+    "photographer": "Siebe Warmoeskerken",
+    "photographer_link": "https://unsplash.com/@devetpan"
+  },
+  "Geschäft": {
+    "file": "Geschäft.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a shop storefront with a door and display window, front view, white background, clipart style, centered, no text no signs"
+  },
+  "Kiosk": {
+    "file": "Kiosk.jpg",
+    "unsplash_id": "alXkKDNFavo",
+    "unsplash_link": "https://unsplash.com/photos/assorted-magazines-and-newspapers-lot-on-yellow-metal-rack-alXkKDNFavo",
+    "photographer": "Hümâ H. Yardım",
+    "photographer_link": "https://unsplash.com/@humayardim"
+  },
+  "Kleidung": {
+    "file": "Kleidung.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of folded clothing items: a sweater, folded trousers, socks, and a shoe, arranged together, white background, simple line drawing"
+  },
+  "Jacke": {
+    "file": "Jacke.jpg",
+    "unsplash_id": "gJtwWqMiyUw",
+    "unsplash_link": "https://unsplash.com/photos/a-brown-jacket-hanging-on-a-wooden-wall-gJtwWqMiyUw",
+    "photographer": "Nikola Tasic",
+    "photographer_link": "https://unsplash.com/@tasae34"
+  },
+  "Schuh": {
+    "file": "Schuh.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a single shoe, side view, white background, simple line drawing, single object"
+  },
+  "Auto": {
+    "file": "Auto.jpg",
+    "unsplash_id": "p0OlRAAYXLY",
+    "unsplash_link": "https://unsplash.com/photos/white-volkswagen-beetle-coupe-scale-model-p0OlRAAYXLY",
+    "photographer": "Giorgio Trovato",
+    "photographer_link": "https://unsplash.com/@giorgiotrovato"
+  },
+  "Pass": {
+    "file": "Pass.jpg",
+    "source": "flux-schnell",
+    "prompt": "a passport document lying open on a white surface, travel document, clean photo"
+  },
+  "Fisch": {
+    "file": "Fisch.jpg",
+    "source": "flux-schnell",
+    "prompt": "a whole fresh fish on a white background, seafood, clean food photography"
+  },
+  "Hunger": {
+    "file": "Hunger.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person looking at an empty plate with a sad expression, hungry, simple illustration style"
+  },
+  "Familie": {
+    "file": "Familie.jpg",
+    "source": "flux-schnell",
+    "prompt": "a happy family of four standing together outdoors, parents and two children, smiling"
+  },
+  "Mädchen": {
+    "file": "Mädchen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a young girl around age 8 smiling, simple background, friendly portrait"
+  },
+  "Schwester": {
+    "file": "Schwester.jpg",
+    "source": "flux-schnell",
+    "prompt": "two sisters sitting together and laughing, siblings, warm natural light"
+  },
+  "Sohn": {
+    "file": "Sohn.jpg",
+    "source": "flux-schnell",
+    "prompt": "a young boy around age 10 with his parent, son and parent, cheerful portrait"
+  },
+  "Möbel": {
+    "file": "Möbel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a bright living room with sofa armchair and table, modern furniture, interior design"
+  },
+  "Raum": {
+    "file": "Raum.jpg",
+    "source": "flux-schnell",
+    "prompt": "an empty bright room with white walls and wooden floor, simple interior"
+  },
+  "Schlüssel": {
+    "file": "Schlüssel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a single door key on a white background, metal key, clean minimalist photo"
+  },
+  "Schrank": {
+    "file": "Schrank.jpg",
+    "source": "flux-schnell",
+    "prompt": "a wooden wardrobe cabinet with open doors showing clothes inside, furniture"
+  },
+  "Stock": {
+    "file": "Stock.jpg",
+    "source": "flux-schnell",
+    "prompt": "a staircase inside a building with multiple floors visible, building interior"
+  },
+  "Brötchen": {
+    "file": "Brötchen.jpg",
+    "source": "flux-schnell",
+    "prompt": "two fresh bread rolls on a white background, German Brötchen, bakery, food photography"
+  },
+  "Butter": {
+    "file": "Butter.jpg",
+    "source": "flux-schnell",
+    "prompt": "a block of butter on a white plate with a butter knife, dairy product, food photography"
+  },
+  "Essen": {
+    "file": "Essen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a balanced meal on a plate with fork and knife, lunch dish, food photography"
+  },
+  "Flasche": {
+    "file": "Flasche.jpg",
+    "source": "flux-schnell",
+    "prompt": "a single glass bottle on a white background, drink bottle, clean product photo"
+  },
+  "Frühstück": {
+    "file": "Frühstück.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a breakfast tray with a bread roll, a cup of coffee and a glass of juice, white background, clipart style, centered"
+  },
+  "Gemüse": {
+    "file": "Gemüse.jpg",
+    "source": "flux-schnell",
+    "prompt": "a variety of fresh vegetables on a white background, carrots broccoli tomatoes, food"
+  },
+  "Getränk": {
+    "file": "Getränk.jpg",
+    "source": "flux-schnell",
+    "prompt": "a glass of cold drink with ice on a white background, beverage, food photography"
+  },
+  "Glas": {
+    "file": "Glas.jpg",
+    "source": "flux-schnell",
+    "prompt": "a clear drinking glass filled with water on white background, glassware, minimalist"
+  },
+  "Kuchen": {
+    "file": "Kuchen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a slice of cake on a white plate, German cake, dessert, food photography"
+  },
+  "Milch": {
+    "file": "Milch.jpg",
+    "source": "flux-schnell",
+    "prompt": "a glass of milk and a small milk jug on white background, dairy, food photography"
+  },
+  "Öl": {
+    "file": "Öl.jpg",
+    "source": "flux-schnell",
+    "prompt": "a bottle of cooking oil on a white background, olive oil, kitchen, food photography"
+  },
+  "Reis": {
+    "file": "Reis.jpg",
+    "source": "flux-schnell",
+    "prompt": "a bowl of cooked white rice on a white background, food photography, simple"
+  },
+  "Salz": {
+    "file": "Salz.jpg",
+    "source": "flux-schnell",
+    "prompt": "a small bowl of white salt with a wooden spoon, salt, kitchen, food photography"
+  },
+  "Schinken": {
+    "file": "Schinken.jpg",
+    "source": "flux-schnell",
+    "prompt": "sliced ham on a white plate, deli meat, food photography, close-up"
+  },
+  "Speisekarte": {
+    "file": "Speisekarte.jpg",
+    "source": "flux-schnell",
+    "prompt": "an open restaurant menu on a table, menu card, dining"
+  },
+  "Wasser": {
+    "file": "Wasser.jpg",
+    "source": "flux-schnell",
+    "prompt": "a clear glass of water on a white background, drinking water, minimalist photo"
+  },
+  "Angebot": {
+    "file": "Angebot.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sale sign with discount percentage in a shop window, special offer, retail"
+  },
+  "Kasse": {
+    "file": "Kasse.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a cash register machine, white background, clipart style, centered, single object"
+  },
+  "Kunde": {
+    "file": "Kunde.jpg",
+    "source": "flux-schnell",
+    "prompt": "a customer being served at a shop counter, shopping, retail interaction"
+  },
+  "Laden": {
+    "file": "Laden.jpg",
+    "source": "flux-schnell",
+    "prompt": "a small retail shop storefront from outside, store entrance, street level"
+  },
+  "Preis": {
+    "file": "Preis.jpg",
+    "source": "flux-schnell",
+    "prompt": "a price tag label showing a number on a white background, retail price sticker"
+  },
+  "Rechnung": {
+    "file": "Rechnung.jpg",
+    "source": "flux-schnell",
+    "prompt": "a paper bill or invoice on a white background, receipt, document"
+  },
+  "Autobahn": {
+    "file": "Autobahn.jpg",
+    "source": "flux-schnell",
+    "prompt": "a wide German motorway highway with multiple lanes, cars driving, aerial view"
+  },
+  "Automat": {
+    "file": "Automat.jpg",
+    "source": "flux-schnell",
+    "prompt": "a ticket vending machine at a train station, self-service machine"
+  },
+  "Bahn": {
+    "file": "Bahn.jpg",
+    "source": "flux-schnell",
+    "prompt": "a German train on railway tracks, passenger train, station"
+  },
+  "Bahnhof": {
+    "file": "Bahnhof.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a train station building with a train alongside the platform, white background, clipart style, centered"
+  },
+  "Bahnsteig": {
+    "file": "Bahnsteig.jpg",
+    "source": "flux-schnell",
+    "prompt": "a train platform with people waiting, railway platform, station interior"
+  },
+  "Bus": {
+    "file": "Bus.jpg",
+    "source": "flux-schnell",
+    "prompt": "a city bus at a bus stop, public transport, urban street"
+  },
+  "Fahrkarte": {
+    "file": "Fahrkarte.jpg",
+    "source": "flux-schnell",
+    "prompt": "a train ticket on a white background, paper ticket, public transport"
+  },
+  "Fahrer": {
+    "file": "Fahrer.jpg",
+    "source": "flux-schnell",
+    "prompt": "a bus or taxi driver sitting at the wheel, professional driver, vehicle interior"
+  },
+  "Fahrrad": {
+    "file": "Fahrrad.jpg",
+    "source": "flux-schnell",
+    "prompt": "a bicycle leaning against a wall, city bike, clean side view"
+  },
+  "Flughafen": {
+    "file": "Flughafen.jpg",
+    "source": "flux-schnell",
+    "prompt": "an airport terminal building exterior, international airport, modern architecture"
+  },
+  "Flugzeug": {
+    "file": "Flugzeug.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a passenger airplane, side view, white background, clipart style, centered, single object"
+  },
+  "Gepäck": {
+    "file": "Gepäck.jpg",
+    "source": "flux-schnell",
+    "prompt": "several suitcases and bags at an airport, luggage, travel"
+  },
+  "Gleis": {
+    "file": "Gleis.jpg",
+    "source": "flux-schnell",
+    "prompt": "railway tracks stretching into the distance, train rails, perspective view"
+  },
+  "Haltestelle": {
+    "file": "Haltestelle.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a bus stop shelter from a slight angle with a sign showing the word Bus, white background, clipart style, centered"
+  },
+  "Koffer": {
+    "file": "Koffer.jpg",
+    "source": "flux-schnell",
+    "prompt": "a single rolling suitcase on a white background, travel luggage, clean photo"
+  },
+  "Lkw": {
+    "file": "Lkw.jpg",
+    "source": "flux-schnell",
+    "prompt": "a large truck on a highway, lorry, freight vehicle, side view"
+  },
+  "Straßenbahn": {
+    "file": "Straßenbahn.jpg",
+    "source": "flux-schnell",
+    "prompt": "a tram on city tracks, streetcar, urban public transport"
+  },
+  "Zug": {
+    "file": "Zug.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a train, side view, white background, simple line drawing, single object"
+  },
+  "Apotheke": {
+    "file": "Apotheke.jpg",
+    "source": "flux-schnell",
+    "prompt": "a pharmacy storefront with green cross sign, drugstore exterior"
+  },
+  "Arm": {
+    "file": "Arm.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a human arm from shoulder to wrist, side view, white background, simple line drawing, single object"
+  },
+  "Arzt": {
+    "file": "Arzt.jpg",
+    "source": "flux-schnell",
+    "prompt": "a doctor in white coat with stethoscope, medical professional, friendly portrait"
+  },
+  "Auge": {
+    "file": "Auge.jpg",
+    "source": "flux-schnell",
+    "prompt": "a close-up of a human eye, blue or brown iris, clean macro photo"
+  },
+  "Bauch": {
+    "file": "Bauch.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person's midsection showing the stomach area, body part, simple"
+  },
+  "Bein": {
+    "file": "Bein.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a human leg, outline drawing, white background, clipart style, centered"
+  },
+  "Fieber": {
+    "file": "Fieber.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person with thermometer in mouth looking unwell, fever, sick person"
+  },
+  "Fuß": {
+    "file": "Fuß.jpg",
+    "source": "flux-schnell",
+    "prompt": "a human foot on a white background, bare foot, clean photo"
+  },
+  "Haar": {
+    "file": "Haar.jpg",
+    "source": "flux-schnell",
+    "prompt": "healthy human hair close-up, brown hair, clean background"
+  },
+  "Hand": {
+    "file": "Hand.jpg",
+    "source": "flux-schnell",
+    "prompt": "a human hand open palm facing camera, white background, clean photo"
+  },
+  "Kopf": {
+    "file": "Kopf.jpg",
+    "source": "flux-schnell",
+    "prompt": "a side profile of a human head, neutral expression, simple background"
+  },
+  "Mund": {
+    "file": "Mund.jpg",
+    "source": "flux-schnell",
+    "prompt": "close-up photo of a human mouth and lips, neutral expression, white background, clean portrait crop"
+  },
+  "Chef": {
+    "file": "Chef.jpg",
+    "source": "flux-schnell",
+    "prompt": "a confident manager or boss in an office, business professional, suit"
+  },
+  "Firma": {
+    "file": "Firma.jpg",
+    "source": "flux-schnell",
+    "prompt": "a modern office building exterior with company sign, business, corporate"
+  },
+  "Hausfrau": {
+    "file": "Hausfrau.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person doing household tasks at home, domestic work, kitchen setting"
+  },
+  "Lehrer": {
+    "file": "Lehrer.jpg",
+    "source": "flux-schnell",
+    "prompt": "a teacher standing in front of a classroom blackboard, school, education"
+  },
+  "Verkäufer": {
+    "file": "Verkäufer.jpg",
+    "source": "flux-schnell",
+    "prompt": "a shop assistant behind a store counter helping a customer, retail worker"
+  },
+  "Bleistift": {
+    "file": "Bleistift.jpg",
+    "source": "flux-schnell",
+    "prompt": "a yellow pencil on a white background, stationery, clean minimalist photo"
+  },
+  "Buch": {
+    "file": "Buch.jpg",
+    "source": "flux-schnell",
+    "prompt": "an open book on a white background, reading, education"
+  },
+  "Buchstabe": {
+    "file": "Buchstabe.jpg",
+    "source": "flux-schnell",
+    "prompt": "colorful alphabet letters on a white background, ABC letters, education"
+  },
+  "Gruppe": {
+    "file": "Gruppe.jpg",
+    "source": "flux-schnell",
+    "prompt": "a small group of people sitting together talking, team, collaboration"
+  },
+  "Kindergarten": {
+    "file": "Kindergarten.jpg",
+    "source": "flux-schnell",
+    "prompt": "a bright kindergarten classroom with children playing, colorful, education"
+  },
+  "Kugelschreiber": {
+    "file": "Kugelschreiber.jpg",
+    "source": "flux-schnell",
+    "prompt": "a ballpoint pen on a white background, blue pen, stationery, minimalist"
+  },
+  "Papier": {
+    "file": "Papier.jpg",
+    "source": "flux-schnell",
+    "prompt": "a stack of white paper sheets on a white background, office stationery"
+  },
+  "Schule": {
+    "file": "Schule.jpg",
+    "source": "flux-schnell",
+    "prompt": "a school building exterior, primary school, education, sunny day"
+  },
+  "Schüler": {
+    "file": "Schüler.jpg",
+    "source": "flux-schnell",
+    "prompt": "school children sitting at desks in a classroom, students, learning"
+  },
+  "Text": {
+    "file": "Text.jpg",
+    "source": "flux-schnell",
+    "prompt": "a printed page of text with paragraphs, reading material, document"
+  },
+  "Wort": {
+    "file": "Wort.jpg",
+    "source": "flux-schnell",
+    "prompt": "the word HALLO written clearly on a white background, single word, typography"
+  },
+  "Brief": {
+    "file": "Brief.jpg",
+    "source": "flux-schnell",
+    "prompt": "a handwritten letter in an envelope on a white background, mail, correspondence"
+  },
+  "Briefmarke": {
+    "file": "Briefmarke.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a postage stamp with a decorative border and small image, white background, clipart style, centered"
+  },
+  "Computer": {
+    "file": "Computer.jpg",
+    "source": "flux-schnell",
+    "prompt": "a laptop computer open on a desk, technology, clean photo"
+  },
+  "Drucker": {
+    "file": "Drucker.jpg",
+    "source": "flux-schnell",
+    "prompt": "an office printer on a desk, paper printer, technology"
+  },
+  "Handy": {
+    "file": "Handy.jpg",
+    "source": "flux-schnell",
+    "prompt": "a modern smartphone on a white background, mobile phone, clean product photo"
+  },
+  "Karte": {
+    "file": "Karte.jpg",
+    "source": "flux-schnell",
+    "prompt": "a postcard with an image on one side, greeting card, mail"
+  },
+  "Nummer": {
+    "file": "Nummer.jpg",
+    "source": "flux-schnell",
+    "prompt": "a house number on a door or wall, street number, close-up"
+  },
+  "Post": {
+    "file": "Post.jpg",
+    "source": "flux-schnell",
+    "prompt": "a post office building exterior with postal sign, mail service"
+  },
+  "Telefon": {
+    "file": "Telefon.jpg",
+    "source": "flux-schnell",
+    "prompt": "a classic landline telephone on a white background, phone, clean photo"
+  },
+  "Zeitung": {
+    "file": "Zeitung.jpg",
+    "source": "flux-schnell",
+    "prompt": "a folded newspaper on a white background, daily news, print media"
+  },
+  "Film": {
+    "file": "Film.jpg",
+    "source": "flux-schnell",
+    "prompt": "a cinema screen showing a movie in a dark theater, film, moviegoing"
+  },
+  "Foto": {
+    "file": "Foto.jpg",
+    "source": "flux-schnell",
+    "prompt": "a camera taking a photograph, photography, DSLR camera on white background"
+  },
+  "Fußball": {
+    "file": "Fußball.jpg",
+    "source": "flux-schnell",
+    "prompt": "a black and white football soccer ball on a green grass field"
+  },
+  "Kino": {
+    "file": "Kino.jpg",
+    "source": "flux-schnell",
+    "prompt": "a cinema building exterior with movie posters, movie theater, entrance"
+  },
+  "Lied": {
+    "file": "Lied.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person singing with a microphone, music performance, singer"
+  },
+  "Party": {
+    "file": "Party.jpg",
+    "source": "flux-schnell",
+    "prompt": "a birthday party with balloons and cake, celebration, colorful decorations"
+  },
+  "Restaurant": {
+    "file": "Restaurant.jpg",
+    "source": "flux-schnell",
+    "prompt": "a restaurant interior with set tables and chairs, dining room, warm lighting"
+  },
+  "Schwimmbad": {
+    "file": "Schwimmbad.jpg",
+    "source": "flux-schnell",
+    "prompt": "an indoor swimming pool with blue water and lanes, swimming pool, sport"
+  },
+  "Sport": {
+    "file": "Sport.jpg",
+    "source": "flux-schnell",
+    "prompt": "people doing various sports activities, exercise, active lifestyle"
+  },
+  "Café": {
+    "file": "Café.jpg",
+    "source": "flux-schnell",
+    "prompt": "a cozy café interior with tables and coffee cups, coffee shop, warm atmosphere"
+  },
+  "Baum": {
+    "file": "Baum.jpg",
+    "source": "flux-schnell",
+    "prompt": "a single large tree in a green field, nature, clear blue sky background"
+  },
+  "Blume": {
+    "file": "Blume.jpg",
+    "source": "flux-schnell",
+    "prompt": "a colorful flower in full bloom on white background, nature, close-up"
+  },
+  "Hund": {
+    "file": "Hund.jpg",
+    "source": "flux-schnell",
+    "prompt": "a friendly dog sitting looking at camera, pet, clean background"
+  },
+  "Meer": {
+    "file": "Meer.jpg",
+    "source": "flux-schnell",
+    "prompt": "a blue ocean sea with waves and horizon, seascape, nature"
+  },
+  "Regen": {
+    "file": "Regen.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a rain cloud with rain drops falling, white background, clipart style, centered, single object"
+  },
+  "See": {
+    "file": "See.jpg",
+    "source": "flux-schnell",
+    "prompt": "a calm lake surrounded by trees and mountains, lake landscape, nature"
+  },
+  "Sonne": {
+    "file": "Sonne.jpg",
+    "source": "flux-schnell",
+    "prompt": "a bright sun in a clear blue sky, sunshine, warm weather"
+  },
+  "Wetter": {
+    "file": "Wetter.jpg",
+    "source": "flux-schnell",
+    "prompt": "a weather forecast map or mixed weather collage, sun rain clouds, meteorology"
+  },
+  "Wind": {
+    "file": "Wind.jpg",
+    "source": "flux-schnell",
+    "prompt": "trees bending in strong wind, windy day, nature, motion"
+  },
+  "Ausgang": {
+    "file": "Ausgang.jpg",
+    "source": "flux-schnell",
+    "prompt": "an exit sign above a door, green exit sign, emergency exit"
+  },
+  "Dorf": {
+    "file": "Dorf.jpg",
+    "source": "flux-schnell",
+    "prompt": "a small traditional European village with houses and church, rural landscape"
+  },
+  "Ecke": {
+    "file": "Ecke.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of an interior room corner where two walls and the floor meet, white background, clipart style, centered"
+  },
+  "Schalter": {
+    "file": "Schalter.jpg",
+    "source": "flux-schnell",
+    "prompt": "a ticket counter window at a train station or post office, service counter"
+  },
+  "Stadt": {
+    "file": "Stadt.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a city skyline with tall buildings, white background, simple line drawing"
+  },
+  "Straße": {
+    "file": "Straße.jpg",
+    "source": "flux-schnell",
+    "prompt": "a city street with buildings on both sides, urban road, pedestrians"
+  },
+  "Woche": {
+    "file": "Woche.jpg",
+    "source": "flux-schnell",
+    "prompt": "a weekly calendar page showing Monday to Sunday, week planner, organizer"
+  },
+  "Wochenende": {
+    "file": "Wochenende.jpg",
+    "source": "flux-schnell",
+    "prompt": "people relaxing outdoors on a sunny weekend, leisure, park, weekend activity"
+  },
+  "Einladung": {
+    "file": "Einladung.jpg",
+    "source": "flux-schnell",
+    "prompt": "a party invitation card on a white background, event invite, colorful"
+  },
+  "Feuer": {
+    "file": "Feuer.jpg",
+    "source": "flux-schnell",
+    "prompt": "flames of fire on a dark background, campfire, warm orange glow"
+  },
+  "Gast": {
+    "file": "Gast.jpg",
+    "source": "flux-schnell",
+    "prompt": "a guest being welcomed at a front door, hospitality, greeting"
+  },
+  "Geschenk": {
+    "file": "Geschenk.jpg",
+    "source": "flux-schnell",
+    "prompt": "a wrapped gift box with ribbon bow on white background, present, celebration"
+  },
+  "Gewicht": {
+    "file": "Gewicht.jpg",
+    "source": "flux-schnell",
+    "prompt": "a bathroom scale with a person standing on it, weight measurement"
+  },
+  "Hochzeit": {
+    "file": "Hochzeit.jpg",
+    "source": "flux-schnell",
+    "prompt": "a wedding couple in wedding attire, bride and groom, celebration"
+  },
+  "Jugendliche": {
+    "file": "Jugendliche.jpg",
+    "source": "flux-schnell",
+    "prompt": "a group of teenagers hanging out together, young people, casual outdoor setting"
+  },
+  "Leute": {
+    "file": "Leute.jpg",
+    "source": "flux-schnell",
+    "prompt": "a diverse group of people walking on a busy street, crowd, urban"
+  },
+  "Mensch": {
+    "file": "Mensch.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person standing in a neutral pose, human figure, simple background"
+  },
+  "Schild": {
+    "file": "Schild.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a round red stop sign on a post, white background, clipart style, centered, single object"
+  },
+  "Tasche": {
+    "file": "Tasche.jpg",
+    "source": "flux-schnell",
+    "prompt": "a handbag or shoulder bag on a white background, bag, fashion accessory"
+  },
+  "Tisch": {
+    "file": "Tisch.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a wooden table, side view, white background, clipart style, centered, single object, no chairs"
+  },
+  "Unterschrift": {
+    "file": "Unterschrift.jpg",
+    "source": "flux-schnell",
+    "prompt": "a handwritten signature on a white paper, signing a document, pen"
+  },
+  "Welt": {
+    "file": "Welt.jpg",
+    "source": "flux-schnell",
+    "prompt": "a globe of the earth on a white background, world map, geography"
+  },
+  "abfahren": {
+    "file": "abfahren.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person waving goodbye as a train pulls out of a station platform, farewell scene"
+  },
+  "abfliegen": {
+    "file": "abfliegen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person pulling a carry-on suitcase toward a departure gate at an airport, boarding"
+  },
+  "anrufen": {
+    "file": "anrufen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person holding a smartphone to their ear making a phone call, smiling"
+  },
+  "anziehen": {
+    "file": "anziehen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person pulling on a jacket or shirt, getting dressed, standing in a bedroom"
+  },
+  "arbeiten": {
+    "file": "arbeiten.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person sitting at a desk typing on a laptop computer, focused, office setting"
+  },
+  "aufstehen": {
+    "file": "aufstehen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person sitting up and getting out of bed in the morning, bedroom, natural light"
+  },
+  "aussteigen": {
+    "file": "aussteigen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person stepping out of a car with one foot on the ground, door open"
+  },
+  "ausziehen": {
+    "file": "ausziehen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person taking off their jacket with arms raised, standing indoors"
+  },
+  "bestellen": {
+    "file": "bestellen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person pointing at a menu at a restaurant table, ordering food"
+  },
+  "bezahlen": {
+    "file": "bezahlen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person tapping a credit card on a contactless payment terminal at a checkout"
+  },
+  "bringen": {
+    "file": "bringen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person carrying a tray with food or drinks, bringing it forward, arms outstretched"
+  },
+  "duschen": {
+    "file": "duschen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person standing in a shower with water flowing, view from outside the shower"
+  },
+  "einkaufen": {
+    "file": "einkaufen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person pushing a shopping cart through a supermarket aisle, grocery shopping"
+  },
+  "einsteigen": {
+    "file": "einsteigen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person stepping up into a bus holding the door frame, boarding public transport"
+  },
+  "fahren": {
+    "file": "fahren.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person sitting at a car steering wheel driving, hands on wheel, road visible ahead"
+  },
+  "feiern": {
+    "file": "feiern.jpg",
+    "source": "unsplash",
+    "unsplash_id": "D_JDnnLJiK0",
+    "user": "The Ordinary Moments",
+    "user_link": "https://unsplash.com/@cr029",
+    "unsplash_link": "https://unsplash.com/photos/a-group-of-people-dancing-in-a-room-D_JDnnLJiK0"
+  },
+  "fernsehen": {
+    "file": "fernsehen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person sitting on a sofa watching television in a cosy living room, relaxed"
+  },
+  "fliegen": {
+    "file": "fliegen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person sitting in an airplane window seat looking outside at blue sky, in-flight"
+  },
+  "frühstücken": {
+    "file": "frühstücken.jpg",
+    "source": "unsplash",
+    "unsplash_id": "gvd8PuBDkJw",
+    "user": "Cathrine Skovly",
+    "user_link": "https://unsplash.com/@cathrinesk",
+    "unsplash_link": "https://unsplash.com/photos/a-man-sitting-at-a-table-with-a-glass-of-orange-juice-gvd8PuBDkJw"
+  },
+  "geben": {
+    "file": "geben.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person holding out a small gift box with both hands, offering gesture"
+  },
+  "gehen": {
+    "file": "gehen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person walking along a city sidewalk, casual clothing, natural stride, daytime"
+  },
+  "gewinnen": {
+    "file": "gewinnen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person holding up a gold trophy cup above their head, celebrating victory, big smile"
+  },
+  "grillen": {
+    "file": "grillen.jpg",
+    "source": "unsplash",
+    "unsplash_id": "4jRyugKbQdw",
+    "user": "Edouard TAMBA",
+    "user_link": "https://unsplash.com/@tamba",
+    "unsplash_link": "https://unsplash.com/photos/grilled-meat-on-charcoal-grill-4jRyugKbQdw"
+  },
+  "heiraten": {
+    "file": "heiraten.jpg",
+    "source": "flux-schnell",
+    "prompt": "a bride and groom in wedding attire smiling together at a wedding ceremony"
+  },
+  "helfen": {
+    "file": "helfen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person handing a heavy bag to an elderly person, assisting, helpful gesture"
+  },
+  "holen": {
+    "file": "holen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person reaching up to take something from a shelf, arm extended"
+  },
+  "hören": {
+    "file": "hören.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person wearing headphones with eyes closed, listening to music, relaxed expression"
+  },
+  "kaufen": {
+    "file": "kaufen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person handing money to a cashier at a shop counter, buying an item"
+  },
+  "kochen": {
+    "file": "kochen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person stirring a pot on a stove in a kitchen, steam rising, cooking"
+  },
+  "laufen": {
+    "file": "laufen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person running along a park path in athletic clothing, motion, energetic"
+  },
+  "legen": {
+    "file": "legen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person carefully placing a book flat on a table, putting it down gently"
+  },
+  "lernen": {
+    "file": "lernen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person sitting at a desk studying, open books and notebook, concentrating"
+  },
+  "lesen": {
+    "file": "lesen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person sitting comfortably reading a book, absorbed in reading"
+  },
+  "nehmen": {
+    "file": "nehmen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person picking up an apple from a bowl, reaching gesture, close-up"
+  },
+  "rauchen": {
+    "file": "rauchen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person standing outside holding a cigarette, smoking, neutral expression"
+  },
+  "regnen": {
+    "file": "regnen.jpg",
+    "source": "flux-schnell",
+    "prompt": "rain falling on a city street, puddles forming on pavement, grey rainy day"
+  },
+  "reisen": {
+    "file": "reisen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person pulling a rolling suitcase through an airport terminal, traveling"
+  },
+  "reparieren": {
+    "file": "reparieren.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person using a screwdriver to repair a household appliance, fixing something, tools"
+  },
+  "riechen": {
+    "file": "riechen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person leaning in to smell a red rose, nose close to the flower, eyes closed"
+  },
+  "schicken": {
+    "file": "schicken.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person dropping an envelope into a red mailbox, posting a letter"
+  },
+  "schlafen": {
+    "file": "schlafen.jpg",
+    "source": "unsplash",
+    "unsplash_id": "IX_5zC6psms",
+    "user": "Santanu Kumar",
+    "user_link": "https://unsplash.com/@kumar_santanu",
+    "unsplash_link": "https://unsplash.com/photos/boy-in-yellow-and-white-shirt-IX_5zC6psms"
+  },
+  "schmecken": {
+    "file": "schmecken.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person tasting soup from a wooden spoon, eyes slightly closed, savoring taste"
+  },
+  "schreiben": {
+    "file": "schreiben.jpg",
+    "source": "unsplash",
+    "unsplash_id": "hNtiP7nVmCs",
+    "user": "Peter Jones",
+    "user_link": "https://unsplash.com/@dailykairos",
+    "unsplash_link": "https://unsplash.com/photos/person-writing-on-white-paper-hNtiP7nVmCs"
+  },
+  "schwimmen": {
+    "file": "schwimmen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person swimming freestyle in a blue pool, water splashing, dynamic shot"
+  },
+  "sehen": {
+    "file": "sehen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person shading their eyes with one hand and looking into the distance, focused gaze"
+  },
+  "spielen": {
+    "file": "spielen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person kicking a football on a grass field, sport, action moment"
+  },
+  "sprechen": {
+    "file": "sprechen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person with a large white speech bubble next to their face with the word Hallo, friendly expression, illustrated style"
+  },
+  "stellen": {
+    "file": "stellen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person placing a coffee mug upright on a kitchen shelf, careful placement"
+  },
+  "tanzen": {
+    "file": "tanzen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person dancing alone with arms raised and a big smile, joyful movement"
+  },
+  "telefonieren": {
+    "file": "telefonieren.jpg",
+    "source": "unsplash",
+    "unsplash_id": "vGXAyfpsClk",
+    "user": "Nikita Podolskii",
+    "user_link": "https://unsplash.com/@predtyx",
+    "unsplash_link": "https://unsplash.com/photos/man-in-beret-talking-on-phone-by-window-vGXAyfpsClk"
+  },
+  "treffen": {
+    "file": "treffen.jpg",
+    "source": "flux-schnell",
+    "prompt": "two people greeting each other with a warm handshake and smiling, meeting"
+  },
+  "wandern": {
+    "file": "wandern.jpg",
+    "source": "unsplash",
+    "unsplash_id": "ZdyGDCT8KDI",
+    "user": "Alex Moliski",
+    "user_link": "https://unsplash.com/@alexmoliski",
+    "unsplash_link": "https://unsplash.com/photos/four-hikers-with-large-backpacks-walking-through-a-dry-landscape-ZdyGDCT8KDI"
+  },
+  "warten": {
+    "file": "warten.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person standing at a bus stop looking at their watch, waiting expression"
+  },
+  "waschen": {
+    "file": "waschen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person washing their hands at a sink with running water and soap suds"
+  },
+  "zahlen": {
+    "file": "zahlen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person handing cash bills to a waiter at a restaurant, paying the bill"
+  },
+  "öffnen": {
+    "file": "öffnen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person pushing open a door with one hand, stepping through doorway"
+  },
+  "Geld": {
+    "file": "Geld.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a euro banknote and a coin side by side, white background, clipart style, centered"
+  },
+  "Uhr": {
+    "file": "Uhr.jpg",
+    "source": "flux-schnell",
+    "prompt": "a round wall clock showing a time, clock face, white background"
+  },
+  "Tür": {
+    "file": "Tür.jpg",
+    "source": "flux-schnell",
+    "prompt": "a closed wooden door in a wall, door with handle, interior"
+  },
+  "Gesicht": {
+    "file": "Gesicht.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a human face outline, front view, white background, clipart style, centered, minimal features"
+  },
+  "Wagen": {
+    "file": "Wagen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a car parked on a street, automobile, side view"
+  },
+  "Körper": {
+    "file": "Körper.jpg",
+    "source": "flux-schnell",
+    "prompt": "a simple outline illustration of a human body, anatomy diagram, neutral"
+  },
+  "Licht": {
+    "file": "Licht.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a light bulb, white background, clipart style, centered, single object"
+  },
+  "König": {
+    "file": "König.jpg",
+    "source": "flux-schnell",
+    "prompt": "a king wearing a golden crown and royal robe, royalty, portrait"
+  },
+  "Boden": {
+    "file": "Boden.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a room interior seen from a slight angle showing a wooden floor, white background, clipart style, centered"
+  },
+  "Bild": {
+    "file": "Bild.jpg",
+    "source": "flux-schnell",
+    "prompt": "a framed picture hanging on a white wall, painting in frame, art"
+  },
+  "Insel": {
+    "file": "Insel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a small tropical island with palm trees surrounded by blue water, aerial view"
+  },
+  "Bauer": {
+    "file": "Bauer.jpg",
+    "source": "flux-schnell",
+    "prompt": "a farmer standing in a field wearing overalls and a hat, agriculture"
+  },
+  "Rücken": {
+    "file": "Rücken.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a human upper body seen from behind, outline drawing, white background, clipart style, centered"
+  },
+  "Bart": {
+    "file": "Bart.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a face with a thick beard, white background, clipart style, centered, minimal"
+  },
+  "Boot": {
+    "file": "Boot.jpg",
+    "source": "flux-schnell",
+    "prompt": "a small wooden rowing boat on calm water, boat, lake"
+  },
+  "Schwein": {
+    "file": "Schwein.jpg",
+    "source": "flux-schnell",
+    "prompt": "a pink pig standing on grass, farm animal, side view"
+  },
+  "Hals": {
+    "file": "Hals.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a human neck and throat, outline drawing, white background, clipart style, centered"
+  },
+  "Loch": {
+    "file": "Loch.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a round hole in a white wall, front view, white background, clipart style, centered"
+  },
+  "Messer": {
+    "file": "Messer.jpg",
+    "source": "flux-schnell",
+    "prompt": "a kitchen knife on a white background, chef's knife, cutlery"
+  },
+  "Pferd": {
+    "file": "Pferd.jpg",
+    "source": "flux-schnell",
+    "prompt": "a brown horse standing in a field, equine, side view"
+  },
+  "Tor": {
+    "file": "Tor.jpg",
+    "source": "flux-schnell",
+    "prompt": "a large wooden or metal gate in a wall or fence, gate, entrance"
+  },
+  "Dach": {
+    "file": "Dach.jpg",
+    "source": "flux-schnell",
+    "prompt": "a house with a clearly visible red-tiled sloped roof, viewed from the street, sunny day, clean photo"
+  },
+  "Wand": {
+    "file": "Wand.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of an empty room interior showing a plain white wall, white background, clipart style, centered"
+  },
+  "Stein": {
+    "file": "Stein.jpg",
+    "source": "flux-schnell",
+    "prompt": "a grey rock stone on a white background, natural stone, close-up"
+  },
+  "Brücke": {
+    "file": "Brücke.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of an arched bridge over water, white background, simple line drawing, single object"
+  },
+  "Kleid": {
+    "file": "Kleid.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a dress on a hanger, white background, clipart style, centered, single object, no person, no feet"
+  },
+  "Hose": {
+    "file": "Hose.jpg",
+    "source": "flux-schnell",
+    "prompt": "a pair of jeans trousers on a white background, pants, clothing"
+  },
+  "Anzug": {
+    "file": "Anzug.jpg",
+    "source": "flux-schnell",
+    "prompt": "a men's business suit jacket and trousers on a hanger, suit, formal wear"
+  },
+  "Knochen": {
+    "file": "Knochen.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a classic idealized femur bone shape, white background, clipart style, centered, single object"
+  },
+  "Fernseher": {
+    "file": "Fernseher.jpg",
+    "source": "flux-schnell",
+    "prompt": "a flat screen television on a stand, TV set, electronics"
+  },
+  "Berg": {
+    "file": "Berg.jpg",
+    "source": "flux-schnell",
+    "prompt": "a snow-capped mountain peak, mountain landscape, nature"
+  },
+  "Kiste": {
+    "file": "Kiste.jpg",
+    "source": "flux-schnell",
+    "prompt": "a wooden crate box on a white background, wooden box, storage"
+  },
+  "Mond": {
+    "file": "Mond.jpg",
+    "source": "flux-schnell",
+    "prompt": "a full moon in a dark night sky, moon, astronomy"
+  },
+  "Dieb": {
+    "file": "Dieb.jpg",
+    "source": "flux-schnell",
+    "prompt": "a person in dark clothes sneaking with a bag, thief, burglar"
+  },
+  "Bühne": {
+    "file": "Bühne.jpg",
+    "source": "flux-schnell",
+    "prompt": "an empty theatre stage with curtains and spotlights, stage, theater"
+  },
+  "Hemd": {
+    "file": "Hemd.jpg",
+    "source": "flux-schnell",
+    "prompt": "a men's button-up shirt on a white background, shirt, clothing"
+  },
+  "Spiegel": {
+    "file": "Spiegel.jpg",
+    "source": "flux-dev",
+    "prompt": "a rectangular bathroom mirror with a thin silver frame mounted on a white wall, front view, reflection visible, clean product photo, single object"
+  },
+  "Feld": {
+    "file": "Feld.jpg",
+    "source": "flux-schnell",
+    "prompt": "a green farm field stretching to the horizon, agricultural field, landscape"
+  },
+  "Sack": {
+    "file": "Sack.jpg",
+    "source": "flux-schnell",
+    "prompt": "a burlap sack bag on a white background, sack, storage"
+  },
+  "Magen": {
+    "file": "Magen.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat sketch of a human torso outline with the stomach organ highlighted inside, anatomy diagram, white background, clipart style, centered"
+  },
+  "Käse": {
+    "file": "Käse.jpg",
+    "source": "flux-schnell",
+    "prompt": "a wedge of yellow cheese on a white background, cheese, dairy food"
+  },
+  "Stern": {
+    "file": "Stern.jpg",
+    "source": "flux-schnell",
+    "prompt": "a bright five-pointed star shape, star, yellow on white background"
+  },
+  "Kette": {
+    "file": "Kette.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a metal chain with interlocking links, white background, clipart style, centered, single object"
+  },
+  "Hütte": {
+    "file": "Hütte.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a small wooden cabin hut, side view, white background, clipart style, centered, single object"
+  },
+  "Mauer": {
+    "file": "Mauer.jpg",
+    "source": "flux-schnell",
+    "prompt": "a thick stone or brick wall, masonry wall, exterior"
+  },
+  "Stift": {
+    "file": "Stift.jpg",
+    "source": "flux-schnell",
+    "prompt": "a pencil or pen on a white background, writing instrument, stationery"
+  },
+  "Hafen": {
+    "file": "Hafen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a harbor with sailboats and motorboats moored at a quay, calm water, sunny day, wide angle photo"
+  },
+  "Teppich": {
+    "file": "Teppich.jpg",
+    "source": "flux-schnell",
+    "prompt": "a patterned carpet rug on a floor, rug, interior"
+  },
+  "Turm": {
+    "file": "Turm.jpg",
+    "source": "flux-schnell",
+    "prompt": "a tall stone tower, tower, architecture, medieval"
+  },
+  "Fleck": {
+    "file": "Fleck.jpg",
+    "source": "flux-schnell",
+    "prompt": "a dark stain spot on a white fabric or surface, stain, close-up"
+  },
+  "Zelt": {
+    "file": "Zelt.jpg",
+    "source": "flux-schnell",
+    "prompt": "a colourful camping tent pitched on grass, tent, outdoor camping"
+  },
+  "Winkel": {
+    "file": "Winkel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a carpenter's set square right angle tool on a white background, angle tool"
+  },
+  "Kissen": {
+    "file": "Kissen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a soft cushion pillow on a white background, pillow, bedroom"
+  },
+  "Schirm": {
+    "file": "Schirm.jpg",
+    "source": "flux-schnell",
+    "prompt": "an open umbrella, umbrella, rain protection, colourful"
+  },
+  "Pflanze": {
+    "file": "Pflanze.jpg",
+    "source": "flux-schnell",
+    "prompt": "a green potted houseplant on a white background, plant, indoor"
+  },
+  "Münze": {
+    "file": "Münze.jpg",
+    "source": "flux-schnell",
+    "prompt": "a single gold or silver coin on a white background, coin, currency"
+  },
+  "Schublade": {
+    "file": "Schublade.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of an open drawer pulled out, front view, white background, clipart style, centered, single object"
+  },
+  "Löffel": {
+    "file": "Löffel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a silver spoon on a white background, spoon, cutlery"
+  },
+  "Rasen": {
+    "file": "Rasen.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a rectangular patch of green grass, white background, clipart style, centered, single object"
+  },
+  "Süßigkeiten": {
+    "file": "Süßigkeiten.jpg",
+    "source": "flux-schnell",
+    "prompt": "an assortment of colourful candies and sweets on a white background, candy"
+  },
+  "Scheibe": {
+    "file": "Scheibe.jpg",
+    "source": "flux-dev",
+    "prompt": "a single large metal washer with a hole in the center, viewed from a slight angle showing its thickness, white background, close-up product photo, single object"
+  },
+  "Tafel": {
+    "file": "Tafel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a green chalkboard on a wall with chalk writing, blackboard, school"
+  },
+  "Torte": {
+    "file": "Torte.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a layered cake with decorative frosting, white background, simple line drawing, single object"
+  },
+  "Mütze": {
+    "file": "Mütze.jpg",
+    "source": "flux-schnell",
+    "prompt": "a knitted winter hat beanie on a white background, hat, clothing"
+  },
+  "Seife": {
+    "file": "Seife.jpg",
+    "source": "flux-schnell",
+    "prompt": "a bar of soap in a typical color like beige, yellow or green on a white background, clean product photo, single object"
+  },
+  "Dose": {
+    "file": "Dose.jpg",
+    "source": "flux-schnell",
+    "prompt": "a metal tin can on a white background, canned food, tin"
+  },
+  "Schere": {
+    "file": "Schere.jpg",
+    "source": "flux-schnell",
+    "prompt": "a pair of scissors on a white background, scissors, tool"
+  },
+  "Honig": {
+    "file": "Honig.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a honey jar with a honey dipper, white background, clipart style, centered, single object"
+  },
+  "Nagel": {
+    "file": "Nagel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a metal nail on a white background, iron nail, hardware"
+  },
+  "Kragen": {
+    "file": "Kragen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a shirt collar close-up, collar, clothing detail"
+  },
+  "Verband": {
+    "file": "Verband.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a human arm with a white bandage wrapped around the forearm, white background, clipart style, centered"
+  },
+  "Ampel": {
+    "file": "Ampel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a traffic light on a pole showing red, traffic signal, street"
+  },
+  "Kreuzung": {
+    "file": "Kreuzung.jpg",
+    "source": "flux-schnell",
+    "prompt": "a road intersection crossroads from above, street crossing, aerial"
+  },
+  "Stecker": {
+    "file": "Stecker.jpg",
+    "source": "flux-schnell",
+    "prompt": "a European two-pin electrical plug on a white background, side-front view, single object, clean product photo"
+  },
+  "Flöte": {
+    "file": "Flöte.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a recorder blockflute, side view, white background, simple line drawing, single object"
+  },
+  "Geschirr": {
+    "file": "Geschirr.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of two plates stacked and two cups beside them, white background, clipart style, centered"
+  },
+  "Regal": {
+    "file": "Regal.jpg",
+    "source": "flux-schnell",
+    "prompt": "a wooden bookshelf with books on a wall, shelf, furniture"
+  },
+  "Heizung": {
+    "file": "Heizung.jpg",
+    "source": "flux-schnell",
+    "prompt": "a white radiator heater on a wall, radiator, home heating"
+  },
+  "Schraube": {
+    "file": "Schraube.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a wood screw, side view, white background, clipart style, centered, single object"
+  },
+  "Metzger": {
+    "file": "Metzger.jpg",
+    "source": "flux-schnell",
+    "prompt": "a butcher in a white apron standing behind a meat counter, butcher shop"
+  },
+  "Mappe": {
+    "file": "Mappe.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of an open document folder with paper sheets visible inside, white background, clipart style, centered"
+  },
+  "Pfanne": {
+    "file": "Pfanne.jpg",
+    "source": "flux-schnell",
+    "prompt": "a black frying pan on a white background, frying pan, cookware"
+  },
+  "Pilz": {
+    "file": "Pilz.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat sketch of a classic mushroom with round cap and stem, white background, clipart style, centered, single object"
+  },
+  "Geldbörse": {
+    "file": "Geldbörse.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a small purse wallet, closed, white background, clipart style, centered, single object"
+  },
+  "Gebäck": {
+    "file": "Gebäck.jpg",
+    "source": "flux-schnell",
+    "prompt": "an assortment of pastries and baked goods on a plate, pastry, bakery"
+  },
+  "Schornstein": {
+    "file": "Schornstein.jpg",
+    "source": "flux-schnell",
+    "prompt": "a red brick chimney on top of a house roof, clear blue sky background, close-up architectural photo"
+  },
+  "Ordner": {
+    "file": "Ordner.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a ring binder folder, three-quarter view, white background, simple line drawing, single object"
+  },
+  "Richterin": {
+    "file": "Richterin.jpg",
+    "source": "flux-schnell",
+    "prompt": "portrait of a male judge wearing black robes and a traditional white powdered wig, holding a wooden gavel, white background, clean photo"
+  },
+  "Strumpf": {
+    "file": "Strumpf.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a long stocking sock, white background, clipart style, centered, single object"
+  },
+  "Zwiebel": {
+    "file": "Zwiebel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a yellow onion on a white background, onion, vegetable"
+  },
+  "Karotte": {
+    "file": "Karotte.jpg",
+    "source": "flux-schnell",
+    "prompt": "an orange carrot with green top on a white background, carrot, vegetable"
+  },
+  "Locke": {
+    "file": "Locke.jpg",
+    "source": "flux-schnell",
+    "prompt": "a single loose ringlet curl of brown hair isolated on white background, close-up, clean photo"
+  },
+  "Röhre": {
+    "file": "Röhre.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a cylindrical metal tube or pipe, white background, clipart style, centered, single object"
+  },
+  "Kniescheibe": {
+    "file": "Kniescheibe.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a human leg bent at the knee from the side, with the kneecap clearly labeled with an arrow, anatomy diagram, white background, simple line drawing"
+  },
+  "Rüssel": {
+    "file": "Rüssel.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of an elephant head with trunk hanging down prominently, white background, clipart style, centered"
+  },
+  "Stachel": {
+    "file": "Stachel.jpg",
+    "source": "flux-schnell",
+    "prompt": "extreme close-up of a single sharp thorn or spine on a rose stem, white background, macro photo"
+  },
+  "Tacker": {
+    "file": "Tacker.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a stapler, side view, white background, clipart style, centered, single object"
+  },
+  "Grube": {
+    "file": "Grube.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a rectangular pit hole dug in the ground, cross-section view, white background, clipart style, centered"
+  },
+  "Klee": {
+    "file": "Klee.jpg",
+    "source": "flux-schnell",
+    "prompt": "green clover leaves on a white background, clover plant, four-leaf"
+  },
+  "Pinzette": {
+    "file": "Pinzette.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of tweezers, white background, clipart style, centered, single object"
+  },
+  "Sportplatz": {
+    "file": "Sportplatz.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of an outdoor sports field with goal posts and running track markings, white background, clipart style, centered"
+  },
+  "Gehsteig": {
+    "file": "Gehsteig.jpg",
+    "source": "flux-schnell",
+    "prompt": "a paved sidewalk alongside a street with a visible curb separating it from the road, daylight, street-level photo"
+  },
+  "Locher": {
+    "file": "Locher.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a hole punch, side view, white background, clipart style, centered, single object"
+  },
+  "Harke": {
+    "file": "Harke.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a garden rake, upright, white background, clipart style, centered, single object"
+  },
+  "Spaten": {
+    "file": "Spaten.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a garden spade, upright, white background, clipart style, centered, single object"
+  },
+  "Reagenzglas": {
+    "file": "Reagenzglas.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a test tube, white background, clipart style, centered, single object"
+  },
+  "Gießkanne": {
+    "file": "Gießkanne.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a watering can, side view, white background, clipart style, centered, single object"
+  },
+  "Scharnier": {
+    "file": "Scharnier.jpg",
+    "source": "flux-dev",
+    "prompt": "a single brass door hinge lying flat on a white background, two rectangular metal plates connected by a central pin barrel, top-down view, close-up product photo, single object"
+  },
+  "Hobel": {
+    "file": "Hobel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a wooden hand plane tool on a white background, woodworking plane, tool"
+  },
+  "Dachrinne": {
+    "file": "Dachrinne.jpg",
+    "source": "flux-schnell",
+    "prompt": "a close-up of an aluminum rain gutter attached to the eave of a house roof, clear view of the channel shape, outdoor photo"
+  },
+  "Spachtel": {
+    "file": "Spachtel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a wide metal paint scraper spatula with a wooden handle on a white background, side view, clean product photo"
+  },
+  "Kerzenhalter": {
+    "file": "Kerzenhalter.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a single candle holder with a candle in it, white background, simple line drawing, single object"
+  },
+  "Bunsenbrenner": {
+    "file": "Bunsenbrenner.jpg",
+    "source": "flux-schnell",
+    "prompt": "a Bunsen burner with blue flame on a white background, laboratory burner"
+  },
+  "Spore": {
+    "file": "Spore.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a mushroom spore cluster, biology diagram style, white background, clipart style, centered"
+  },
+  "Staffelei": {
+    "file": "Staffelei.jpg",
+    "source": "flux-schnell",
+    "prompt": "a wooden artist's easel on a white background, front view, clean product photo, single object"
+  },
+  "Knäuel": {
+    "file": "Knäuel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a ball of yarn wool on a white background, yarn ball, knitting"
+  },
+  "Schöpfkelle": {
+    "file": "Schöpfkelle.jpg",
+    "source": "flux-schnell",
+    "prompt": "a metal soup ladle on a white background, side view, clean product photo, single object"
+  },
+  "Lötkolben": {
+    "file": "Lötkolben.jpg",
+    "source": "flux-schnell",
+    "prompt": "a soldering iron on a white background, soldering tool, electronics"
+  },
+  "Poller": {
+    "file": "Poller.jpg",
+    "source": "flux-schnell",
+    "prompt": "a yellow bollard post on a pavement, bollard, street furniture"
+  },
+  "Reißzwecke": {
+    "file": "Reißzwecke.jpg",
+    "source": "flux-schnell",
+    "prompt": "a single drawing pin thumbtack on a white background, thumbtack"
+  },
+  "Schneebesen": {
+    "file": "Schneebesen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a wire whisk on a white background, whisk, kitchen utensil"
+  },
+  "Nudelholz": {
+    "file": "Nudelholz.jpg",
+    "source": "flux-schnell",
+    "prompt": "a wooden rolling pin on a white background, rolling pin, baking tool"
+  },
+  "Wasserwaage": {
+    "file": "Wasserwaage.jpg",
+    "source": "flux-schnell",
+    "prompt": "a spirit level tool on a white background, level, construction tool"
+  },
+  "Backblech": {
+    "file": "Backblech.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a rectangular baking tray, top-down view, white background, clipart style, centered, single object"
+  },
+  "Fußleiste": {
+    "file": "Fußleiste.jpg",
+    "source": "flux-schnell",
+    "prompt": "a white painted skirting board at the base of a wall where it meets a wooden floor, close-up interior photo"
+  },
+  "Fensterladen": {
+    "file": "Fensterladen.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a window with wooden shutters on both sides, front view, white background, clipart style, centered, single object"
+  },
+  "Zollstock": {
+    "file": "Zollstock.jpg",
+    "source": "flux-schnell",
+    "prompt": "a folding ruler measuring stick on a white background, folding ruler, tool"
+  },
+  "Matrose": {
+    "file": "Matrose.jpg",
+    "source": "flux-schnell",
+    "prompt": "portrait of a sailor in a traditional navy uniform with white hat, full head and shoulders visible, white background, clean photo"
+  },
+  "Armbrust": {
+    "file": "Armbrust.jpg",
+    "source": "flux-dev",
+    "prompt": "a medieval wooden crossbow with a drawn bowstring and bolt loaded, side view, white background, detailed product photo, single object"
+  },
+  "Wade": {
+    "file": "Wade.jpg",
+    "source": "flux-schnell",
+    "prompt": "a muscular human calf viewed from behind, leg slightly bent, isolated on white background, clean anatomy photo"
+  },
+  "Wolke": {
+    "file": "Wolke.jpg",
+    "source": "flux-schnell",
+    "prompt": "simple flat illustration of a white fluffy cloud on a light blue sky background, clipart style, centered, single object"
+  },
+  "Hummel": {
+    "file": "Hummel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a bumblebee on a white background, side view, macro photo, single object, sharp focus"
+  },
+  "Fenster": {
+    "file": "Fenster.jpg",
+    "source": "flux-schnell",
+    "prompt": "a white-framed window on a white wall, front view, natural light, clean architectural photo"
+  },
+  "Vogel": {
+    "file": "Vogel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a small bird perched on a branch against a white background, side view, clean nature photo"
+  },
+  "Hut": {
+    "file": "Hut.jpg",
+    "source": "flux-schnell",
+    "prompt": "a brown fedora hat on a white background, three-quarter front view, single object, clean product photo"
+  },
+  "Reifen": {
+    "file": "Reifen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a single car tire on a white background, side view, single object, clean product photo"
+  },
+  "Sessel": {
+    "file": "Sessel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a classic armchair on a white background, three-quarter view, furniture, clean product photo"
+  },
+  "Gewitter": {
+    "file": "Gewitter.jpg",
+    "source": "flux-schnell",
+    "prompt": "dark storm clouds with lightning bolt over a landscape, thunderstorm, dramatic nature photo"
+  },
+  "Säule": {
+    "file": "Säule.jpg",
+    "source": "flux-schnell",
+    "prompt": "a classical stone column pillar against a white background, architecture, clean photo"
+  },
+  "Salbe": {
+    "file": "Salbe.jpg",
+    "source": "flux-dev",
+    "prompt": "a small round flat metal tin ointment container seen from bird's eye view with the lid open revealing cream inside, white background, close-up product photo, single object"
+  },
+  "Pinsel": {
+    "file": "Pinsel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a single paintbrush on a white background, wooden handle with bristles, side view, clean product photo"
+  },
+  "Krücke": {
+    "file": "Krücke.jpg",
+    "source": "flux-dev",
+    "prompt": "a single forearm crutch with a metal shaft, a forearm cuff at the top and a rubber tip at the bottom, standing upright, white background, side view, single object, no person"
+  },
+  "Dosenöffner": {
+    "file": "Dosenöffner.jpg",
+    "source": "flux-dev",
+    "prompt": "a manual butterfly can opener, a small kitchen tool with two folding handles and a central cutting wheel, lying flat on a white background, top-down view, single object, no can, no food"
+  },
+  "Ellbogen": {
+    "file": "Ellbogen.jpg",
+    "source": "flux-dev",
+    "prompt": "a simple pencil sketch of a human arm bent at the elbow at 90 degrees, showing the upper arm going down and the forearm going horizontally to the right, side view, white background, black lines on white, single object, no shading"
+  },
+  "Knospe": {
+    "file": "Knospe.jpg",
+    "source": "flux-dev",
+    "prompt": "a botanical illustration of a single flower bud on a stem, petals tightly wrapped in a pointed oval teardrop shape, not yet open, green sepals visible at the base, white background, single object"
+  },
+  "Schraubenzieher": {
+    "file": "Schraubenzieher.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a Phillips head screwdriver, side view, white background, simple line drawing, single object"
+  },
+  "Spitzer": {
+    "file": "Spitzer.jpg",
+    "source": "flux-dev",
+    "prompt": "a classic small plastic pencil sharpener with a pencil partially inserted, three-quarter view, white background, close-up product photo, single object"
+  },
+  "Zacke": {
+    "file": "Zacke.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a wood saw with large teeth, side view, white background, simple line drawing, single object"
+  },
+  "Zirkel": {
+    "file": "Zirkel.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a drawing compass with two legs, white background, simple line drawing, single object"
+  },
+  "Büroklammer": {
+    "file": "Büroklammer.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a single metal paper clip, classic shape, close-up, white background, simple line drawing, single object"
+  },
+  "Dübel": {
+    "file": "Dübel.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a single plastic wall plug / rawlplug, the kind inserted into a wall hole before screwing, close-up, white background, simple line drawing, single object"
+  },
+  "Meißel": {
+    "file": "Meißel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a wood chisel, side view, white background, simple line drawing, single object"
+  },
+  "Stemmeisen": {
+    "file": "Stemmeisen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a pry bar / crowbar, side view, white background, simple line drawing, single object"
+  },
+  "Rohrzange": {
+    "file": "Rohrzange.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a pipe wrench, side view, white background, simple line drawing, single object"
+  },
+  "Kelle": {
+    "file": "Kelle.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a trowel, side view, white background, simple line drawing, single object"
+  },
+  "Sparschäler": {
+    "file": "Sparschäler.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a vegetable peeler, white background, simple line drawing, single object"
+  },
+  "Springform": {
+    "file": "Springform.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a springform baking pan with the latch clasp visible, three-quarter view, white background, simple line drawing, single object"
+  },
+  "Messbecher": {
+    "file": "Messbecher.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a measuring cup with measurement markings, white background, simple line drawing, single object"
+  },
+  "Mörserstößel": {
+    "file": "Mörserstößel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a mortar and pestle, white background, simple line drawing, single object"
+  },
+  "Pfannenwender": {
+    "file": "Pfannenwender.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a spatula / fish slice, white background, simple line drawing, single object"
+  },
+  "Trichter": {
+    "file": "Trichter.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a kitchen funnel, white background, simple line drawing, single object"
+  },
+  "Vorratsglas": {
+    "file": "Vorratsglas.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a glass storage jar with a lid, white background, simple line drawing, single object"
+  },
+  "Rollladen": {
+    "file": "Rollladen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a roller shutter on a window, white background, simple line drawing, single object"
+  },
+  "Wandhaken": {
+    "file": "Wandhaken.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a single wall hook mounted on a wall, white background, simple line drawing, single object"
+  },
+  "Türstopper": {
+    "file": "Türstopper.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a door stopper wedge on the floor under a door, white background, simple line drawing, single object"
+  },
+  "Sockel": {
+    "file": "Sockel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a rectangular stone pedestal or plinth, white background, simple line drawing, single object"
+  },
+  "Tischläufer": {
+    "file": "Tischläufer.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a table runner laid across a table, white background, simple line drawing, single object"
+  },
+  "Untersetzer": {
+    "file": "Untersetzer.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a round coaster / saucer with a tea cup sitting on top of it, white background, simple line drawing, single object"
+  },
+  "Bilderrahmen": {
+    "file": "Bilderrahmen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of an empty picture frame, front view, white background, simple line drawing, single object"
+  },
+  "Gardine": {
+    "file": "Gardine.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a sheer curtain hanging at a window, white background, simple line drawing, single object"
+  },
+  "Vorhangstange": {
+    "file": "Vorhangstange.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a curtain rod with bracket, white background, simple line drawing, single object"
+  },
+  "Lichtschalter": {
+    "file": "Lichtschalter.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a single wall light switch, front view, white background, simple line drawing, single object"
+  },
+  "Verlängerungskabel": {
+    "file": "Verlängerungskabel.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a power strip extension cord with three outlets on one end and a cable coming out the other end, white background, simple line drawing, single object"
+  },
+  "Schraubstock": {
+    "file": "Schraubstock.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a bench vise mounted on a workbench, white background, simple line drawing, single object"
+  },
+  "Klebeband": {
+    "file": "Klebeband.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a roll of adhesive tape, white background, simple line drawing, single object"
+  },
+  "Sprühflasche": {
+    "file": "Sprühflasche.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a trigger spray bottle, white background, simple line drawing, single object"
+  },
+  "Farbroller": {
+    "file": "Farbroller.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a paint roller, white background, simple line drawing, single object"
+  },
+  "Senkblei": {
+    "file": "Senkblei.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a plumb bob weight hanging on a string, white background, simple line drawing, single object"
+  },
+  "Spalier": {
+    "file": "Spalier.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a wooden trellis frame, white background, simple line drawing, single object"
+  },
+  "Rankgitter": {
+    "file": "Rankgitter.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a garden lattice trellis panel, white background, simple line drawing, single object"
+  },
+  "Blumentopf": {
+    "file": "Blumentopf.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a simple flower pot, front view, white background, simple line drawing, single object"
+  },
+  "Bewässerungsschlauch": {
+    "file": "Bewässerungsschlauch.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a garden hose coiled up, white background, simple line drawing, single object"
+  },
+  "Sichel": {
+    "file": "Sichel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a hand sickle with curved blade, white background, simple line drawing, single object"
+  },
+  "Astschere": {
+    "file": "Astschere.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of garden pruning shears / loppers, white background, simple line drawing, single object"
+  },
+  "Stethoskop": {
+    "file": "Stethoskop.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a stethoscope, white background, simple line drawing, single object"
+  },
+  "Wattestäbchen": {
+    "file": "Wattestäbchen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a cotton swab, white background, simple line drawing, single object"
+  },
+  "Pflaster": {
+    "file": "Pflaster.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a single adhesive bandage / plaster, white background, simple line drawing, single object"
+  },
+  "Rollstuhl": {
+    "file": "Rollstuhl.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a manual wheelchair, side view, white background, simple line drawing, single object"
+  },
+  "Blutdruckmessgerät": {
+    "file": "Blutdruckmessgerät.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a blood pressure monitor with cuff, white background, simple line drawing, single object"
+  },
+  "Thermometer": {
+    "file": "Thermometer.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a clinical thermometer, white background, simple line drawing, single object"
+  },
+  "Larve": {
+    "file": "Larve.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of an insect larva / grub, white background, simple line drawing, single object"
+  },
+  "Tentakel": {
+    "file": "Tentakel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a single tentacle with suckers, white background, simple line drawing, single object"
+  },
+  "Schwanz": {
+    "file": "Schwanz.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a horse with its tail clearly visible, side view, white background, simple line drawing, single object"
+  },
+  "Farn": {
+    "file": "Farn.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a fern frond, white background, simple line drawing, single object"
+  },
+  "Kaktus": {
+    "file": "Kaktus.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a cactus plant in a pot, white background, simple line drawing, single object"
+  },
+  "Gewölbe": {
+    "file": "Gewölbe.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a stone barrel vault arch interior, white background, simple line drawing, single object"
+  },
+  "Pfeiler": {
+    "file": "Pfeiler.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a single stone pillar or column, white background, simple line drawing, single object"
+  },
+  "Strebebogen": {
+    "file": "Strebebogen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a flying buttress on a gothic cathedral wall, white background, simple line drawing, single object"
+  },
+  "Balustrade": {
+    "file": "Balustrade.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a stone balustrade railing with balusters, white background, simple line drawing, single object"
+  },
+  "Giebel": {
+    "file": "Giebel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a triangular roof gable on a house, white background, simple line drawing, single object"
+  },
+  "Traufe": {
+    "file": "Traufe.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a roof eave with a guttering, white background, simple line drawing, single object"
+  },
+  "Kuppel": {
+    "file": "Kuppel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a dome on top of a building, white background, simple line drawing, single object"
+  },
+  "Fundament": {
+    "file": "Fundament.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a building foundation / concrete footing in cross-section, white background, simple line drawing, single object"
+  },
+  "Dachziegel": {
+    "file": "Dachziegel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a single roof tile, white background, simple line drawing, single object"
+  },
+  "Dachfenster": {
+    "file": "Dachfenster.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a slanted roof with a dormer window built into it, side view, white background, simple line drawing, single object"
+  },
+  "Leinwand": {
+    "file": "Leinwand.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a blank artist canvas on a stretcher frame, white background, simple line drawing, single object"
+  },
+  "Palette": {
+    "file": "Palette.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a painter's palette with paint dabs, white background, simple line drawing, single object"
+  },
+  "Stimmgabel": {
+    "file": "Stimmgabel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a tuning fork, white background, simple line drawing, single object"
+  },
+  "Blasbalg": {
+    "file": "Blasbalg.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a bellows, white background, simple line drawing, single object"
+  },
+  "Saite": {
+    "file": "Saite.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a harp, white background, simple line drawing, single object"
+  },
+  "Schlägel": {
+    "file": "Schlägel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a mallet / drumstick beater, white background, simple line drawing, single object"
+  },
+  "Triangel": {
+    "file": "Triangel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a musical triangle with striker, white background, simple line drawing, single object"
+  },
+  "Krater": {
+    "file": "Krater.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a volcanic crater from above, white background, simple line drawing, single object"
+  },
+  "Gletscher": {
+    "file": "Gletscher.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a glacier flowing between mountains, white background, simple line drawing, single object"
+  },
+  "Eisscholle": {
+    "file": "Eisscholle.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a floating ice floe on water, white background, simple line drawing, single object"
+  },
+  "Düne": {
+    "file": "Düne.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a sand dune, white background, simple line drawing, single object"
+  },
+  "Strudel": {
+    "file": "Strudel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a water whirlpool / vortex from above, white background, simple line drawing, single object"
+  },
+  "Strömung": {
+    "file": "Strömung.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of flowing water current lines in a river, white background, simple line drawing, single object"
+  },
+  "Spindel": {
+    "file": "Spindel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a hand spindle with thread wound around it, white background, simple line drawing, single object"
+  },
+  "Webstuhl": {
+    "file": "Webstuhl.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a traditional hand loom, white background, simple line drawing, single object"
+  },
+  "Nähmaschine": {
+    "file": "Nähmaschine.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a sewing machine, white background, simple line drawing, single object"
+  },
+  "Fingerhut": {
+    "file": "Fingerhut.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a sewing thimble, white background, simple line drawing, single object"
+  },
+  "Garnrolle": {
+    "file": "Garnrolle.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a spool of thread, white background, simple line drawing, single object"
+  },
+  "Knopf": {
+    "file": "Knopf.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a single round button with four holes, front view, white background, simple line drawing, single object"
+  },
+  "Gürtelschnalle": {
+    "file": "Gürtelschnalle.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a rectangular belt buckle, front view, white background, simple line drawing, single object"
+  },
+  "Manschette": {
+    "file": "Manschette.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a shirt cuff, white background, simple line drawing, single object"
+  },
+  "Naht": {
+    "file": "Naht.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a visible stitch seam on fabric, white background, simple line drawing, single object"
+  },
+  "Saum": {
+    "file": "Saum.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a hemmed fabric edge, white background, simple line drawing, single object"
+  },
+  "Schwan": {
+    "file": "Schwan.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a swan on water, white background, simple line drawing, single object"
+  },
+  "Fohlen": {
+    "file": "Fohlen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a young foal standing, white background, simple line drawing, single object"
+  },
+  "Keim": {
+    "file": "Keim.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a seed sprouting with a tiny shoot, white background, simple line drawing, single object"
+  },
+  "Laub": {
+    "file": "Laub.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a pile of autumn leaves, white background, simple line drawing, single object"
+  },
+  "Spirale": {
+    "file": "Spirale.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a flat spiral shape, white background, simple line drawing, single object"
+  },
+  "Blech": {
+    "file": "Blech.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a flat metal sheet, slightly bent to show thickness, white background, simple line drawing, single object"
+  },
+  "Pforte": {
+    "file": "Pforte.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a small wooden gate in a wall, white background, simple line drawing, single object"
+  },
+  "Baracke": {
+    "file": "Baracke.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a simple wooden barrack building, white background, simple line drawing, single object"
+  },
+  "Schaufenster": {
+    "file": "Schaufenster.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a shop window with a few displayed items visible inside, viewed from the street, white background, simple line drawing, single object"
+  },
+  "Orgel": {
+    "file": "Orgel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a pipe organ with keyboard and pipes, white background, simple line drawing, single object"
+  },
+  "Tribüne": {
+    "file": "Tribüne.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a stadium grandstand / bleacher seating, white background, simple line drawing, single object"
+  },
+  "Kästchen": {
+    "file": "Kästchen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a small decorative box with a lid, white background, simple line drawing, single object"
+  },
+  "Spule": {
+    "file": "Spule.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of an empty thread spool / bobbin, white background, simple line drawing, single object"
+  },
+  "Stacheldraht": {
+    "file": "Stacheldraht.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a strand of barbed wire, white background, simple line drawing, single object"
+  },
+  "Fruchtknoten": {
+    "file": "Fruchtknoten.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a flower ovary in cross-section showing seeds inside, white background, simple line drawing, single object"
+  },
+  "Stängel": {
+    "file": "Stängel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a single plant stem, white background, simple line drawing, single object"
+  },
+  "Erlenmeyerkolben": {
+    "file": "Erlenmeyerkolben.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of an Erlenmeyer flask, white background, simple line drawing, single object"
+  },
+  "Pipette": {
+    "file": "Pipette.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a laboratory pipette, white background, simple line drawing, single object"
+  },
+  "Dreifuß": {
+    "file": "Dreifuß.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a lab tripod stand, white background, simple line drawing, single object"
+  },
+  "Stativ": {
+    "file": "Stativ.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a camera tripod, white background, simple line drawing, single object"
+  },
+  "Ankerkette": {
+    "file": "Ankerkette.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a length of anchor chain, white background, simple line drawing, single object"
+  },
+  "Kettenhemd": {
+    "file": "Kettenhemd.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a chainmail shirt, white background, simple line drawing, single object"
+  },
+  "Visier": {
+    "file": "Visier.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a medieval knight's helmet visor, white background, simple line drawing, single object"
+  },
+  "Amphore": {
+    "file": "Amphore.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of an ancient amphora vase with two handles, white background, simple line drawing, single object"
+  },
+  "Knie": {
+    "file": "Knie.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a human leg bent at the knee, side view, showing thigh to shin, white background, simple line drawing, single object"
+  },
+  "Kunst": {
+    "file": "Kunst.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a sculpture on a pedestal, white background, simple line drawing, single object"
+  },
+  "Schatten": {
+    "file": "Schatten.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a simple object like a ball or box with its shadow cast on the ground, white background, simple line drawing, single object"
+  },
+  "Schmuck": {
+    "file": "Schmuck.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a necklace, a ring, and earrings arranged together, white background, simple line drawing"
+  },
+  "Schnee": {
+    "file": "Schnee.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a snow-covered landscape with snowflakes falling, white background, simple line drawing"
+  },
+  "Schulter": {
+    "file": "Schulter.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a human shoulder from the side, white background, simple line drawing, single object"
+  },
+  "Strand": {
+    "file": "Strand.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a beach with waves and sand, white background, simple line drawing"
+  },
+  "Taschenlampe": {
+    "file": "Taschenlampe.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a handheld flashlight / torch, white background, simple line drawing, single object"
+  },
+  "Ufer": {
+    "file": "Ufer.jpg",
+    "source": "flux-dev",
+    "prompt": "a sketch of a riverbank with water on one side, white background, simple line drawing"
+  },
+  "Waschmaschine": {
+    "file": "Waschmaschine.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a front-loading washing machine, white background, simple line drawing, single object"
+  },
+  "Spüle": {
+    "file": "Spüle.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a kitchen sink with a faucet, white background, simple line drawing, single object"
+  },
+  "Stuhl": {
+    "file": "Stuhl.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a simple chair, side view, white background, simple line drawing, single object"
+  },
+  "Lampe": {
+    "file": "Lampe.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a table lamp, white background, simple line drawing, single object"
+  },
+  "Shorts": {
+    "file": "Shorts.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a pair of shorts, front view, white background, simple line drawing, single object"
+  },
+  "Tasse": {
+    "file": "Tasse.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a coffee cup with a handle, white background, simple line drawing, single object"
+  },
+  "Rock": {
+    "file": "Rock.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a skirt, front view, white background, simple line drawing, single object"
+  },
+  "Bluse": {
+    "file": "Bluse.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a women's blouse, front view, white background, simple line drawing, single object"
+  },
+  "Socke": {
+    "file": "Socke.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a single sock, white background, simple line drawing, single object"
+  },
+  "Handschuh": {
+    "file": "Handschuh.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a single glove, white background, simple line drawing, single object"
+  },
+  "Schal": {
+    "file": "Schal.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a scarf, white background, simple line drawing, single object"
+  },
+  "Gürtel": {
+    "file": "Gürtel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a belt, white background, simple line drawing, single object"
+  },
+  "Badewanne": {
+    "file": "Badewanne.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a bathtub, white background, simple line drawing, single object"
+  },
+  "Joghurt": {
+    "file": "Joghurt.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a yogurt cup with a lid, white background, simple line drawing, single object"
+  },
+  "Nudeln": {
+    "file": "Nudeln.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a pile of pasta / noodles, white background, simple line drawing, single object"
+  },
+  "Taxi": {
+    "file": "Taxi.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a taxi cab, side view, white background, simple line drawing, single object"
+  },
+  "Bildschirm": {
+    "file": "Bildschirm.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a computer monitor, front view, white background, simple line drawing, single object"
+  },
+  "Kopfhörer": {
+    "file": "Kopfhörer.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of over-ear headphones, white background, simple line drawing, single object"
+  },
+  "Kreditkarte": {
+    "file": "Kreditkarte.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a credit card, white background, simple line drawing, single object"
+  },
+  "Briefkasten": {
+    "file": "Briefkasten.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a wall-mounted mailbox, white background, simple line drawing, single object"
+  },
+  "Garage": {
+    "file": "Garage.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a garage with a door, white background, simple line drawing, single object"
+  },
+  "Zaun": {
+    "file": "Zaun.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a wooden fence, white background, simple line drawing, single object"
+  },
+  "Brunnen": {
+    "file": "Brunnen.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a stone well with a roof, white background, simple line drawing, single object"
+  },
+  "Spiel": {
+    "file": "Spiel.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a board game with pieces on a board, white background, simple line drawing, single object"
+  },
+  "Wäsche": {
+    "file": "Wäsche.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of laundry hanging on a clothesline, white background, simple line drawing"
+  },
+  "Wohnzimmer": {
+    "file": "Wohnzimmer.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a living room interior with sofa and coffee table, white background, simple line drawing"
+  },
+  "Poster": {
+    "file": "Poster.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a poster hanging on a wall, white background, simple line drawing, single object"
+  },
+  "Kaufhaus": {
+    "file": "Kaufhaus.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a department store building with large display windows, white background, simple line drawing, single object"
+  },
+  "T-Shirt": {
+    "file": "T-Shirt.jpg",
+    "source": "flux-schnell",
+    "prompt": "a sketch of a t-shirt, front view, white background, simple line drawing, single object"
+  }
+}

@@ -226,6 +226,61 @@ body {
   background: var(--bg-alt);
 }
 
+/* Participant recruitment banner */
+.participate-banner {
+  background: var(--accent);
+  color: var(--bg);
+  padding: 3.5rem 0;
+}
+
+.participate-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.25rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.participate-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background: rgba(255,255,255,0.18);
+  padding: 0.3rem 0.85rem;
+  border-radius: 999px;
+}
+
+.participate-title {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.participate-body {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.88);
+  max-width: 520px;
+}
+
+.participate-btn {
+  background: #fff;
+  color: var(--accent-dark);
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.participate-btn:hover {
+  background: #fff;
+  color: var(--accent-dark);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.18);
+}
+
 .section h2 {
   font-family: "Fraunces", serif;
   font-size: 2rem;
