@@ -1,0 +1,5432 @@
+[
+  {
+    "target": {
+      "word": "Arzt",
+      "artikel": "der",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Arzt.jpg",
+      "audio": "Arzt.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Gleis",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Gleis.jpg"
+      },
+      {
+        "word": "Arm",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Arm.jpg"
+      },
+      {
+        "word": "Drucker",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Drucker.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Aufzug",
+      "artikel": "der",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Aufzug.jpg",
+      "audio": "Aufzug.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Wald",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Wald.jpg"
+      },
+      {
+        "word": "Bluse",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Bluse.jpg"
+      },
+      {
+        "word": "Poster",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Poster.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Auge",
+      "artikel": "das",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Auge.jpg",
+      "audio": "Auge.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Gabel",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Gabel.jpg"
+      },
+      {
+        "word": "Milch",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Milch.jpg"
+      },
+      {
+        "word": "Gürtel",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Gürtel.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Bein",
+      "artikel": "das",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Bein.jpg",
+      "audio": "Bein.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Briefkasten",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Briefkasten.jpg"
+      },
+      {
+        "word": "Nudeln",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Nudeln.jpg"
+      },
+      {
+        "word": "Fluss",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Fluss.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Bett",
+      "artikel": "das",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Bett.jpg",
+      "audio": "Bett.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Apfel",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Apfel.jpg"
+      },
+      {
+        "word": "Salat",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Salat.jpg"
+      },
+      {
+        "word": "Schuh",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Schuh.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Bild",
+      "artikel": "das",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Bild.jpg",
+      "audio": "Bild.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Katze",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Katze.jpg"
+      },
+      {
+        "word": "Salz",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Salz.jpg"
+      },
+      {
+        "word": "Glas",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Glas.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Blume",
+      "artikel": "die",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Blume.jpg",
+      "audio": "Blume.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Zug",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Zug.jpg"
+      },
+      {
+        "word": "Kerze",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Kerze.jpg"
+      },
+      {
+        "word": "Spüle",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Spüle.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Brief",
+      "artikel": "der",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Brief.jpg",
+      "audio": "Brief.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Garage",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Garage.jpg"
+      },
+      {
+        "word": "Lied",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Lied.jpg"
+      },
+      {
+        "word": "Zahn",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Zahn.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Briefmarke",
+      "artikel": "die",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Briefmarke.jpg",
+      "audio": "Briefmarke.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kamera",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kamera.jpg"
+      },
+      {
+        "word": "Kreis",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kreis.jpg"
+      },
+      {
+        "word": "Denkmal",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Denkmal.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Buch",
+      "artikel": "das",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Buch.jpg",
+      "audio": "Buch.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Straße",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Straße.jpg"
+      },
+      {
+        "word": "Tasche",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Tasche.jpg"
+      },
+      {
+        "word": "Reis",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "Reis.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Burg",
+      "artikel": "die",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Burg.jpg",
+      "audio": "Burg.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Hammer",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Hammer.jpg"
+      },
+      {
+        "word": "Schlange",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schlange.jpg"
+      },
+      {
+        "word": "Stau",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Stau.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Dorf",
+      "artikel": "das",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Dorf.jpg",
+      "audio": "Dorf.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Teller",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Teller.jpg"
+      },
+      {
+        "word": "Lampe",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Lampe.jpg"
+      },
+      {
+        "word": "Brunnen",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Brunnen.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Ei",
+      "artikel": "das",
+      "band": "A2+",
+      "bandIndex": 3,
+      "image": "Ei.jpg",
+      "audio": "Ei.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Knopf",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Knopf.jpg"
+      },
+      {
+        "word": "Socke",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Socke.jpg"
+      },
+      {
+        "word": "Waschmaschine",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Waschmaschine.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Essen",
+      "artikel": "das",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Essen.jpg",
+      "audio": "Essen.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Baum",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Baum.jpg"
+      },
+      {
+        "word": "Gewicht",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Gewicht.jpg"
+      },
+      {
+        "word": "Bauch",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Bauch.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Fahrrad",
+      "artikel": "das",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Fahrrad.jpg",
+      "audio": "Fahrrad.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Spiel",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Spiel.jpg"
+      },
+      {
+        "word": "Zug",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Zug.jpg"
+      },
+      {
+        "word": "Wohnzimmer",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Wohnzimmer.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Feuer",
+      "artikel": "das",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Feuer.jpg",
+      "audio": "Feuer.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kirche",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Kirche.jpg"
+      },
+      {
+        "word": "T-Shirt",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/T-Shirt.jpg"
+      },
+      {
+        "word": "Bad",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Bad.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Flugzeug",
+      "artikel": "das",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Flugzeug.jpg",
+      "audio": "Flugzeug.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Zaun",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Zaun.jpg"
+      },
+      {
+        "word": "Lampe",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Lampe.jpg"
+      },
+      {
+        "word": "Wäsche",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Wäsche.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Frühstück",
+      "artikel": "das",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Frühstück.jpg",
+      "audio": "Frühstück.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schal",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Schal.jpg"
+      },
+      {
+        "word": "Stiefel",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Stiefel.jpg"
+      },
+      {
+        "word": "Wohnzimmer",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Wohnzimmer.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Fuß",
+      "artikel": "der",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Fuß.jpg",
+      "audio": "Fuß.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Badewanne",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Badewanne.jpg"
+      },
+      {
+        "word": "Joghurt",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Joghurt.jpg"
+      },
+      {
+        "word": "Fleisch",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Fleisch.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Gepäck",
+      "artikel": "das",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Gepäck.jpg",
+      "audio": "Gepäck.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kaufhaus",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Kaufhaus.jpg"
+      },
+      {
+        "word": "Spiel",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Spiel.jpg"
+      },
+      {
+        "word": "Zaun",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Zaun.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Geschenk",
+      "artikel": "das",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Geschenk.jpg",
+      "audio": "Geschenk.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Birne",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Birne.jpg"
+      },
+      {
+        "word": "Brot",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Brot.jpg"
+      },
+      {
+        "word": "Brötchen",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Brötchen.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Geschäft",
+      "artikel": "das",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Geschäft.jpg",
+      "audio": "Geschäft.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Obst",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Obst.jpg"
+      },
+      {
+        "word": "Sofa",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Sofa.jpg"
+      },
+      {
+        "word": "Schwimmbad",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Schwimmbad.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Getränk",
+      "artikel": "das",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Getränk.jpg",
+      "audio": "Getränk.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Straßenbahn",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Straßenbahn.jpg"
+      },
+      {
+        "word": "Wasser",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Wasser.jpg"
+      },
+      {
+        "word": "Flasche",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Flasche.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Haltestelle",
+      "artikel": "die",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Haltestelle.jpg",
+      "audio": "Haltestelle.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Computer",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Computer.jpg"
+      },
+      {
+        "word": "Schalter",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Schalter.jpg"
+      },
+      {
+        "word": "Butter",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Butter.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Herd",
+      "artikel": "der",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Herd.jpg",
+      "audio": "Herd.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Shorts",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Shorts.jpg"
+      },
+      {
+        "word": "Rock",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Rock.jpg"
+      },
+      {
+        "word": "Bluse",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Bluse.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Hund",
+      "artikel": "der",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Hund.jpg",
+      "audio": "Hund.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Karte",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Karte.jpg"
+      },
+      {
+        "word": "Tasse",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Tasse.jpg"
+      },
+      {
+        "word": "Stuhl",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Stuhl.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Hut",
+      "artikel": "der",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Hut.jpg",
+      "audio": "Hut.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kerze",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Kerze.jpg"
+      },
+      {
+        "word": "Brunnen",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Brunnen.jpg"
+      },
+      {
+        "word": "T-Shirt",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/T-Shirt.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Hähnchen",
+      "artikel": "das",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Hähnchen.jpg",
+      "audio": "Hähnchen.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kind",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "Kind.jpg"
+      },
+      {
+        "word": "Tüte",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Tüte.jpg"
+      },
+      {
+        "word": "Wein",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Wein.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Jacke",
+      "artikel": "die",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Jacke.jpg",
+      "audio": "Jacke.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Wurst",
+        "band": "A1+",
+        "bandIndex": 1,
+        "image": "distractors/Wurst.jpg"
+      },
+      {
+        "word": "Zimmer",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Zimmer.jpg"
+      },
+      {
+        "word": "Joghurt",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Joghurt.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Kartoffel",
+      "artikel": "die",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Kartoffel.jpg",
+      "audio": "Kartoffel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schinken",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Schinken.jpg"
+      },
+      {
+        "word": "Schuh",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Schuh.jpg"
+      },
+      {
+        "word": "Baum",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Baum.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Kasse",
+      "artikel": "die",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Kasse.jpg",
+      "audio": "Kasse.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Sofa",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Sofa.jpg"
+      },
+      {
+        "word": "Zaun",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Zaun.jpg"
+      },
+      {
+        "word": "Teller",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Teller.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Kleidung",
+      "artikel": "die",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Kleidung.jpg",
+      "audio": "Kleidung.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Tüte",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Tüte.jpg"
+      },
+      {
+        "word": "Lied",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Lied.jpg"
+      },
+      {
+        "word": "Tasche",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Tasche.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Koffer",
+      "artikel": "der",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Koffer.jpg",
+      "audio": "Koffer.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Garage",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Garage.jpg"
+      },
+      {
+        "word": "Gürtel",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Gürtel.jpg"
+      },
+      {
+        "word": "Nudeln",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Nudeln.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Kopf",
+      "artikel": "der",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Kopf.jpg",
+      "audio": "Kopf.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Straßenbahn",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Straßenbahn.jpg"
+      },
+      {
+        "word": "Birne",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Birne.jpg"
+      },
+      {
+        "word": "Wein",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Wein.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Kuchen",
+      "artikel": "der",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Kuchen.jpg",
+      "audio": "Kuchen.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Stiefel",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Stiefel.jpg"
+      },
+      {
+        "word": "Wald",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Wald.jpg"
+      },
+      {
+        "word": "Kaufhaus",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Kaufhaus.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Kugelschreiber",
+      "artikel": "der",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Kugelschreiber.jpg",
+      "audio": "Kugelschreiber.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Salat",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Salat.jpg"
+      },
+      {
+        "word": "Socke",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Socke.jpg"
+      },
+      {
+        "word": "Schal",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Schal.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Küche",
+      "artikel": "die",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Küche.jpg",
+      "audio": "Küche.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Wasser",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Wasser.jpg"
+      },
+      {
+        "word": "Gleis",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Gleis.jpg"
+      },
+      {
+        "word": "Drucker",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Drucker.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Kühlschrank",
+      "artikel": "der",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Kühlschrank.jpg",
+      "audio": "Kühlschrank.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Flasche",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Flasche.jpg"
+      },
+      {
+        "word": "Gemüse",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Gemüse.jpg"
+      },
+      {
+        "word": "Milch",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Milch.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Lkw",
+      "artikel": "der",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Lkw.jpg",
+      "audio": "Lkw.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Bleistift",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Bleistift.jpg"
+      },
+      {
+        "word": "Reis",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "Reis.jpg"
+      },
+      {
+        "word": "Katze",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Katze.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Meer",
+      "artikel": "das",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Meer.jpg",
+      "audio": "Meer.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Poster",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Poster.jpg"
+      },
+      {
+        "word": "Wäsche",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Wäsche.jpg"
+      },
+      {
+        "word": "Zug",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Zug.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Mund",
+      "artikel": "der",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Mund.jpg",
+      "audio": "Mund.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Glas",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Glas.jpg"
+      },
+      {
+        "word": "Butter",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Butter.jpg"
+      },
+      {
+        "word": "Obst",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Obst.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Regen",
+      "artikel": "der",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Regen.jpg",
+      "audio": "Regen.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schwimmbad",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Schwimmbad.jpg"
+      },
+      {
+        "word": "Lampe",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Lampe.jpg"
+      },
+      {
+        "word": "Tasse",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Tasse.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Reifen",
+      "artikel": "der",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Reifen.jpg",
+      "audio": "Reifen.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Spüle",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Spüle.jpg"
+      },
+      {
+        "word": "Rock",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Rock.jpg"
+      },
+      {
+        "word": "Handschuh",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Handschuh.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Saft",
+      "artikel": "der",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Saft.jpg",
+      "audio": "Saft.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Computer",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Computer.jpg"
+      },
+      {
+        "word": "Straße",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Straße.jpg"
+      },
+      {
+        "word": "Salz",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Salz.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Schild",
+      "artikel": "das",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Schild.jpg",
+      "audio": "Schild.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Badewanne",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Badewanne.jpg"
+      },
+      {
+        "word": "Gabel",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Gabel.jpg"
+      },
+      {
+        "word": "Waschmaschine",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Waschmaschine.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Schlüssel",
+      "artikel": "der",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Schlüssel.jpg",
+      "audio": "Schlüssel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Bad",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Bad.jpg"
+      },
+      {
+        "word": "Gewicht",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Gewicht.jpg"
+      },
+      {
+        "word": "Zimmer",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Zimmer.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Schrank",
+      "artikel": "der",
+      "band": "A2+",
+      "bandIndex": 3,
+      "image": "Schrank.jpg",
+      "audio": "Schrank.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Müll",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Müll.jpg"
+      },
+      {
+        "word": "Schmuck",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schmuck.jpg"
+      },
+      {
+        "word": "Schnee",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schnee.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "See",
+      "artikel": "der",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "See.jpg",
+      "audio": "See.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Wohnzimmer",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Wohnzimmer.jpg"
+      },
+      {
+        "word": "Zahn",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Zahn.jpg"
+      },
+      {
+        "word": "Kirche",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Kirche.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Stadt",
+      "artikel": "die",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Stadt.jpg",
+      "audio": "Stadt.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Brötchen",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Brötchen.jpg"
+      },
+      {
+        "word": "Brot",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Brot.jpg"
+      },
+      {
+        "word": "Karte",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Karte.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Tisch",
+      "artikel": "der",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Tisch.jpg",
+      "audio": "Tisch.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Bauch",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Bauch.jpg"
+      },
+      {
+        "word": "Fluss",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Fluss.jpg"
+      },
+      {
+        "word": "Spiel",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Spiel.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Treppe",
+      "artikel": "die",
+      "band": "A2+",
+      "bandIndex": 3,
+      "image": "Treppe.jpg",
+      "audio": "Treppe.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kanne",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kanne.jpg"
+      },
+      {
+        "word": "Tastatur",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Tastatur.jpg"
+      },
+      {
+        "word": "Salbe",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Salbe.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Uhr",
+      "artikel": "die",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Uhr.jpg",
+      "audio": "Uhr.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Fleisch",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Fleisch.jpg"
+      },
+      {
+        "word": "Apfel",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Apfel.jpg"
+      },
+      {
+        "word": "Stuhl",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Stuhl.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Wohnung",
+      "artikel": "die",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Wohnung.jpg",
+      "audio": "Wohnung.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kind",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "Kind.jpg"
+      },
+      {
+        "word": "Autobahn",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Autobahn.jpg"
+      },
+      {
+        "word": "Wurst",
+        "band": "A1+",
+        "bandIndex": 1,
+        "image": "distractors/Wurst.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Zeitung",
+      "artikel": "die",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Zeitung.jpg",
+      "audio": "Zeitung.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Shorts",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Shorts.jpg"
+      },
+      {
+        "word": "Briefkasten",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Briefkasten.jpg"
+      },
+      {
+        "word": "Kerze",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Kerze.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Fernseher",
+      "artikel": "der",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Fernseher.jpg",
+      "audio": "Fernseher.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schal",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Schal.jpg"
+      },
+      {
+        "word": "Brunnen",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Brunnen.jpg"
+      },
+      {
+        "word": "Badewanne",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Badewanne.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Heizung",
+      "artikel": "die",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Heizung.jpg",
+      "audio": "Heizung.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Wald",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Wald.jpg"
+      },
+      {
+        "word": "Rock",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Rock.jpg"
+      },
+      {
+        "word": "Gabel",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Gabel.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Kreuzung",
+      "artikel": "die",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Kreuzung.jpg",
+      "audio": "Kreuzung.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Spiel",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Spiel.jpg"
+      },
+      {
+        "word": "Wohnzimmer",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Wohnzimmer.jpg"
+      },
+      {
+        "word": "Nudeln",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Nudeln.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Mütze",
+      "artikel": "die",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Mütze.jpg",
+      "audio": "Mütze.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Waschmaschine",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Waschmaschine.jpg"
+      },
+      {
+        "word": "Briefkasten",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Briefkasten.jpg"
+      },
+      {
+        "word": "Spüle",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Spüle.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Pferd",
+      "artikel": "das",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Pferd.jpg",
+      "audio": "Pferd.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Gürtel",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Gürtel.jpg"
+      },
+      {
+        "word": "Bluse",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Bluse.jpg"
+      },
+      {
+        "word": "Joghurt",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Joghurt.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Pflanze",
+      "artikel": "die",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Pflanze.jpg",
+      "audio": "Pflanze.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Garage",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Garage.jpg"
+      },
+      {
+        "word": "Poster",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Poster.jpg"
+      },
+      {
+        "word": "Wäsche",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Wäsche.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Pinsel",
+      "artikel": "der",
+      "band": "B1+",
+      "bandIndex": 5,
+      "image": "Pinsel.jpg",
+      "audio": "Pinsel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Lunge",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Lunge.jpg"
+      },
+      {
+        "word": "Kreuz",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kreuz.jpg"
+      },
+      {
+        "word": "Zunge",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Zunge.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Schwein",
+      "artikel": "das",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Schwein.jpg",
+      "audio": "Schwein.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kaufhaus",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Kaufhaus.jpg"
+      },
+      {
+        "word": "Zug",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Zug.jpg"
+      },
+      {
+        "word": "Stiefel",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Stiefel.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Süßigkeiten",
+      "artikel": "die",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Süßigkeiten.jpg",
+      "audio": "Süßigkeiten.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Shorts",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Shorts.jpg"
+      },
+      {
+        "word": "Zahn",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Zahn.jpg"
+      },
+      {
+        "word": "Kirche",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Kirche.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Ampel",
+      "artikel": "die",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Ampel.jpg",
+      "audio": "Ampel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Arm",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Arm.jpg"
+      },
+      {
+        "word": "Schalter",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Schalter.jpg"
+      },
+      {
+        "word": "Straßenbahn",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Straßenbahn.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Anzug",
+      "artikel": "der",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Anzug.jpg",
+      "audio": "Anzug.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Ufer",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Ufer.jpg"
+      },
+      {
+        "word": "Suppe",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Suppe.jpg"
+      },
+      {
+        "word": "Spritze",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Spritze.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Bart",
+      "artikel": "der",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Bart.jpg",
+      "audio": "Bart.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kunst",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kunst.jpg"
+      },
+      {
+        "word": "Pullover",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Pullover.jpg"
+      },
+      {
+        "word": "Werkstatt",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Werkstatt.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Bauer",
+      "artikel": "der",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Bauer.jpg",
+      "audio": "Bauer.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schulter",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schulter.jpg"
+      },
+      {
+        "word": "Schatten",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schatten.jpg"
+      },
+      {
+        "word": "Kopfhörer",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kopfhörer.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Berg",
+      "artikel": "der",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Berg.jpg",
+      "audio": "Berg.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Eis",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Eis.jpg"
+      },
+      {
+        "word": "Knopf",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Knopf.jpg"
+      },
+      {
+        "word": "Scheune",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Scheune.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Boot",
+      "artikel": "das",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Boot.jpg",
+      "audio": "Boot.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Wiese",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Wiese.jpg"
+      },
+      {
+        "word": "Knie",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Knie.jpg"
+      },
+      {
+        "word": "Gerät",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Gerät.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Brille",
+      "artikel": "die",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Brille.jpg",
+      "audio": "Brille.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Gemüse",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Gemüse.jpg"
+      },
+      {
+        "word": "Lampe",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Lampe.jpg"
+      },
+      {
+        "word": "Zimmer",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Zimmer.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Brücke",
+      "artikel": "die",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Brücke.jpg",
+      "audio": "Brücke.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Socke",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Socke.jpg"
+      },
+      {
+        "word": "Zaun",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Zaun.jpg"
+      },
+      {
+        "word": "Handschuh",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Handschuh.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Bühne",
+      "artikel": "die",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Bühne.jpg",
+      "audio": "Bühne.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schüssel",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schüssel.jpg"
+      },
+      {
+        "word": "Mantel",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Mantel.jpg"
+      },
+      {
+        "word": "Kellner",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kellner.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Dach",
+      "artikel": "das",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Dach.jpg",
+      "audio": "Dach.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Maschine",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Maschine.jpg"
+      },
+      {
+        "word": "Holz",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Holz.jpg"
+      },
+      {
+        "word": "Bildschirm",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Bildschirm.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Dieb",
+      "artikel": "der",
+      "band": "B1+",
+      "bandIndex": 5,
+      "image": "Dieb.jpg",
+      "audio": "Dieb.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Segel",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Segel.jpg"
+      },
+      {
+        "word": "Gewehr",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Gewehr.jpg"
+      },
+      {
+        "word": "Helm",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Helm.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Dose",
+      "artikel": "die",
+      "band": "B1+",
+      "bandIndex": 5,
+      "image": "Dose.jpg",
+      "audio": "Dose.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schraubenzieher",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Schraubenzieher.jpg"
+      },
+      {
+        "word": "Adler",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Adler.jpg"
+      },
+      {
+        "word": "Korkenzieher",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Korkenzieher.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Feld",
+      "artikel": "das",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Feld.jpg",
+      "audio": "Feld.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Nadel",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Nadel.jpg"
+      },
+      {
+        "word": "Träne",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Träne.jpg"
+      },
+      {
+        "word": "Gebirge",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Gebirge.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Fenster",
+      "artikel": "das",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Fenster.jpg",
+      "audio": "Fenster.mp3"
+    },
+    "distractors": [
+      {
+        "word": "T-Shirt",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/T-Shirt.jpg"
+      },
+      {
+        "word": "Gabel",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Gabel.jpg"
+      },
+      {
+        "word": "Zug",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Zug.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Fleck",
+      "artikel": "der",
+      "band": "B2",
+      "bandIndex": 6,
+      "image": "Fleck.jpg",
+      "audio": "Fleck.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kompass",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Kompass.jpg"
+      },
+      {
+        "word": "Eiche",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Eiche.jpg"
+      },
+      {
+        "word": "Bürste",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Bürste.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Flöte",
+      "artikel": "die",
+      "band": "B2",
+      "bandIndex": 6,
+      "image": "Flöte.jpg",
+      "audio": "Flöte.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Bär",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Bär.jpg"
+      },
+      {
+        "word": "Anker",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Anker.jpg"
+      },
+      {
+        "word": "Sumpf",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Sumpf.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Gebäck",
+      "artikel": "das",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Gebäck.jpg",
+      "audio": "Gebäck.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Vase",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Vase.jpg"
+      },
+      {
+        "word": "Motorrad",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Motorrad.jpg"
+      },
+      {
+        "word": "Gehsteig",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "Gehsteig.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Geld",
+      "artikel": "das",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Geld.jpg",
+      "audio": "Geld.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Glas",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Glas.jpg"
+      },
+      {
+        "word": "Baum",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Baum.jpg"
+      },
+      {
+        "word": "Butter",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Butter.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Geldbörse",
+      "artikel": "die",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Geldbörse.jpg",
+      "audio": "Geldbörse.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Socke",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Socke.jpg"
+      },
+      {
+        "word": "Bluse",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Bluse.jpg"
+      },
+      {
+        "word": "Zaun",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Zaun.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Geschirr",
+      "artikel": "das",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Geschirr.jpg",
+      "audio": "Geschirr.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Keller",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Keller.jpg"
+      },
+      {
+        "word": "Gebäude",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Gebäude.jpg"
+      },
+      {
+        "word": "Schiff",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schiff.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Gesicht",
+      "artikel": "das",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Gesicht.jpg",
+      "audio": "Gesicht.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Park",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Park.jpg"
+      },
+      {
+        "word": "Klavier",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Klavier.jpg"
+      },
+      {
+        "word": "Strand",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Strand.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Hafen",
+      "artikel": "der",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Hafen.jpg",
+      "audio": "Hafen.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Tropfen",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Tropfen.jpg"
+      },
+      {
+        "word": "Schnee",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schnee.jpg"
+      },
+      {
+        "word": "Müll",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Müll.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Hals",
+      "artikel": "der",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Hals.jpg",
+      "audio": "Hals.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Träne",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Träne.jpg"
+      },
+      {
+        "word": "Kreis",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kreis.jpg"
+      },
+      {
+        "word": "Scheune",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Scheune.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Hemd",
+      "artikel": "das",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Hemd.jpg",
+      "audio": "Hemd.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schal",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Schal.jpg"
+      },
+      {
+        "word": "Nudeln",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Nudeln.jpg"
+      },
+      {
+        "word": "Stiefel",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Stiefel.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Honig",
+      "artikel": "der",
+      "band": "B1+",
+      "bandIndex": 5,
+      "image": "Honig.jpg",
+      "audio": "Honig.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Ellbogen",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Ellbogen.jpg"
+      },
+      {
+        "word": "Hüfte",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Hüfte.jpg"
+      },
+      {
+        "word": "Lineal",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Lineal.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Hose",
+      "artikel": "die",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Hose.jpg",
+      "audio": "Hose.mp3"
+    },
+    "distractors": [
+      {
+        "word": "T-Shirt",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/T-Shirt.jpg"
+      },
+      {
+        "word": "Zahn",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Zahn.jpg"
+      },
+      {
+        "word": "Gürtel",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Gürtel.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Hütte",
+      "artikel": "die",
+      "band": "A2+",
+      "bandIndex": 3,
+      "image": "Hütte.jpg",
+      "audio": "Hütte.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Gebirge",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Gebirge.jpg"
+      },
+      {
+        "word": "Stau",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Stau.jpg"
+      },
+      {
+        "word": "Gehsteig",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "Gehsteig.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Insel",
+      "artikel": "die",
+      "band": "A2+",
+      "bandIndex": 3,
+      "image": "Insel.jpg",
+      "audio": "Insel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schmuck",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schmuck.jpg"
+      },
+      {
+        "word": "Spritze",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Spritze.jpg"
+      },
+      {
+        "word": "Bildschirm",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Bildschirm.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Karotte",
+      "artikel": "die",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Karotte.jpg",
+      "audio": "Karotte.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Garage",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Garage.jpg"
+      },
+      {
+        "word": "Wohnzimmer",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Wohnzimmer.jpg"
+      },
+      {
+        "word": "Kirche",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Kirche.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Kette",
+      "artikel": "die",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Kette.jpg",
+      "audio": "Kette.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Gerät",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Gerät.jpg"
+      },
+      {
+        "word": "Hammer",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Hammer.jpg"
+      },
+      {
+        "word": "Keller",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Keller.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Kissen",
+      "artikel": "das",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Kissen.jpg",
+      "audio": "Kissen.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kellner",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kellner.jpg"
+      },
+      {
+        "word": "Mantel",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Mantel.jpg"
+      },
+      {
+        "word": "Tropfen",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Tropfen.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Kiste",
+      "artikel": "die",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Kiste.jpg",
+      "audio": "Kiste.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kamera",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kamera.jpg"
+      },
+      {
+        "word": "Park",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Park.jpg"
+      },
+      {
+        "word": "Knie",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Knie.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Kleid",
+      "artikel": "das",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Kleid.jpg",
+      "audio": "Kleid.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Briefkasten",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Briefkasten.jpg"
+      },
+      {
+        "word": "Kaufhaus",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Kaufhaus.jpg"
+      },
+      {
+        "word": "Shorts",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Shorts.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Knochen",
+      "artikel": "der",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Knochen.jpg",
+      "audio": "Knochen.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kopfhörer",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kopfhörer.jpg"
+      },
+      {
+        "word": "Maschine",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Maschine.jpg"
+      },
+      {
+        "word": "Schüssel",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schüssel.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Käse",
+      "artikel": "der",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Käse.jpg",
+      "audio": "Käse.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Bauch",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Bauch.jpg"
+      },
+      {
+        "word": "Tasse",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Tasse.jpg"
+      },
+      {
+        "word": "Schalter",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Schalter.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "König",
+      "artikel": "der",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "König.jpg",
+      "audio": "König.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Denkmal",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Denkmal.jpg"
+      },
+      {
+        "word": "Schatten",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schatten.jpg"
+      },
+      {
+        "word": "Vase",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Vase.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Körper",
+      "artikel": "der",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Körper.jpg",
+      "audio": "Körper.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Autobahn",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Autobahn.jpg"
+      },
+      {
+        "word": "Karte",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Karte.jpg"
+      },
+      {
+        "word": "Wein",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Wein.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Löffel",
+      "artikel": "der",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Löffel.jpg",
+      "audio": "Löffel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Spüle",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Spüle.jpg"
+      },
+      {
+        "word": "Handschuh",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Handschuh.jpg"
+      },
+      {
+        "word": "Spiel",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Spiel.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Magen",
+      "artikel": "der",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Magen.jpg",
+      "audio": "Magen.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schiff",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schiff.jpg"
+      },
+      {
+        "word": "Markt",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Markt.jpg"
+      },
+      {
+        "word": "Motorrad",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Motorrad.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Mauer",
+      "artikel": "die",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Mauer.jpg",
+      "audio": "Mauer.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Wiese",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Wiese.jpg"
+      },
+      {
+        "word": "Suppe",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Suppe.jpg"
+      },
+      {
+        "word": "Tastatur",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Tastatur.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Messer",
+      "artikel": "das",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Messer.jpg",
+      "audio": "Messer.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Stuhl",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Stuhl.jpg"
+      },
+      {
+        "word": "Kind",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "Kind.jpg"
+      },
+      {
+        "word": "Sofa",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Sofa.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Metzger",
+      "artikel": "der",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Metzger.jpg",
+      "audio": "Metzger.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Salbe",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Salbe.jpg"
+      },
+      {
+        "word": "Ufer",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Ufer.jpg"
+      },
+      {
+        "word": "Pullover",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Pullover.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Mond",
+      "artikel": "der",
+      "band": "A2+",
+      "bandIndex": 3,
+      "image": "Mond.jpg",
+      "audio": "Mond.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Holz",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Holz.jpg"
+      },
+      {
+        "word": "Strand",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Strand.jpg"
+      },
+      {
+        "word": "Knopf",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Knopf.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Münze",
+      "artikel": "die",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Münze.jpg",
+      "audio": "Münze.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schulter",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schulter.jpg"
+      },
+      {
+        "word": "Gebäude",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Gebäude.jpg"
+      },
+      {
+        "word": "Eis",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Eis.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Nagel",
+      "artikel": "der",
+      "band": "B1+",
+      "bandIndex": 5,
+      "image": "Nagel.jpg",
+      "audio": "Nagel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Höhle",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Höhle.jpg"
+      },
+      {
+        "word": "Kanne",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kanne.jpg"
+      },
+      {
+        "word": "Affe",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Affe.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Pfanne",
+      "artikel": "die",
+      "band": "B2",
+      "bandIndex": 6,
+      "image": "Pfanne.jpg",
+      "audio": "Pfanne.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Dosenöffner",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Dosenöffner.jpg"
+      },
+      {
+        "word": "Krone",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Krone.jpg"
+      },
+      {
+        "word": "Hai",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Hai.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Pilz",
+      "artikel": "der",
+      "band": "B2",
+      "bandIndex": 6,
+      "image": "Pilz.jpg",
+      "audio": "Pilz.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Maske",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Maske.jpg"
+      },
+      {
+        "word": "Trichter",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Trichter.jpg"
+      },
+      {
+        "word": "Blumentopf",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Blumentopf.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Rasen",
+      "artikel": "der",
+      "band": "B1+",
+      "bandIndex": 5,
+      "image": "Rasen.jpg",
+      "audio": "Rasen.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Klippe",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Klippe.jpg"
+      },
+      {
+        "word": "Gehirn",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Gehirn.jpg"
+      },
+      {
+        "word": "Pfeil",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Pfeil.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Regal",
+      "artikel": "das",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Regal.jpg",
+      "audio": "Regal.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Nadel",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Nadel.jpg"
+      },
+      {
+        "word": "Kanne",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kanne.jpg"
+      },
+      {
+        "word": "Schlange",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schlange.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Richter",
+      "artikel": "der",
+      "band": "B2",
+      "bandIndex": 6,
+      "image": "Richter.jpg",
+      "audio": "Richter.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Pistole",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Pistole.jpg"
+      },
+      {
+        "word": "Wange",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Wange.jpg"
+      },
+      {
+        "word": "Eule",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Eule.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Rücken",
+      "artikel": "der",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Rücken.jpg",
+      "audio": "Rücken.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Rock",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Rock.jpg"
+      },
+      {
+        "word": "Wald",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Wald.jpg"
+      },
+      {
+        "word": "Kerze",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Kerze.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Sack",
+      "artikel": "der",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Sack.jpg",
+      "audio": "Sack.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Salbe",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Salbe.jpg"
+      },
+      {
+        "word": "Kunst",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kunst.jpg"
+      },
+      {
+        "word": "Klavier",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Klavier.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Scheibe",
+      "artikel": "die",
+      "band": "B1+",
+      "bandIndex": 5,
+      "image": "Scheibe.jpg",
+      "audio": "Scheibe.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Stempel",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Stempel.jpg"
+      },
+      {
+        "word": "Wüste",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Wüste.jpg"
+      },
+      {
+        "word": "Taschenlampe",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Taschenlampe.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Schere",
+      "artikel": "die",
+      "band": "A2+",
+      "bandIndex": 3,
+      "image": "Schere.jpg",
+      "audio": "Schere.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kreuz",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kreuz.jpg"
+      },
+      {
+        "word": "Motorrad",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Motorrad.jpg"
+      },
+      {
+        "word": "Kanne",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kanne.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Schirm",
+      "artikel": "der",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Schirm.jpg",
+      "audio": "Schirm.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Gehsteig",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "Gehsteig.jpg"
+      },
+      {
+        "word": "Träne",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Träne.jpg"
+      },
+      {
+        "word": "Spritze",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Spritze.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Seife",
+      "artikel": "die",
+      "band": "B1+",
+      "bandIndex": 5,
+      "image": "Seife.jpg",
+      "audio": "Seife.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Mikroskop",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Mikroskop.jpg"
+      },
+      {
+        "word": "Hügel",
+        "band": "B1+",
+        "bandIndex": 5,
+        "image": "distractors/Hügel.jpg"
+      },
+      {
+        "word": "Stall",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Stall.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Sessel",
+      "artikel": "der",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Sessel.jpg",
+      "audio": "Sessel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Knie",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Knie.jpg"
+      },
+      {
+        "word": "Salbe",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Salbe.jpg"
+      },
+      {
+        "word": "Schlange",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schlange.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Spiegel",
+      "artikel": "der",
+      "band": "A2+",
+      "bandIndex": 3,
+      "image": "Spiegel.jpg",
+      "audio": "Spiegel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Hammer",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Hammer.jpg"
+      },
+      {
+        "word": "Schüssel",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schüssel.jpg"
+      },
+      {
+        "word": "Kunst",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kunst.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Stecker",
+      "artikel": "der",
+      "band": "B1+",
+      "bandIndex": 5,
+      "image": "Stecker.jpg",
+      "audio": "Stecker.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Maske",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Maske.jpg"
+      },
+      {
+        "word": "Kompass",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Kompass.jpg"
+      },
+      {
+        "word": "Korkenzieher",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Korkenzieher.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Stein",
+      "artikel": "der",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Stein.jpg",
+      "audio": "Stein.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Garnrolle",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Garnrolle.jpg"
+      },
+      {
+        "word": "Scheune",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Scheune.jpg"
+      },
+      {
+        "word": "Bewässerungsschlauch",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Bewässerungsschlauch.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Stern",
+      "artikel": "der",
+      "band": "A2+",
+      "bandIndex": 3,
+      "image": "Stern.jpg",
+      "audio": "Stern.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kreuz",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kreuz.jpg"
+      },
+      {
+        "word": "Eis",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Eis.jpg"
+      },
+      {
+        "word": "Tastatur",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Tastatur.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Stift",
+      "artikel": "der",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Stift.jpg",
+      "audio": "Stift.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Salat",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Salat.jpg"
+      },
+      {
+        "word": "Wasser",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Wasser.jpg"
+      },
+      {
+        "word": "Computer",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Computer.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Strumpf",
+      "artikel": "der",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Strumpf.jpg",
+      "audio": "Strumpf.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Gebirge",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Gebirge.jpg"
+      },
+      {
+        "word": "Klavier",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Klavier.jpg"
+      },
+      {
+        "word": "Kamera",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kamera.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Tafel",
+      "artikel": "die",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Tafel.jpg",
+      "audio": "Tafel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schinken",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Schinken.jpg"
+      },
+      {
+        "word": "Tüte",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Tüte.jpg"
+      },
+      {
+        "word": "Wurst",
+        "band": "A1+",
+        "bandIndex": 1,
+        "image": "distractors/Wurst.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Teppich",
+      "artikel": "der",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Teppich.jpg",
+      "audio": "Teppich.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kreis",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Kreis.jpg"
+      },
+      {
+        "word": "Wiese",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Wiese.jpg"
+      },
+      {
+        "word": "Schiff",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schiff.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Tor",
+      "artikel": "das",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Tor.jpg",
+      "audio": "Tor.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Bildschirm",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Bildschirm.jpg"
+      },
+      {
+        "word": "Müll",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Müll.jpg"
+      },
+      {
+        "word": "Pullover",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Pullover.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Torte",
+      "artikel": "die",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Torte.jpg",
+      "audio": "Torte.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Badewanne",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Badewanne.jpg"
+      },
+      {
+        "word": "Wäsche",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Wäsche.jpg"
+      },
+      {
+        "word": "Birne",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Birne.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Turm",
+      "artikel": "der",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Turm.jpg",
+      "audio": "Turm.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Stau",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Stau.jpg"
+      },
+      {
+        "word": "Gerät",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Gerät.jpg"
+      },
+      {
+        "word": "Markt",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Markt.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Tür",
+      "artikel": "die",
+      "band": "A1",
+      "bandIndex": 0,
+      "image": "Tür.jpg",
+      "audio": "Tür.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Bleistift",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Bleistift.jpg"
+      },
+      {
+        "word": "Brötchen",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Brötchen.jpg"
+      },
+      {
+        "word": "Joghurt",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Joghurt.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Vogel",
+      "artikel": "der",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Vogel.jpg",
+      "audio": "Vogel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Waschmaschine",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Waschmaschine.jpg"
+      },
+      {
+        "word": "Poster",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Poster.jpg"
+      },
+      {
+        "word": "Brunnen",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Brunnen.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Wagen",
+      "artikel": "der",
+      "band": "A1+",
+      "bandIndex": 1,
+      "image": "Wagen.jpg",
+      "audio": "Wagen.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Katze",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Katze.jpg"
+      },
+      {
+        "word": "Reis",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "Reis.jpg"
+      },
+      {
+        "word": "Fluss",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Fluss.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Wolke",
+      "artikel": "die",
+      "band": "B1+",
+      "bandIndex": 5,
+      "image": "Wolke.jpg",
+      "audio": "Wolke.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Hai",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Hai.jpg"
+      },
+      {
+        "word": "Wüste",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Wüste.jpg"
+      },
+      {
+        "word": "Stempel",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Stempel.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Zelt",
+      "artikel": "das",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Zelt.jpg",
+      "audio": "Zelt.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Briefkasten",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Briefkasten.jpg"
+      },
+      {
+        "word": "Vase",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Vase.jpg"
+      },
+      {
+        "word": "Mantel",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Mantel.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Zwiebel",
+      "artikel": "die",
+      "band": "A2",
+      "bandIndex": 2,
+      "image": "Zwiebel.jpg",
+      "audio": "Zwiebel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Rock",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Rock.jpg"
+      },
+      {
+        "word": "Wäsche",
+        "band": "A2",
+        "bandIndex": 2,
+        "image": "distractors/Wäsche.jpg"
+      },
+      {
+        "word": "Bauch",
+        "band": "A1",
+        "bandIndex": 0,
+        "image": "distractors/Bauch.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Dachrinne",
+      "artikel": "",
+      "band": "C1",
+      "bandIndex": 7,
+      "image": "Dachrinne.jpg",
+      "audio": "Dachrinne.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Rollstuhl",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Rollstuhl.jpg"
+      },
+      {
+        "word": "Sockel",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Sockel.jpg"
+      },
+      {
+        "word": "Verlängerungskabel",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Verlängerungskabel.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Fußleiste",
+      "artikel": "",
+      "band": "C2",
+      "bandIndex": 8,
+      "image": "Fußleiste.jpg",
+      "audio": "Fußleiste.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Stängel",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Stängel.jpg"
+      },
+      {
+        "word": "Schwan",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Schwan.jpg"
+      },
+      {
+        "word": "Zottel",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Zottel.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Gewitter",
+      "artikel": "das",
+      "band": "B2",
+      "bandIndex": 6,
+      "image": "Gewitter.jpg",
+      "audio": "Gewitter.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Pfeil",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Pfeil.jpg"
+      },
+      {
+        "word": "Lunge",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Lunge.jpg"
+      },
+      {
+        "word": "Zunge",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Zunge.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Gießkanne",
+      "artikel": "",
+      "band": "C1",
+      "bandIndex": 7,
+      "image": "Gießkanne.jpg",
+      "audio": "Gießkanne.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Messbecher",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Messbecher.jpg"
+      },
+      {
+        "word": "Flosse",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Flosse.jpg"
+      },
+      {
+        "word": "Wattestäbchen",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Wattestäbchen.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Harke",
+      "artikel": "",
+      "band": "C1",
+      "bandIndex": 7,
+      "image": "Harke.jpg",
+      "audio": "Harke.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Zange",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Zange.jpg"
+      },
+      {
+        "word": "Rohrzange",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Rohrzange.jpg"
+      },
+      {
+        "word": "Klebeband",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Klebeband.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Hobel",
+      "artikel": "",
+      "band": "C2",
+      "bandIndex": 8,
+      "image": "Hobel.jpg",
+      "audio": "Hobel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Lochzange",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Lochzange.jpg"
+      },
+      {
+        "word": "Wurzel",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Wurzel.jpg"
+      },
+      {
+        "word": "Laub",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Laub.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Korkenzieher",
+      "artikel": "",
+      "band": "B2",
+      "bandIndex": 6,
+      "image": "Korkenzieher.jpg",
+      "audio": "Korkenzieher.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Ellbogen",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Ellbogen.jpg"
+      },
+      {
+        "word": "Bürste",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Bürste.jpg"
+      },
+      {
+        "word": "Taschenlampe",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Taschenlampe.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Kragen",
+      "artikel": "",
+      "band": "B2",
+      "bandIndex": 6,
+      "image": "Kragen.jpg",
+      "audio": "Kragen.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schwert",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Schwert.jpg"
+      },
+      {
+        "word": "Anker",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Anker.jpg"
+      },
+      {
+        "word": "Helm",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Helm.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Locher",
+      "artikel": "",
+      "band": "B2",
+      "bandIndex": 6,
+      "image": "Locher.jpg",
+      "audio": "Locher.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schraubenzieher",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Schraubenzieher.jpg"
+      },
+      {
+        "word": "Pistole",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Pistole.jpg"
+      },
+      {
+        "word": "Bär",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Bär.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Lötkolben",
+      "artikel": "",
+      "band": "C2",
+      "bandIndex": 8,
+      "image": "Lötkolben.jpg",
+      "audio": "Lötkolben.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Borke",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Borke.jpg"
+      },
+      {
+        "word": "Spule",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Spule.jpg"
+      },
+      {
+        "word": "Zinke",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Zinke.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Nudelholz",
+      "artikel": "",
+      "band": "C2",
+      "bandIndex": 8,
+      "image": "Nudelholz.jpg",
+      "audio": "Nudelholz.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Klammer",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Klammer.jpg"
+      },
+      {
+        "word": "Patrone",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Patrone.jpg"
+      },
+      {
+        "word": "Stacheldraht",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Stacheldraht.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Pinzette",
+      "artikel": "",
+      "band": "C1",
+      "bandIndex": 7,
+      "image": "Pinzette.jpg",
+      "audio": "Pinzette.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Bewässerungsschlauch",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Bewässerungsschlauch.jpg"
+      },
+      {
+        "word": "Spalier",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Spalier.jpg"
+      },
+      {
+        "word": "Türstopper",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Türstopper.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Reibe",
+      "artikel": "",
+      "band": "C1",
+      "bandIndex": 7,
+      "image": "Reibe.jpg",
+      "audio": "Reibe.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Farbroller",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Farbroller.jpg"
+      },
+      {
+        "word": "Balustrade",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Balustrade.jpg"
+      },
+      {
+        "word": "Eisscholle",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Eisscholle.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Reißzwecke",
+      "artikel": "",
+      "band": "C1",
+      "bandIndex": 7,
+      "image": "Reißzwecke.jpg",
+      "audio": "Reißzwecke.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Pflaster",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Pflaster.jpg"
+      },
+      {
+        "word": "Kerzenhalter",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Kerzenhalter.jpg"
+      },
+      {
+        "word": "Bohrer",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Bohrer.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Rüssel",
+      "artikel": "",
+      "band": "C1",
+      "bandIndex": 7,
+      "image": "Rüssel.jpg",
+      "audio": "Rüssel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schlägel",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Schlägel.jpg"
+      },
+      {
+        "word": "Büroklammer",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Büroklammer.jpg"
+      },
+      {
+        "word": "Pfannenwender",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Pfannenwender.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Scharnier",
+      "artikel": "",
+      "band": "C2",
+      "bandIndex": 8,
+      "image": "Scharnier.jpg",
+      "audio": "Scharnier.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schuppe",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Schuppe.jpg"
+      },
+      {
+        "word": "Kante",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Kante.jpg"
+      },
+      {
+        "word": "Schaufenster",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Schaufenster.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Schneebesen",
+      "artikel": "",
+      "band": "C1",
+      "bandIndex": 7,
+      "image": "Schneebesen.jpg",
+      "audio": "Schneebesen.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Larve",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Larve.jpg"
+      },
+      {
+        "word": "Bilderrahmen",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Bilderrahmen.jpg"
+      },
+      {
+        "word": "Ordner",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Ordner.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Schornstein",
+      "artikel": "",
+      "band": "B2",
+      "bandIndex": 6,
+      "image": "Schornstein.jpg",
+      "audio": "Schornstein.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Mikroskop",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Mikroskop.jpg"
+      },
+      {
+        "word": "Höhle",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Höhle.jpg"
+      },
+      {
+        "word": "Hubschrauber",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Hubschrauber.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Schraube",
+      "artikel": "",
+      "band": "B2",
+      "bandIndex": 6,
+      "image": "Schraube.jpg",
+      "audio": "Schraube.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Segel",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Segel.jpg"
+      },
+      {
+        "word": "Affe",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Affe.jpg"
+      },
+      {
+        "word": "Lineal",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Lineal.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Schublade",
+      "artikel": "",
+      "band": "B1",
+      "bandIndex": 4,
+      "image": "Schublade.jpg",
+      "audio": "Schublade.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schmuck",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Schmuck.jpg"
+      },
+      {
+        "word": "Suppe",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Suppe.jpg"
+      },
+      {
+        "word": "Nadel",
+        "band": "B1",
+        "bandIndex": 4,
+        "image": "distractors/Nadel.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Schöpfkelle",
+      "artikel": "",
+      "band": "C2",
+      "bandIndex": 8,
+      "image": "Schöpfkelle.jpg",
+      "audio": "Schöpfkelle.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Klinge",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Klinge.jpg"
+      },
+      {
+        "word": "Amboss",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Amboss.jpg"
+      },
+      {
+        "word": "Lochzange",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Lochzange.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Spachtel",
+      "artikel": "",
+      "band": "C2",
+      "bandIndex": 8,
+      "image": "Spachtel.jpg",
+      "audio": "Spachtel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kamm",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Kamm.jpg"
+      },
+      {
+        "word": "Wimper",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Wimper.jpg"
+      },
+      {
+        "word": "Dreifuß",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Dreifuß.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Spaten",
+      "artikel": "",
+      "band": "C1",
+      "bandIndex": 7,
+      "image": "Spaten.jpg",
+      "audio": "Spaten.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Messbecher",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Messbecher.jpg"
+      },
+      {
+        "word": "Garnrolle",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Garnrolle.jpg"
+      },
+      {
+        "word": "Stethoskop",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Stethoskop.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Stachel",
+      "artikel": "",
+      "band": "C1",
+      "bandIndex": 7,
+      "image": "Stachel.jpg",
+      "audio": "Stachel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Rasenmäher",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Rasenmäher.jpg"
+      },
+      {
+        "word": "Blasbalg",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Blasbalg.jpg"
+      },
+      {
+        "word": "Knospe",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Knospe.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Staffelei",
+      "artikel": "",
+      "band": "C2",
+      "bandIndex": 8,
+      "image": "Staffelei.jpg",
+      "audio": "Staffelei.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Tatze",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Tatze.jpg"
+      },
+      {
+        "word": "Stativ",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Stativ.jpg"
+      },
+      {
+        "word": "Fohlen",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Fohlen.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Tacker",
+      "artikel": "",
+      "band": "B2",
+      "bandIndex": 6,
+      "image": "Tacker.jpg",
+      "audio": "Tacker.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Stall",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Stall.jpg"
+      },
+      {
+        "word": "Dosenöffner",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Dosenöffner.jpg"
+      },
+      {
+        "word": "Wange",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Wange.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Verband",
+      "artikel": "",
+      "band": "B1+",
+      "bandIndex": 5,
+      "image": "Verband.jpg",
+      "audio": "Verband.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Ordner",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Ordner.jpg"
+      },
+      {
+        "word": "Krone",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Krone.jpg"
+      },
+      {
+        "word": "Springform",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Springform.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Wasserwaage",
+      "artikel": "",
+      "band": "C2",
+      "bandIndex": 8,
+      "image": "Wasserwaage.jpg",
+      "audio": "Wasserwaage.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kästchen",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Kästchen.jpg"
+      },
+      {
+        "word": "Thermometer",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Thermometer.jpg"
+      },
+      {
+        "word": "Keim",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Keim.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Winkel",
+      "artikel": "",
+      "band": "B2",
+      "bandIndex": 6,
+      "image": "Winkel.jpg",
+      "audio": "Winkel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Hüfte",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Hüfte.jpg"
+      },
+      {
+        "word": "Gewehr",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Gewehr.jpg"
+      },
+      {
+        "word": "Jäger",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Jäger.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Zollstock",
+      "artikel": "",
+      "band": "C2",
+      "bandIndex": 8,
+      "image": "Zollstock.jpg",
+      "audio": "Zollstock.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Griff",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Griff.jpg"
+      },
+      {
+        "word": "Ankerkette",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Ankerkette.jpg"
+      },
+      {
+        "word": "Fensterladen",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Fensterladen.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Armbrust",
+      "artikel": "die",
+      "band": "C2",
+      "bandIndex": 8,
+      "image": "Armbrust.jpg",
+      "audio": "Armbrust.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Schläfe",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Schläfe.jpg"
+      },
+      {
+        "word": "Knospe",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Knospe.jpg"
+      },
+      {
+        "word": "Erlenmeyerkolben",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Erlenmeyerkolben.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Bunsenbrenner",
+      "artikel": "",
+      "band": "C2",
+      "bandIndex": 8,
+      "image": "Bunsenbrenner.jpg",
+      "audio": "Bunsenbrenner.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Kapitell",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Kapitell.jpg"
+      },
+      {
+        "word": "Sims",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Sims.jpg"
+      },
+      {
+        "word": "Tribüne",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Tribüne.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Hummel",
+      "artikel": "die",
+      "band": "C2",
+      "bandIndex": 8,
+      "image": "Hummel.jpg",
+      "audio": "Hummel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Geweih",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Geweih.jpg"
+      },
+      {
+        "word": "Topflappen",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Topflappen.jpg"
+      },
+      {
+        "word": "Pipette",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Pipette.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Klee",
+      "artikel": "der",
+      "band": "C1",
+      "bandIndex": 7,
+      "image": "Klee.jpg",
+      "audio": "Klee.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Astschere",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Astschere.jpg"
+      },
+      {
+        "word": "Segel",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Segel.jpg"
+      },
+      {
+        "word": "Fingerhut",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Fingerhut.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Knäuel",
+      "artikel": "",
+      "band": "C2",
+      "bandIndex": 8,
+      "image": "Knäuel.jpg",
+      "audio": "Knäuel.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Nacken",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Nacken.jpg"
+      },
+      {
+        "word": "Blech",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Blech.jpg"
+      },
+      {
+        "word": "Amphore",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Amphore.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Krücke",
+      "artikel": "die",
+      "band": "C1",
+      "bandIndex": 7,
+      "image": "Krücke.jpg",
+      "audio": "Krücke.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Sims",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Sims.jpg"
+      },
+      {
+        "word": "Dachziegel",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Dachziegel.jpg"
+      },
+      {
+        "word": "Blumentopf",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Blumentopf.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Locke",
+      "artikel": "die",
+      "band": "B2",
+      "bandIndex": 6,
+      "image": "Locke.jpg",
+      "audio": "Locke.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Gehirn",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Gehirn.jpg"
+      },
+      {
+        "word": "Adler",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Adler.jpg"
+      },
+      {
+        "word": "Eule",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Eule.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Matrose",
+      "artikel": "der",
+      "band": "C1",
+      "bandIndex": 7,
+      "image": "Matrose.jpg",
+      "audio": "Matrose.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Gewölbe",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Gewölbe.jpg"
+      },
+      {
+        "word": "Thermometer",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Thermometer.jpg"
+      },
+      {
+        "word": "Trichter",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Trichter.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Poller",
+      "artikel": "",
+      "band": "C2",
+      "bandIndex": 8,
+      "image": "Poller.jpg",
+      "audio": "Poller.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Borste",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Borste.jpg"
+      },
+      {
+        "word": "Orgel",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Orgel.jpg"
+      },
+      {
+        "word": "Kieme",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Kieme.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Reagenzglas",
+      "artikel": "",
+      "band": "C2",
+      "bandIndex": 8,
+      "image": "Reagenzglas.jpg",
+      "audio": "Reagenzglas.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Visier",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Visier.jpg"
+      },
+      {
+        "word": "Zinne",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Zinne.jpg"
+      },
+      {
+        "word": "Vorratsglas",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Vorratsglas.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Röhre",
+      "artikel": "die",
+      "band": "C2",
+      "bandIndex": 8,
+      "image": "Röhre.jpg",
+      "audio": "Röhre.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Klaue",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Klaue.jpg"
+      },
+      {
+        "word": "Mähne",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Mähne.jpg"
+      },
+      {
+        "word": "Geweih",
+        "band": "C2",
+        "bandIndex": 8,
+        "image": "distractors/Geweih.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Säule",
+      "artikel": "die",
+      "band": "C1",
+      "bandIndex": 7,
+      "image": "Säule.jpg",
+      "audio": "Säule.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Gürtelschnalle",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Gürtelschnalle.jpg"
+      },
+      {
+        "word": "Giebel",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Giebel.jpg"
+      },
+      {
+        "word": "Gletscher",
+        "band": "C1",
+        "bandIndex": 7,
+        "image": "distractors/Gletscher.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Wade",
+      "artikel": "die",
+      "band": "B2",
+      "bandIndex": 6,
+      "image": "Wade.jpg",
+      "audio": "Wade.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Eiche",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Eiche.jpg"
+      },
+      {
+        "word": "Maske",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Maske.jpg"
+      },
+      {
+        "word": "Taschenlampe",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Taschenlampe.jpg"
+      }
+    ]
+  },
+  {
+    "target": {
+      "word": "Ellbogen",
+      "artikel": "der",
+      "band": "B2",
+      "bandIndex": 6,
+      "image": "Ellbogen.jpg",
+      "audio": "Ellbogen.mp3"
+    },
+    "distractors": [
+      {
+        "word": "Hubschrauber",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Hubschrauber.jpg"
+      },
+      {
+        "word": "Höhle",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Höhle.jpg"
+      },
+      {
+        "word": "Jäger",
+        "band": "B2",
+        "bandIndex": 6,
+        "image": "distractors/Jäger.jpg"
+      }
+    ]
+  }
+]
