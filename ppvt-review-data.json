@@ -382,10 +382,10 @@
         "image": "distractors/Socke.jpg"
       },
       {
-        "word": "Waschmaschine",
+        "word": "Blech",
         "band": "A2",
         "bandIndex": 2,
-        "image": "distractors/Waschmaschine.jpg"
+        "image": "distractors/Blech.jpg"
       }
     ]
   },
@@ -676,16 +676,16 @@
         "image": "distractors/Straßenbahn.jpg"
       },
       {
-        "word": "Wasser",
+        "word": "Bluse",
         "band": "A1",
         "bandIndex": 0,
-        "image": "distractors/Wasser.jpg"
+        "image": "distractors/Bluse.jpg"
       },
       {
-        "word": "Flasche",
+        "word": "Automat",
         "band": "A1",
         "bandIndex": 0,
-        "image": "distractors/Flasche.jpg"
+        "image": "distractors/Automat.jpg"
       }
     ]
   },
@@ -742,10 +742,10 @@
         "image": "distractors/Rock.jpg"
       },
       {
-        "word": "Bluse",
+        "word": "Birne",
         "band": "A2",
         "bandIndex": 2,
-        "image": "distractors/Bluse.jpg"
+        "image": "distractors/Birne.jpg"
       }
     ]
   },
@@ -796,10 +796,10 @@
         "image": "distractors/Kerze.jpg"
       },
       {
-        "word": "Brunnen",
+        "word": "Briefkasten",
         "band": "A2",
         "bandIndex": 2,
-        "image": "distractors/Brunnen.jpg"
+        "image": "distractors/Briefkasten.jpg"
       },
       {
         "word": "T-Shirt",
@@ -820,10 +820,10 @@
     },
     "distractors": [
       {
-        "word": "Kind",
+        "word": "Mantel",
         "band": "A1",
         "bandIndex": 0,
-        "image": "Kind.jpg"
+        "image": "distractors/Mantel.jpg"
       },
       {
         "word": "Tüte",
@@ -832,10 +832,10 @@
         "image": "distractors/Tüte.jpg"
       },
       {
-        "word": "Wein",
+        "word": "Flughafen",
         "band": "A1",
         "bandIndex": 0,
-        "image": "distractors/Wein.jpg"
+        "image": "distractors/Flughafen.jpg"
       }
     ]
   },
@@ -850,10 +850,10 @@
     },
     "distractors": [
       {
-        "word": "Wurst",
+        "word": "Lampe",
         "band": "A1+",
         "bandIndex": 1,
-        "image": "distractors/Wurst.jpg"
+        "image": "distractors/Lampe.jpg"
       },
       {
         "word": "Zimmer",
@@ -940,10 +940,10 @@
     },
     "distractors": [
       {
-        "word": "Tüte",
+        "word": "Dusche",
         "band": "A1",
         "bandIndex": 0,
-        "image": "distractors/Tüte.jpg"
+        "image": "distractors/Dusche.jpg"
       },
       {
         "word": "Lied",
@@ -982,10 +982,10 @@
         "image": "distractors/Gürtel.jpg"
       },
       {
-        "word": "Nudeln",
+        "word": "Kamm",
         "band": "A2",
         "bandIndex": 2,
-        "image": "distractors/Nudeln.jpg"
+        "image": "distractors/Kamm.jpg"
       }
     ]
   },
@@ -1012,10 +1012,10 @@
         "image": "distractors/Birne.jpg"
       },
       {
-        "word": "Wein",
+        "word": "Joghurt",
         "band": "A1",
         "bandIndex": 0,
-        "image": "distractors/Wein.jpg"
+        "image": "distractors/Joghurt.jpg"
       }
     ]
   },
@@ -1150,22 +1150,22 @@
     },
     "distractors": [
       {
-        "word": "Bleistift",
+        "word": "Arm",
         "band": "A1",
         "bandIndex": 0,
-        "image": "distractors/Bleistift.jpg"
+        "image": "distractors/Arm.jpg"
       },
       {
-        "word": "Reis",
+        "word": "Bahn",
         "band": "A1",
         "bandIndex": 0,
-        "image": "Reis.jpg"
+        "image": "distractors/Bahn.jpg"
       },
       {
-        "word": "Katze",
+        "word": "Automat",
         "band": "A1",
         "bandIndex": 0,
-        "image": "distractors/Katze.jpg"
+        "image": "distractors/Automat.jpg"
       }
     ]
   },
@@ -1300,10 +1300,10 @@
     },
     "distractors": [
       {
-        "word": "Computer",
+        "word": "Kanne",
         "band": "A1",
         "bandIndex": 0,
-        "image": "distractors/Computer.jpg"
+        "image": "distractors/Kanne.jpg"
       },
       {
         "word": "Straße",
@@ -1456,10 +1456,10 @@
         "image": "distractors/Brötchen.jpg"
       },
       {
-        "word": "Brot",
+        "word": "Zug",
         "band": "A1",
         "bandIndex": 0,
-        "image": "distractors/Brot.jpg"
+        "image": "distractors/Zug.jpg"
       },
       {
         "word": "Karte",
@@ -1570,10 +1570,10 @@
     },
     "distractors": [
       {
-        "word": "Kind",
+        "word": "Taschenlampe",
         "band": "A1",
         "bandIndex": 0,
-        "image": "Kind.jpg"
+        "image": "distractors/Taschenlampe.jpg"
       },
       {
         "word": "Autobahn",
@@ -1582,10 +1582,10 @@
         "image": "distractors/Autobahn.jpg"
       },
       {
-        "word": "Wurst",
+        "word": "Suppe",
         "band": "A1+",
         "bandIndex": 1,
-        "image": "distractors/Wurst.jpg"
+        "image": "distractors/Suppe.jpg"
       }
     ]
   },
@@ -1762,10 +1762,10 @@
         "image": "distractors/Bluse.jpg"
       },
       {
-        "word": "Joghurt",
+        "word": "Wiese",
         "band": "A2",
         "bandIndex": 2,
-        "image": "distractors/Joghurt.jpg"
+        "image": "distractors/Wiese.jpg"
       }
     ]
   },
@@ -1816,10 +1816,10 @@
         "image": "distractors/Lunge.jpg"
       },
       {
-        "word": "Kreuz",
+        "word": "Wandhaken",
         "band": "B1",
         "bandIndex": 4,
-        "image": "distractors/Kreuz.jpg"
+        "image": "distractors/Wandhaken.jpg"
       },
       {
         "word": "Zunge",
@@ -1936,10 +1936,10 @@
         "image": "distractors/Ufer.jpg"
       },
       {
-        "word": "Suppe",
+        "word": "Denkmal",
         "band": "B1",
         "bandIndex": 4,
-        "image": "distractors/Suppe.jpg"
+        "image": "distractors/Denkmal.jpg"
       },
       {
         "word": "Spritze",
@@ -1966,10 +1966,10 @@
         "image": "distractors/Kunst.jpg"
       },
       {
-        "word": "Pullover",
+        "word": "Holz",
         "band": "B1",
         "bandIndex": 4,
-        "image": "distractors/Pullover.jpg"
+        "image": "distractors/Holz.jpg"
       },
       {
         "word": "Werkstatt",
@@ -2392,10 +2392,10 @@
         "image": "distractors/Motorrad.jpg"
       },
       {
-        "word": "Gehsteig",
+        "word": "Klebeband",
         "band": "B1",
         "bandIndex": 4,
-        "image": "Gehsteig.jpg"
+        "image": "distractors/Klebeband.jpg"
       }
     ]
   },
@@ -2692,10 +2692,10 @@
         "image": "distractors/Stau.jpg"
       },
       {
-        "word": "Gehsteig",
+        "word": "Stuhl",
         "band": "B1",
         "bandIndex": 4,
-        "image": "Gehsteig.jpg"
+        "image": "distractors/Stuhl.jpg"
       }
     ]
   },
@@ -4192,10 +4192,10 @@
         "image": "distractors/Lunge.jpg"
       },
       {
-        "word": "Zunge",
+        "word": "Wind",
         "band": "B2",
         "bandIndex": 6,
-        "image": "distractors/Zunge.jpg"
+        "image": "distractors/Wind.jpg"
       }
     ]
   },
@@ -4252,10 +4252,10 @@
         "image": "distractors/Rohrzange.jpg"
       },
       {
-        "word": "Klebeband",
+        "word": "Vorhangstange",
         "band": "C1",
         "bandIndex": 7,
-        "image": "distractors/Klebeband.jpg"
+        "image": "distractors/Vorhangstange.jpg"
       }
     ]
   },
@@ -4420,16 +4420,16 @@
     },
     "distractors": [
       {
-        "word": "Klammer",
+        "word": "Webstuhl",
         "band": "C2",
         "bandIndex": 8,
-        "image": "distractors/Klammer.jpg"
+        "image": "distractors/Webstuhl.jpg"
       },
       {
-        "word": "Patrone",
+        "word": "Kante",
         "band": "C2",
         "bandIndex": 8,
-        "image": "distractors/Patrone.jpg"
+        "image": "distractors/Kante.jpg"
       },
       {
         "word": "Stacheldraht",
@@ -4492,10 +4492,10 @@
         "image": "distractors/Balustrade.jpg"
       },
       {
-        "word": "Eisscholle",
+        "word": "Spitzer",
         "band": "C1",
         "bandIndex": 7,
-        "image": "distractors/Eisscholle.jpg"
+        "image": "distractors/Spitzer.jpg"
       }
     ]
   },
@@ -4942,10 +4942,10 @@
         "image": "distractors/Thermometer.jpg"
       },
       {
-        "word": "Keim",
+        "word": "Sumpf",
         "band": "C2",
         "bandIndex": 8,
-        "image": "distractors/Keim.jpg"
+        "image": "distractors/Sumpf.jpg"
       }
     ]
   },
@@ -4972,10 +4972,10 @@
         "image": "distractors/Gewehr.jpg"
       },
       {
-        "word": "Jäger",
+        "word": "Stempel",
         "band": "B2",
         "bandIndex": 6,
-        "image": "distractors/Jäger.jpg"
+        "image": "distractors/Stempel.jpg"
       }
     ]
   },
@@ -5230,10 +5230,10 @@
     },
     "distractors": [
       {
-        "word": "Gewölbe",
+        "word": "Untersetzer",
         "band": "C1",
         "bandIndex": 7,
-        "image": "distractors/Gewölbe.jpg"
+        "image": "distractors/Untersetzer.jpg"
       },
       {
         "word": "Thermometer",
@@ -5362,10 +5362,10 @@
         "image": "distractors/Giebel.jpg"
       },
       {
-        "word": "Gletscher",
+        "word": "Zottel",
         "band": "C1",
         "bandIndex": 7,
-        "image": "distractors/Gletscher.jpg"
+        "image": "distractors/Zottel.jpg"
       }
     ]
   },
