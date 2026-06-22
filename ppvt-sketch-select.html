@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Select items to redraw as sketches</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, sans-serif; background: #f0ede8; color: #222; }
+
+  header { background: #fff; border-bottom: 1px solid #ddd; padding: 1rem 1.5rem; display: flex; align-items: center; gap: 1rem; position: sticky; top: 0; z-index: 10; }
+  header h1 { font-size: 1.1rem; font-weight: 600; }
+  #count { font-size: 0.85rem; color: #888; }
+  #search { padding: 0.4rem 0.8rem; border: 1px solid #ccc; border-radius: 6px; font-size: 0.9rem; width: 180px; }
+  #export-btn { margin-left: auto; background: #b66a3c; color: #fff; border: none; padding: 0.5rem 1.2rem; border-radius: 6px; font-size: 0.9rem; font-weight: 600; cursor: pointer; }
+  #export-btn:hover { background: #9a5530; }
+  .band-filter { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+  .band-btn { padding: 0.25rem 0.6rem; border: 1px solid #ccc; border-radius: 4px; background: #fff; font-size: 0.8rem; cursor: pointer; }
+  .band-btn.active { background: #b66a3c; color: #fff; border-color: #b66a3c; }
+
+  .grid { padding: 1.5rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 12px; }
+
+  .item { background: #fff; border-radius: 10px; overflow: hidden; cursor: pointer; border: 3px solid transparent; transition: border-color 0.15s; position: relative; }
+  .item:hover { border-color: #ccc; }
+  .item.selected { border-color: #b66a3c; }
+  .item img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }
+  .item-label { padding: 4px 6px; font-size: 0.75rem; text-align: center; color: #555; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .item-band { position: absolute; top: 4px; left: 4px; background: rgba(0,0,0,0.45); color: #fff; font-size: 0.6rem; font-weight: 600; padding: 1px 5px; border-radius: 3px; }
+  .item.selected .check { display: flex; }
+  .check { display: none; position: absolute; top: 4px; right: 4px; width: 22px; height: 22px; background: #b66a3c; border-radius: 50%; align-items: center; justify-content: center; color: #fff; font-size: 13px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Select items to redraw</h1>
+  <span id="count">0 selected</span>
+  <input type="text" id="search" placeholder="Filter by word…"/>
+  <div class="band-filter" id="band-filter"></div>
+  <button id="export-btn" onclick="exportList()">Export list</button>
+</header>
+
+<div class="grid" id="grid"></div>
+
+<script>
+const IMAGE_BASE = 'projects/ppvt-test/images/';
+let sets = [];
+let selected = new Set();
+let activeBand = 'all';
+
+async function init() {
+  const res = await fetch('ppvt-review-data.json');
+  sets = await res.json();
+  buildBandFilter();
+  renderGrid();
+}
+
+function buildBandFilter() {
+  const bands = ['all', ...new Set(sets.map(s => s.target.band))];
+  const container = document.getElementById('band-filter');
+  bands.forEach(b => {
+    const btn = document.createElement('button');
+    btn.className = 'band-btn' + (b === 'all' ? ' active' : '');
+    btn.textContent = b === 'all' ? 'All' : b;
+    btn.onclick = () => {
+      activeBand = b;
+      document.querySelectorAll('.band-btn').forEach(el => el.classList.remove('active'));
+      btn.classList.add('active');
+      renderGrid();
+    };
+    container.appendChild(btn);
+  });
+}
+
+function renderGrid(filter = '') {
+  const grid = document.getElementById('grid');
+  const lower = filter.toLowerCase();
+  grid.innerHTML = '';
+  sets.forEach(s => {
+    const t = s.target;
+    if (activeBand !== 'all' && t.band !== activeBand) return;
+    if (lower && !t.word.toLowerCase().includes(lower)) return;
+
+    const div = document.createElement('div');
+    div.className = 'item' + (selected.has(t.word) ? ' selected' : '');
+    div.innerHTML = `
+      <span class="item-band">${t.band}</span>
+      <span class="check">✓</span>
+      <img src="${IMAGE_BASE}${encodeURIComponent(t.image)}" loading="lazy" alt="${t.word}"/>
+      <div class="item-label">${t.word}</div>
+    `;
+    div.onclick = () => {
+      if (selected.has(t.word)) selected.delete(t.word);
+      else selected.add(t.word);
+      div.classList.toggle('selected');
+      updateCount();
+    };
+    grid.appendChild(div);
+  });
+}
+
+function updateCount() {
+  document.getElementById('count').textContent = `${selected.size} selected`;
+}
+
+function exportList() {
+  const words = [...selected].sort();
+  const text = words.join('\n');
+  const blob = new Blob([text], { type: 'text/plain' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'items_to_redraw.txt';
+  a.click();
+}
+
+document.getElementById('search').addEventListener('input', e => renderGrid(e.target.value));
+init();
+</script>
+</body>
+</html>
