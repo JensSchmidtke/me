@@ -2,11 +2,9 @@
 # It is a separate Netlify site; a 200 rewrite proxies it so the browser stays
 # on jensschmidtke.de, which is what lets it register a service worker and
 # install to the home screen.
-
-[[redirects]]
-  from = "/gymapp"
-  to = "/gymapp/"
-  status = 301
+#
+# No trailing-slash rule here on purpose: Netlify already treats /gymapp and
+# /gymapp/ as the same path, so an explicit one redirects to itself forever.
 
 [[redirects]]
   from = "/gymapp/*"
