@@ -1,1 +1,15 @@
+# Serve the gym logger at /gymapp without linking it from the site.
+# It is a separate Netlify site; a 200 rewrite proxies it so the browser stays
+# on jensschmidtke.de, which is what lets it register a service worker and
+# install to the home screen.
 
+[[redirects]]
+  from = "/gymapp"
+  to = "/gymapp/"
+  status = 301
+
+[[redirects]]
+  from = "/gymapp/*"
+  to = "https://venerable-twilight-463a2f.netlify.app/:splat"
+  status = 200
+  force = true
