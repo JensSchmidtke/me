@@ -11,3 +11,40 @@
   to = "https://venerable-twilight-463a2f.netlify.app/:splat"
   status = 200
   force = true
+
+# The Deutschtest and the vocab trainer moved to other domains. Real 301s instead
+# of the meta-refresh stub pages. force = true because those stub index.html files
+# still exist at these paths and would otherwise win over the rules.
+# A link with ?lang=xx keeps the language; without it the visitor gets the landing page.
+
+[[redirects]]
+  from = "/test"
+  query = {lang = ":lang"}
+  to = "https://deutschpegel.de/test/?lang=:lang"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/test"
+  to = "https://deutschpegel.de/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/projects/ppvt-test"
+  query = {lang = ":lang"}
+  to = "https://deutschpegel.de/test/?lang=:lang"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/projects/ppvt-test"
+  to = "https://deutschpegel.de/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/projects/vocab-app"
+  to = "https://deutschmitjens.de/projects/vocab-app/"
+  status = 301
+  force = true
