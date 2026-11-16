@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simulating Class Activities | Jens Schmidtke</title>
+    <meta name="description" content="Information gap activities for the language classroom, checked by computer simulation: can everyone finish, and how many interactions does it take?" />
+    <link rel="stylesheet" href="../../styles.css" />
+    <!-- Anonymous, cookie-free visit counting (GoatCounter). The host is prefixed to every path so this
+           site stays separate from deutschmitjens.de in the shared dashboard. -->
+    <script>window.goatcounter = { path: function (p) { return location.host.replace(/^www\./, "") + p; } };</script>
+    <script data-goatcounter="https://herbertfeuerschmitt.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+    <style>
+      .sim h1 { font-family: "Fraunces", serif; margin-bottom: 0.8rem; }
+      .sim .lead { max-width: 72ch; margin-bottom: 2rem; }
+      .acc-list { display: grid; gap: 1rem; max-width: 860px; }
+      .acc { background: var(--card); border: 1px solid var(--line); border-radius: 14px; box-shadow: 0 6px 18px var(--shadow); overflow: hidden; }
+      .acc h3 { margin: 0; }
+      .acc-head { display: flex; align-items: center; gap: 1rem; width: 100%; padding: 0.8rem 1rem; background: none; border: 0; cursor: pointer; text-align: left; font: inherit; color: inherit; }
+      .acc-head:hover { background: var(--bg-alt); }
+      .acc-head:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+      .acc-thumb { width: 96px; height: 60px; object-fit: cover; border-radius: 8px; flex: none; border: 1px solid var(--line); }
+      .acc-text { display: grid; gap: 0.2rem; flex: 1; min-width: 0; }
+      .acc-title { font-family: "Fraunces", serif; font-size: 1.1rem; font-weight: 600; }
+      .acc-teaser { font-size: 0.9rem; color: var(--muted); }
+      .acc-icon { width: 12px; height: 12px; border-right: 2px solid var(--accent-dark); border-bottom: 2px solid var(--accent-dark); transform: rotate(45deg); transition: transform 0.2s; flex: none; margin-right: 0.3rem; }
+      .acc-head[aria-expanded="true"] .acc-icon { transform: rotate(-135deg); }
+      .acc-head[aria-expanded="true"] .acc-thumb { display: none; }
+      .acc-panel { padding: 0.2rem 1.2rem 1.2rem; }
+      .acc-panel p { max-width: 72ch; margin: 0 0 0.8rem; }
+      .acc-imgs { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1rem; align-items: start; margin: 0.4rem 0 1rem; max-width: 720px; }
+      .acc-imgs img { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
+      .acc-thumb { object-position: top; }
+      .acc-img { display: block; width: 100%; max-width: 640px; border-radius: 10px; border: 1px solid var(--line); margin: 0.4rem 0 1rem; }
+      @media (max-width: 560px) { .acc-thumb { width: 64px; height: 40px; } }
+      @media (prefers-reduced-motion: reduce) { .acc-icon { transition: none; } }
+    </style>
+  </head>
+  <body class="project-page">
+    <div class="bg"></div>
+    <header class="site-header">
+      <div class="container">
+        <div class="brand">
+          <div class="monogram monogram-photo">
+            <img src="../../assets/IMG_6203.PNG" alt="Portrait of Jens Schmidtke" />
+          </div>
+          <div class="brand-text">
+            <div class="name">Jens Schmidtke, Ph.D.</div>
+            <div class="role">Data Analyst • Research Methodology • Language Assessment and Teaching</div>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="../../index.html#about">About</a>
+          <a href="../../index.html#work">Projects</a>
+          <a href="../../index.html#teaching">Teaching</a>
+          <a href="../../index.html#tabs">Research</a>
+          <a href="../../index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section sim">
+        <div class="container">
+          <h1>Simulating information gap activities</h1>
+          <p class="lead">Information gap activities are a popular kind of class activity because they put students into semi-authentic communicative situations: they have to solve a task that they might also face outside the classroom. Information gap activities are often done in pairs, but it is more fun, and gives more speaking practice, if the information is distributed among the whole class. Students then talk to many classmates, and there is a competitive element: everyone wants to finish first. For the teacher this creates a challenge. Every student gets a different task card, so the activity only works if everyone can find all the information they need from their classmates; otherwise someone is stuck. Trying this out in class costs lesson time, and class size changes from day to day. Instead, the activity can be simulated on the computer: virtual students play it thousands of times for different class sizes. The simulation shows whether everyone can finish and how many interactions are needed, on average and in a bad case.</p>
+          <div class="acc-list">
+          <article class="acc" id="wegspiel">
+            <h3>
+              <button class="acc-head" type="button" aria-expanded="false" aria-controls="panel-wegspiel" id="head-wegspiel">
+                <img class="acc-thumb" src="img/wegspiel_map.png" alt="" width="96" height="60" loading="lazy" />
+                <span class="acc-text"><span class="acc-title">1. Giving directions</span><span class="acc-teaser">Couriers ask classmates for directions.</span></span>
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="panel-wegspiel" role="region" aria-labelledby="head-wegspiel" hidden>
+              <img class="acc-img" src="img/wegspiel_map.png" alt="Street map with some houses named and others blank" loading="lazy" />
+              <p>Everyone is a new courier at Blitzbote, a bicycle delivery service, on their first day. Each courier has four packages to deliver in a fixed order, for example from the station to the theatre, then from the theatre to the museum. But the internet is down, so the couriers cannot use a navigation app and have to ask people in the street. Each courier has a printed street map, but only six houses carry their names; the other houses are blank, and the courier writes in the name once they have found the place.</p><p>To find a place, students ask a classmate: “How do I get from the station to the theatre?” Only someone whose map shows both places can answer, using only left, right and straight on: “Go left, then straight on, then right.” Someone who doesn’t have both places says “I don’t know, I’m sorry.” Because each package starts where the last one ended, the steps have to be asked in order. Information passes only by speaking, so the cards stay hidden. The first courier to deliver all four packages wins.</p>
+              <p><strong>Language goal:</strong> asking for and giving directions, places in the city</p>
+              <p><strong>What the simulation checks.</strong> The game needs at least 5 players to work. With fewer, there are not enough different maps to cover every step of every route. For each additional player (6, 7, and so forth), the simulation checks again whether a solution exists: every step of every route must be answerable by at least one other player, so that no courier gets stuck. It also counts how many players can answer each step, because too many helpers make the task too easy and too fast. A second check walks every route on the map to make sure the directions lead to the right place. Finally, the simulation estimates how long it takes until everyone has delivered all four packages, based on assumed durations for asking and answering, not on measurements.</p>
+            </div>
+          </article>
+          <article class="acc" id="markt">
+            <h3>
+              <button class="acc-head" type="button" aria-expanded="false" aria-controls="panel-markt" id="head-markt">
+                <img class="acc-thumb" src="img/markt_task.png" alt="" width="96" height="60" loading="lazy" />
+                <span class="acc-text"><span class="acc-title">2. Market game</span><span class="acc-teaser">Cooks buy ingredients from vendors, some products run out.</span></span>
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="panel-markt" role="region" aria-labelledby="head-markt" hidden>
+              <div class="acc-imgs">
+                <img src="img/markt_task.png" alt="Cook card with three recipes shown as pictures of ingredients and boxes for the amounts" loading="lazy" />
+                <img src="img/markt_stand.png" alt="Market stall card: four products, three common and one with a limited stock" loading="lazy" />
+              </div>
+              <p>It is the day of the town’s cooking contest. Some participants are cooks, and the others are vendors at the market. Each cook has three recipe cards, for example fruit salad, tomato soup and smoothie. The ingredients have to come from the market, where the vendors sit at their stalls. Nobody knows what each stall sells, so the cooks walk from stall to stall and ask: “Do you have mangos?” Common products such as potatoes, apples and bananas never run out, but at the end of the season some products (kiwis, mangos, melons, tomatoes and strawberries) are in short supply. Once they are sold out, they are gone. The recipes with few ingredients are the ones that use these rare products: they can be finished quickly, but they may also never be finished if a product runs out. The recipes with many ingredients use only common products, so they take longer but can always be finished.</p><p>The rules are simple: only one product per visit, in any quantity, then go to another stall. Vendors stay seated and keep their stock cards hidden. The boxes on the cards are for counting: on a stall card, the boxes show the vendor’s stock, and the vendor ticks off one box for every piece sold (products without boxes never run out). On a cook’s card, the boxes show how many pieces of each ingredient the recipe needs, and the cook ticks off a box for every piece bought. A cook who has all the ingredients for a recipe can start the next one. The cook who has cooked the most dishes when time is up wins.</p><p>The catch is deciding when to give up on a recipe. A “no” only tells a cook something about one stall, because most products are sold at two or three stalls. Cooks can switch to another recipe at any time and keep what they have bought. But a cook who keeps asking for a product that is sold out everywhere wastes the whole round, while a cook who switches too early may give up a recipe that was still possible. The vendors’ answers help: “No, I’m out” means the product was here and is gone, while a plain “no, I’m sorry” means this stall does not sell it. Cooks have to decide how many “sold out” answers are enough before they switch.</p>
+              <p><strong>Language goal:</strong> shopping at a market, fruit and vegetables, quantities and plural forms</p>
+              <p><strong>What the simulation checks.</strong> Whether the task is solvable: the stock of each rare product is compared with the demand if everybody cooked all recipes, which shows that no class can cook everything and that scarcity is part of the design. Cooks are simulated for different class sizes and numbers of visits. Telling the cooks where products are (a list on the board) instead of letting them ask at random changes how many dishes each cook can make and how many cooks end up without any dish. These results come from a simple model with cooperative students and are meant for comparing designs, not as forecasts.</p>
+            
+              <div class="msim" id="msim">
+                <h4>Try the simulation</h4>
+                <p>Three cooks, each with a different task card (K02, K05 and K11 from the real set), shop at the market. Set how much of each product is available, then watch who finishes which recipes. Each step is one cook visiting one stall and asking for products there.</p>
+
+                <div class="ms-box">
+                  <h5>1. Choose a scenario</h5>
+                  <div class="ms-scen" role="radiogroup" aria-label="Scenario">
+                    <label class="ms-sc"><input type="radio" name="ms-scen" value="plenty" /><span><b>Plenty</b><small>Nothing runs out.</small></span></label>
+                    <label class="ms-sc"><input type="radio" name="ms-scen" value="some" /><span><b>Some limits</b><small>Kiwis, mangos, melons, tomatoes and strawberries are enough for two recipes.</small></span></label>
+                    <label class="ms-sc"><input type="radio" name="ms-scen" value="limited" /><span><b>Limited</b><small>Kiwis and mangos are enough for one recipe only.</small></span></label>
+                    <label class="ms-sc"><input type="radio" name="ms-scen" value="scarce" checked /><span><b>Scarce</b><small>Kiwis, mangos, melons, tomatoes and strawberries are each enough for one recipe only.</small></span></label>
+                  </div>
+                  <p class="ms-best" id="ms-best"></p>
+                  <div class="ms-supply" id="ms-supply"></div>
+                  <p class="ms-note">The number shows what is left at the market. Products without a limit never run out.</p>
+                </div>
+
+                <div class="ms-box">
+                  <h5>2. The cooks</h5>
+                  <div class="ms-cooks" id="ms-cooks"></div>
+                </div>
+
+                <div class="ms-box">
+                  <h5>3. Run it</h5>
+                  <div class="ms-ctl">
+                    <label for="ms-visits">Visits per cook <output id="ms-visits-out"></output></label>
+                    <input id="ms-visits" type="range" min="4" max="40" step="1" value="15" />
+                  </div>
+                  <div class="ms-ctl">
+                    <label for="ms-giveup">A cook gives up a recipe after this many “sold out” answers</label>
+                    <select id="ms-giveup"><option value="1" selected>1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="99">never</option></select>
+                  </div>
+                  <div class="ms-ctl">
+                    <label for="ms-memory">How well the cooks remember what each stall sells</label>
+                    <select id="ms-memory"><option value="none">None</option><option value="some" selected>Some</option><option value="good">Good</option></select>
+                  </div>
+                  <div class="ms-ctl">
+                    <label style="font-weight:400;cursor:pointer;justify-content:flex-start;align-items:flex-start;gap:0.5rem"><input id="ms-second" type="checkbox" checked /> <span>A cook keeps asking at the same stall as long as the answer is “no”</span></label>
+                  </div>
+                  <div class="ms-ctl">
+                    <label for="ms-speed">Speed <output id="ms-speed-out"></output></label>
+                    <input id="ms-speed" type="range" min="1" max="5" step="1" value="3" />
+                  </div>
+                  <div class="ms-btns">
+                    <button class="button small" type="button" id="ms-play">Play</button>
+                    <button class="button small ghost" type="button" id="ms-step">One step</button>
+                    <button class="button small ghost" type="button" id="ms-reset">Reset</button>
+                  </div>
+                  <ol class="ms-log" id="ms-log" role="log" aria-live="off" aria-label="What happens at the market"></ol>
+                  <p class="ms-result" id="ms-result"></p>
+                </div>
+
+                <div class="ms-box">
+                  <h5>4. Run it 1,000 times</h5>
+                  <p class="ms-note">With the supply and settings above, the computer lets the three cooks shop 1,000 times, in a different random order each time.</p>
+                  <div class="ms-btns"><button class="button small" type="button" id="ms-batch">Run 1,000 times</button></div>
+                  <div id="ms-batch-out"></div>
+                </div>
+                <p class="ms-note">Model: every product has one common pool, a cook asks for one product at a time and does not know what a stall sells. After a “no” the cook keeps asking at the same stall for other products (switch this off above); after a “yes” the visit is over, because only one product can be bought per visit. The stalls are the eight stalls of the real game. Memory is how likely a cook is to remember an answer: none (never), some (half of the answers), good (every answer). A cook who remembers goes to a stall that sells the product and does not ask again where the answer was “no”. Cooks always work on the recipe that is missing the fewest products.</p>
+              </div>
+              <style>
+                .msim { margin-top: 1.6rem; padding-top: 1.2rem; border-top: 1px solid var(--line); }
+                .msim h4 { font-family: "Fraunces", serif; font-size: 1.25rem; margin: 0 0 0.5rem; }
+                .msim h5 { font-family: "Fraunces", serif; font-size: 1rem; margin: 0 0 0.6rem; }
+                .ms-box { background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 0.9rem 1rem; margin: 0.9rem 0; }
+                .ms-supply { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 0.5rem; }
+                .ms-prod { display: grid; grid-template-columns: 40px 1fr; gap: 0.1rem 0.5rem; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 0.35rem 0.5rem; }
+                .ms-prod img { width: 40px; height: 40px; border-radius: 6px; grid-row: span 2; object-fit: cover; }
+                .ms-prod .nm { font-size: 0.85rem; font-weight: 600; display: flex; justify-content: space-between; gap: 0.3rem; }
+                .ms-prod .left { font-variant-numeric: tabular-nums; color: var(--accent-dark); }
+                .ms-prod .left.out { color: #a23b2a; font-weight: 700; }
+                .ms-scen { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem; }
+                .ms-sc { display: flex; gap: 0.5rem; align-items: flex-start; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 0.5rem 0.6rem; cursor: pointer; font-size: 0.85rem; }
+                .ms-sc:has(input:checked) { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+                .ms-sc small { display: block; color: var(--muted); margin-top: 0.15rem; }
+                .ms-sc input { accent-color: var(--accent); margin-top: 0.2rem; }
+                .ms-best { font-weight: 600; margin: 0.7rem 0 0.5rem; }
+                .ms-prod .lv { font-size: 0.75rem; color: var(--muted); }
+                .ms-ctl select { font: inherit; font-size: 0.85rem; padding: 0.15rem 0.3rem; border: 1px solid var(--line); border-radius: 6px; background: #fff; max-width: 100%; }
+                .ms-cooks { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 0.7rem; }
+                .ms-cook { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 0.6rem 0.7rem; }
+                .ms-cook.active { box-shadow: 0 0 0 2px var(--accent); }
+                .ms-cook h6 { margin: 0 0 0.4rem; font-size: 0.95rem; display: flex; justify-content: space-between; }
+                .ms-rec { border-top: 1px solid var(--line); padding: 0.4rem 0; font-size: 0.83rem; }
+                .ms-rec .rn { display: flex; justify-content: space-between; font-weight: 600; margin-bottom: 0.2rem; }
+                .ms-rec.done .rn { color: #3b7a3b; }
+                .ms-rec.gone .rn { color: #a23b2a; text-decoration: line-through; }
+                .chip { display: inline-block; font-size: 0.74rem; padding: 0.05rem 0.4rem; margin: 0 0.2rem 0.2rem 0; border-radius: 999px; background: var(--bg-alt); border: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+                .chip.ok { background: #dcefd8; border-color: #9cc596; }
+                .ms-ctl { margin-bottom: 0.7rem; }
+                .ms-ctl label { display: flex; justify-content: space-between; gap: 0.5rem; font-size: 0.88rem; font-weight: 500; margin-bottom: 0.2rem; }
+                .ms-ctl input[type="range"] { width: 100%; accent-color: var(--accent); }
+                .ms-btns { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.6rem 0; }
+                .ms-btns .button { cursor: pointer; font-family: inherit; }
+                .ms-log { list-style: none; margin: 0.5rem 0 0; padding: 0; font-size: 0.83rem; max-height: 14rem; overflow: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--card); }
+                .ms-log li { padding: 0.25rem 0.6rem; border-bottom: 1px solid var(--line); }
+                .ms-log li:last-child { border-bottom: 0; }
+                .ms-log li.good { color: #2f6b2f; } .ms-log li.bad { color: #a23b2a; }
+                .ms-result { font-weight: 600; margin: 0.7rem 0 0; }
+                .ms-note { font-size: 0.82rem; color: var(--muted); }
+                #ms-batch-out table { width: 100%; border-collapse: collapse; font-size: 0.88rem; margin-top: 0.6rem; font-variant-numeric: tabular-nums; }
+                #ms-batch-out th { text-align: left; background: var(--bg-alt); font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); padding: 0.4rem; }
+                #ms-batch-out td { padding: 0.3rem 0.4rem; border-top: 1px solid var(--line); }
+                #ms-batch-out td.num, #ms-batch-out th.num { text-align: right; }
+              </style>
+              <script>
+                (function () {
+                  "use strict";
+                  var $ = function (id) { return document.getElementById(id); };
+                  var PRODUCTS = [
+                    { id: "kiwi", name: "Kiwis", stalls: [2, 5], level: "scarce" },
+                    { id: "mango", name: "Mangos", stalls: [1, 7], level: "scarce" },
+                    { id: "melon", name: "Melons", stalls: [5, 6], level: "scarce" },
+                    { id: "tomato", name: "Tomatoes", stalls: [3, 8], level: "scarce" },
+                    { id: "strawberry", name: "Strawberries", stalls: [4, 8], level: "medium" },
+                    { id: "potato", name: "Potatoes", stalls: [1, 2], level: "unlimited" },
+                    { id: "onion", name: "Onions", stalls: [1, 3, 4], level: "unlimited" },
+                    { id: "carrot", name: "Carrots", stalls: [1, 6], level: "unlimited" },
+                    { id: "apple", name: "Apples", stalls: [3, 5, 6], level: "unlimited" },
+                    { id: "banana", name: "Bananas", stalls: [2, 5, 7], level: "unlimited" },
+                    { id: "orange", name: "Oranges", stalls: [4, 6, 7], level: "unlimited" },
+                    { id: "pear", name: "Pears", stalls: [2, 3], level: "unlimited" },
+                    { id: "plum", name: "Plums", stalls: [7, 8], level: "unlimited" },
+                    { id: "egg", name: "Eggs", stalls: [4, 8], level: "unlimited" }
+                  ];
+                  var P = {}; PRODUCTS.forEach(function (p) { P[p.id] = p; });
+                  var R = {
+                    sk: { name: "Strawberry-kiwi salad", ing: { strawberry: 2, kiwi: 2, mango: 1 } },
+                    sm: { name: "Smoothie", ing: { strawberry: 2, banana: 2, orange: 2, apple: 2 } },
+                    fs: { name: "Fruit salad", ing: { apple: 2, banana: 2, orange: 2, pear: 2, plum: 4 } },
+                    ex: { name: "Exotic fruit salad", ing: { mango: 1, kiwi: 2, melon: 1 } },
+                    ts: { name: "Tomato soup", ing: { tomato: 2, potato: 3, onion: 2, carrot: 2 } },
+                    ps: { name: "Potato salad", ing: { potato: 6, onion: 2, egg: 3, carrot: 2, apple: 1 } }
+                  };
+                  var COOKS = [
+                    { id: "K02", recipes: ["ex", "ts", "fs"] },
+                    { id: "K05", recipes: ["ex", "sm", "fs"] },
+                    { id: "K11", recipes: ["sk", "ts", "fs"] }
+                  ];
+                  var oneRecipe = {};
+                  COOKS.forEach(function (c) { c.recipes.forEach(function (k) { Object.keys(R[k].ing).forEach(function (p) { oneRecipe[p] = Math.max(oneRecipe[p] || 0, R[k].ing[p]); }); }); });
+
+                  var level = {}; PRODUCTS.forEach(function (p) { level[p.id] = p.level; });  // overwritten by the chosen scenario
+                  var S = null, timer = null, speeds = [1400, 900, 500, 250, 90];
+
+                  function rnd(n) { return Math.floor(Math.random() * n); }
+                  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = rnd(i + 1), t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+                  function stockFor(id) { return level[id] === "unlimited" ? Infinity : oneRecipe[id] * (level[id] === "medium" ? 2 : 1); }
+
+                  function fresh() {
+                    var st = { stock: {}, cooks: [], queue: [], visits: 0, finished: false, log: [] };
+                    PRODUCTS.forEach(function (p) { st.stock[p.id] = stockFor(p.id); });
+                    COOKS.forEach(function (c) {
+                      st.cooks.push({ id: c.id, know: {}, inv: {}, visits: 0, recs: c.recipes.map(function (k) { return { key: k, state: "waiting", sold: 0 }; }), current: null });
+                    });
+                    return st;
+                  }
+                  function active(c, limit) {
+                    return c.visits < limit && c.recs.some(function (r) { return r.state === "waiting"; });
+                  }
+                  function missing(c, key) {
+                    var m = [];
+                    Object.keys(R[key].ing).forEach(function (p) { if ((c.inv[p] || 0) < R[key].ing[p]) m.push(p); });
+                    return m;
+                  }
+                  function chooseRecipe(c) {
+                    var best = null, bm = 99;
+                    c.recs.forEach(function (r) {
+                      if (r.state !== "waiting") return;
+                      var n = missing(c, r.key).length;
+                      if (n < bm || (n === bm && rnd(2))) { bm = n; best = r; }
+                    });
+                    return best;
+                  }
+                  function say(st, text, cls) { st.log.unshift({ text: text, cls: cls || "" }); if (st.log.length > 60) st.log.pop(); }
+
+                  function memP() { return { none: 0, some: 0.5, good: 1 }[$("ms-memory").value]; }
+                  function learn(c, stall, pid, kind) { if (Math.random() < memP()) c.know[stall + "|" + pid] = kind; }
+                  function ask(st, c, stall, r, pid) {
+                    var p = P[pid];
+                    var q = c.id + " asks stall " + stall + " for " + p.name.toLowerCase() + " (" + R[r.key].name + "): ";
+                    if (p.stalls.indexOf(stall) < 0) { say(st, q + "“No, I don’t sell that.”"); learn(c, stall, pid, "no"); return "no"; }
+                    if (st.stock[pid] <= 0) {
+                      r.sold++;
+                      var gave = r.sold >= giveUpN();
+                      say(st, q + "“Sold out.”" + (gave ? " " + c.id + " gives up the " + R[r.key].name.toLowerCase() + "." : ""), "bad");
+                      if (gave) r.state = "gaveup";
+                      learn(c, stall, pid, "out");
+                      return "no";
+                    }
+                    var need = R[r.key].ing[pid] - (c.inv[pid] || 0), take = Math.min(need, st.stock[pid]);
+                    c.inv[pid] = (c.inv[pid] || 0) + take;
+                    if (st.stock[pid] !== Infinity) st.stock[pid] -= take;
+                    say(st, q + "“Yes!” buys " + take + ".", "good");
+                    learn(c, stall, pid, "sells");
+                    c.recs.forEach(function (o) {
+                      if (o.state !== "waiting" || missing(c, o.key).length) return;
+                      Object.keys(R[o.key].ing).forEach(function (k) { c.inv[k] -= R[o.key].ing[k]; });
+                      o.state = "done";
+                      say(st, c.id + " cooks the " + R[o.key].name.toLowerCase() + "!", "good");
+                    });
+                    return "yes";
+                  }
+                  function step(st, limit) {
+                    if (st.finished) return false;
+                    if (!st.queue.length) {
+                      var act = st.cooks.filter(function (c) { return active(c, limit); });
+                      if (!act.length) { st.finished = true; return false; }
+                      st.queue = shuffle(act.slice());
+                    }
+                    var c = st.queue.shift();
+                    if (!active(c, limit)) return true;
+                    var r = chooseRecipe(c), miss = missing(c, r.key), pid = miss[rnd(miss.length)];
+                    var good = [], unknown = [];
+                    for (var sn = 1; sn <= 8; sn++) { var kn = c.know[sn + "|" + pid]; if (kn === "sells") good.push(sn); else if (!kn) unknown.push(sn); }
+                    var stall = good.length ? good[rnd(good.length)] : unknown.length ? unknown[rnd(unknown.length)] : 1 + rnd(8);
+                    c.visits++; c.current = r.key;
+                    var res = ask(st, c, stall, r, pid), asked = [pid];
+                    // keep asking at the same stall as long as the answer is "no"
+                    while (res === "no" && secondQ()) {
+                      var r2 = r.state === "waiting" ? r : chooseRecipe(c), opts = [], r3 = null;
+                      if (r2) {
+                        opts = missing(c, r2.key).filter(function (x) { return asked.indexOf(x) < 0; }); r3 = r2;
+                        if (!opts.length) {
+                          c.recs.forEach(function (o) {
+                            if (o.state !== "waiting" || o === r2 || opts.length) return;
+                            var m = missing(c, o.key).filter(function (x) { return asked.indexOf(x) < 0; });
+                            if (m.length) { opts = m; r3 = o; }
+                          });
+                        }
+                      }
+                      if (!r3 || !opts.length) break;
+                      var fine = opts.filter(function (x) { return !c.know[stall + "|" + x] || c.know[stall + "|" + x] === "sells"; });
+                      var sure = fine.filter(function (x) { return c.know[stall + "|" + x] === "sells"; });
+                      if (sure.length) fine = sure;
+                      if (!fine.length) break;
+                      var next = fine[rnd(fine.length)]; asked.push(next);
+                      if (opts.indexOf(next) >= 0 && r3 !== r) r = r3;
+                      res = ask(st, c, stall, r3, next);
+                      r = r3;
+                    }
+                    return true;
+                  }
+
+                  // ---------- drawing ----------
+                  function drawSupply() {
+                    var h = "";
+                    PRODUCTS.forEach(function (p) {
+                      var left = S.stock[p.id], tot = stockFor(p.id), txt = left === Infinity ? "∞" : left + " / " + tot;
+                      var lv = { unlimited: "no limit", medium: "enough for two recipes", scarce: "enough for one recipe" }[level[p.id]];
+                      h += '<div class="ms-prod"><img src="img/products/' + p.id + '.jpg" alt="" /><span class="nm"><span>' + p.name + '</span><span class="left' + (left === 0 ? " out" : "") + '" data-left="' + p.id + '">' + txt + '</span></span><span class="lv">' + lv + "</span></div>";
+                    });
+                    $("ms-supply").innerHTML = h;
+                  }
+                  var SCEN = {
+                    plenty: {},
+                    some: { kiwi: "medium", mango: "medium", melon: "medium", tomato: "medium", strawberry: "medium" },
+                    limited: { kiwi: "scarce", mango: "scarce" },
+                    scarce: { kiwi: "scarce", mango: "scarce", melon: "scarce", tomato: "scarce", strawberry: "scarce" }
+                  };
+                  function bestCase() {
+                    var subs = [[], [0], [1], [2], [0, 1], [0, 2], [1, 2], [0, 1, 2]], best = 0, st = {};
+                    PRODUCTS.forEach(function (p) { st[p.id] = stockFor(p.id); });
+                    subs.forEach(function (a) { subs.forEach(function (b) { subs.forEach(function (c) {
+                      var need = {}, pick = [a, b, c];
+                      pick.forEach(function (sub, ci) { sub.forEach(function (ri) { var ing = R[COOKS[ci].recipes[ri]].ing; Object.keys(ing).forEach(function (p) { need[p] = (need[p] || 0) + ing[p]; }); }); });
+                      if (Object.keys(need).every(function (p) { return need[p] <= st[p]; })) best = Math.max(best, a.length + b.length + c.length);
+                    }); }); });
+                    return best;
+                  }
+                  function applyScenario(key) {
+                    PRODUCTS.forEach(function (p) { level[p.id] = SCEN[key][p.id] || "unlimited"; });
+                    $("ms-best").textContent = "Best case in this scenario: " + bestCase() + " of the 9 recipes can be cooked.";
+                    reset();
+                  }
+                  function updateLeft() {
+                    PRODUCTS.forEach(function (p) {
+                      var el = document.querySelector('[data-left="' + p.id + '"]'); if (!el) return;
+                      var left = S.stock[p.id], tot = stockFor(p.id);
+                      el.textContent = left === Infinity ? "∞" : left + " / " + tot;
+                      el.className = "left" + (left === 0 ? " out" : "");
+                    });
+                  }
+                  function drawCooks() {
+                    var h = "";
+                    S.cooks.forEach(function (c) {
+                      var done = c.recs.filter(function (r) { return r.state === "done"; }).length;
+                      h += '<div class="ms-cook' + (c.recs.some(function (r) { return r.key === c.current && r.state === "waiting"; }) && !S.finished ? " active" : "") + '"><h6><span>Cook ' + c.id + "</span><span>" + done + " of 3 cooked</span></h6>";
+                      c.recs.forEach(function (r) {
+                        h += '<div class="ms-rec ' + (r.state === "done" ? "done" : r.state === "gaveup" ? "gone" : "") + '"><div class="rn"><span>' + R[r.key].name + "</span><span>" +
+                          (r.state === "done" ? "✓ cooked" : r.state === "gaveup" ? "gave up" : "") + "</span></div>";
+                        Object.keys(R[r.key].ing).forEach(function (pid) {
+                          var have = r.state === "done" ? R[r.key].ing[pid] : Math.min(c.inv[pid] || 0, R[r.key].ing[pid]);
+                          h += '<span class="chip' + (have >= R[r.key].ing[pid] ? " ok" : "") + '">' + P[pid].name.toLowerCase() + " " + have + "/" + R[r.key].ing[pid] + "</span>";
+                        });
+                        h += "</div>";
+                      });
+                      h += "</div>";
+                    });
+                    $("ms-cooks").innerHTML = h;
+                  }
+                  function drawLog() {
+                    $("ms-log").innerHTML = S.log.slice(0, 40).map(function (l) { return '<li class="' + l.cls + '">' + l.text + "</li>"; }).join("");
+                  }
+                  function summary() {
+                    var s = S.cooks.map(function (c) { return c.id + " cooked " + c.recs.filter(function (r) { return r.state === "done"; }).length + " of 3"; }).join(", ");
+                    return s;
+                  }
+                  function draw() {
+                    updateLeft(); drawCooks(); drawLog();
+                    $("ms-result").textContent = S.finished ? "Finished: " + summary() + "." : "";
+                  }
+                  function limit() { return +$("ms-visits").value; }
+                  function secondQ() { return $("ms-second").checked; }
+                  function giveUpN() { return +$("ms-giveup").value; }
+                  function stop() { if (timer) { clearInterval(timer); timer = null; } $("ms-play").textContent = (S && S.log.length && !S.finished) ? "Continue" : "Play"; }
+                  function reset() { stop(); S = fresh(); drawSupply(); draw(); $("ms-play").textContent = "Play"; }
+                  function doStep() { var more = step(S, limit()); draw(); if (!more || S.finished) stop(); }
+                  function play() {
+                    if (timer) { stop(); return; }
+                    if (S.finished) reset();
+                    $("ms-play").textContent = "Pause";
+                    timer = setInterval(doStep, speeds[+$("ms-speed").value - 1]);
+                  }
+                  function batch() {
+                    var N = 1000, tot = [0, 0, 0], all3 = [0, 0, 0], win = [0, 0, 0], tie = 0, none = [0, 0, 0];
+                    for (var i = 0; i < N; i++) {
+                      var st = fresh(), guard = 0;
+                      while (!st.finished && guard++ < 5000) step(st, limit());
+                      var d = st.cooks.map(function (c) { return c.recs.filter(function (r) { return r.state === "done"; }).length; });
+                      d.forEach(function (x, k) { tot[k] += x; if (x === 3) all3[k]++; if (x === 0) none[k]++; });
+                      var mx = Math.max.apply(null, d), w = d.filter(function (x) { return x === mx; }).length;
+                      if (w === 1) win[d.indexOf(mx)]++; else tie++;
+                    }
+                    var h = "<table><tr><th>Cook</th><th class=\"num\">Recipes cooked (average, of 3)</th><th class=\"num\">All three</th><th class=\"num\">None</th><th class=\"num\">Wins alone</th></tr>";
+                    COOKS.forEach(function (c, k) {
+                      h += "<tr><td>" + c.id + "</td><td class=\"num\">" + (tot[k] / N).toFixed(2) + "</td><td class=\"num\">" + Math.round(all3[k] / N * 100) + "%</td><td class=\"num\">" + Math.round(none[k] / N * 100) + "%</td><td class=\"num\">" + Math.round(win[k] / N * 100) + "%</td></tr>";
+                    });
+                    h += "</table><p class=\"ms-note\">Ties for the most recipes: " + Math.round(tie / N * 100) + "% of the runs.</p>";
+                    $("ms-batch-out").innerHTML = h;
+                  }
+
+                  $("ms-visits").addEventListener("input", function () { $("ms-visits-out").textContent = this.value; });
+                  $("ms-speed").addEventListener("input", function () {
+                    $("ms-speed-out").textContent = ["very slow", "slow", "medium", "fast", "very fast"][this.value - 1];
+                    if (timer) { clearInterval(timer); timer = setInterval(doStep, speeds[this.value - 1]); }
+                  });
+                  $("ms-giveup").addEventListener("change", reset);
+                  $("ms-second").addEventListener("change", reset);
+                  $("ms-memory").addEventListener("change", reset);
+                  $("ms-visits").addEventListener("change", reset);
+                  $("ms-play").addEventListener("click", play);
+                  $("ms-step").addEventListener("click", function () { stop(); if (S.finished) reset(); doStep(); });
+                  $("ms-reset").addEventListener("click", reset);
+                  $("ms-batch").addEventListener("click", batch);
+                  $("ms-visits-out").textContent = $("ms-visits").value;
+                  $("ms-speed").dispatchEvent(new Event("input"));
+                  document.querySelectorAll("input[name=ms-scen]").forEach(function (r) { r.addEventListener("change", function () { if (r.checked) applyScenario(r.value); }); });
+                  applyScenario("scarce");
+                })();
+              </script>
+</div>
+          </article>
+          <article class="acc" id="borgen">
+            <h3>
+              <button class="acc-head" type="button" aria-expanded="false" aria-controls="panel-borgen" id="head-borgen">
+                <img class="acc-thumb" src="img/borgen.svg" alt="" width="96" height="60" loading="lazy" />
+                <span class="acc-text"><span class="acc-title">3. Borrowing and lending</span><span class="acc-teaser">Hotel guests ask each other for things they forgot.</span></span>
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="panel-borgen" role="region" aria-labelledby="head-borgen" hidden>
+              <img class="acc-img" src="img/borgen.svg" alt="Three things a guest needs, each with a line for the lender's name, and an open suitcase with four spare things" loading="lazy" />
+              <p><strong>The activity. </strong>All students are guests in the same hotel. Everyone forgot to bring a few things but luckily the classmates have what they need, they only need to ask the right person. Every guest needs three things (for example a hair dryer, a towel, a phone charger) and has four spare things that other guests need. Students ask each other: "I need a hair dryer. Do you have a hair dryer?" – If the other student has the item on their list, they cross it out and say “Here you go.” The borrower writes down the name of the lender so they know who to return the item to. Every item can be lent only once. When a student has three names, they sit down and report who has what.</p>
+              <p><strong>Language goal:</strong> asking to borrow things, the verbs “to have” and “to need” with the accusative case</p>
+              <p><strong>What the simulation checks.</strong> For a given class size, every item that somebody needs has to be on the "spare" list of at least two other students present, and there are always at least as many spare items as needed items. A simulated mingle with random partners checks how many interactions are needed on average and if everyone can finish.</p>
+            </div>
+          </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <span>© 2026 Jens Schmidtke</span>
+        <span>Last updated: November 2026</span>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        var heads = document.querySelectorAll(".acc-head");
+        function setOpen(head, open) {
+          head.setAttribute("aria-expanded", open ? "true" : "false");
+          document.getElementById(head.getAttribute("aria-controls")).hidden = !open;
+        }
+        heads.forEach(function (h) {
+          h.addEventListener("click", function () {
+            var open = h.getAttribute("aria-expanded") !== "true";
+            heads.forEach(function (o) { setOpen(o, false); });
+            setOpen(h, open);
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>

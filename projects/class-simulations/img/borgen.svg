@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 440" width="820" height="440">
+  <rect width="820" height="440" rx="14" fill="#fffaf3"/>
+  <!-- left: three things the guest needs, each with a line for the name -->
+  <g stroke="#8a8272" stroke-width="2.5" stroke-linecap="round">
+    <line x1="190" y1="108" x2="410" y2="108"/>
+    <line x1="190" y1="228" x2="410" y2="228"/>
+    <line x1="190" y1="348" x2="410" y2="348"/>
+  </g>
+
+  <!-- HAIR DRYER -->
+  <g transform="translate(22,12) scale(0.86)">
+    <!-- cord -->
+    <path d="M118 96 C118 112 98 112 98 124 C98 134 112 134 112 142" fill="none" stroke="#4f4a3f" stroke-width="4" stroke-linecap="round"/>
+    <!-- handle -->
+    <path d="M92 70 L128 70 L122 112 Q121 120 113 120 L103 120 Q95 120 94 112 Z" fill="#2f3a45"/>
+    <rect x="96" y="82" width="26" height="6" rx="3" fill="#d65a3a"/>
+    <!-- barrel -->
+    <path d="M32 22 L138 14 Q158 14 158 40 Q158 66 138 66 L32 58 Z" fill="#d65a3a"/>
+    <path d="M32 22 L138 14 Q158 14 158 40 L158 40 L32 40 Z" fill="#e8795a"/>
+    <!-- nozzle -->
+    <path d="M6 18 L36 20 L36 60 L6 62 Z" fill="#2f3a45"/>
+    <path d="M10 24 L10 56" stroke="#8d99a5" stroke-width="3"/>
+    <!-- back vent -->
+    <g stroke="#a8381f" stroke-width="4" stroke-linecap="round"><line x1="146" y1="26" x2="146" y2="54"/><line x1="136" y1="26" x2="136" y2="54"/></g>
+    <!-- switch -->
+    <rect x="76" y="22" width="22" height="9" rx="4.5" fill="#fffaf3"/>
+  </g>
+
+  <!-- TOWEL: folded, with stripes and fringe -->
+  <g transform="translate(22,160)">
+    <path d="M6 70 Q70 84 140 66 L140 80 Q70 98 6 84 Z" fill="#d7c8b8"/>
+    <path d="M0 22 Q70 36 138 18 L146 62 Q72 82 6 68 Z" fill="#5b9db8"/>
+    <path d="M0 22 Q70 36 138 18 L146 62 Q72 82 6 68 Z" fill="none" stroke="#3f7d97" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M14 26 L18 70" stroke="#fffaf3" stroke-width="6" fill="none"/>
+    <path d="M28 28 L32 72" stroke="#fffaf3" stroke-width="3" fill="none"/>
+    <path d="M122 24 L130 64" stroke="#fffaf3" stroke-width="6" fill="none"/>
+    <path d="M108 28 L116 68" stroke="#fffaf3" stroke-width="3" fill="none"/>
+    <path d="M0 22 Q70 36 138 18 L138 8 Q70 26 0 12 Z" fill="#8cc1d6"/>
+    <path d="M0 22 Q70 36 138 18 L138 8 Q70 26 0 12 Z" fill="none" stroke="#3f7d97" stroke-width="3" stroke-linejoin="round"/>
+    <g stroke="#3f7d97" stroke-width="3" stroke-linecap="round">
+      <line x1="147" y1="22" x2="158" y2="23"/><line x1="148" y1="32" x2="159" y2="33"/><line x1="148" y1="42" x2="159" y2="43"/><line x1="149" y1="52" x2="160" y2="53"/>
+    </g>
+  </g>
+
+  <!-- TABLET -->
+  <g transform="translate(24,290)">
+    <rect x="0" y="8" width="148" height="100" rx="14" fill="#2f3a45"/>
+    <rect x="12" y="18" width="124" height="80" rx="5" fill="#dff0f8"/>
+    <g>
+      <rect x="20" y="26" width="26" height="22" rx="5" fill="#d65a3a"/>
+      <rect x="53" y="26" width="26" height="22" rx="5" fill="#e8c34a"/>
+      <rect x="86" y="26" width="26" height="22" rx="5" fill="#5b9db8"/>
+      <rect x="20" y="56" width="26" height="22" rx="5" fill="#6aa86a"/>
+      <rect x="53" y="56" width="26" height="22" rx="5" fill="#8a4d2b"/>
+      <rect x="86" y="56" width="26" height="22" rx="5" fill="#7a6fb0"/>
+    </g>
+    <circle cx="6" cy="58" r="2.5" fill="#8d99a5"/>
+    <rect x="40" y="86" width="60" height="5" rx="2.5" fill="#8d99a5" opacity=".0"/>
+  </g>
+
+  <!-- right: open suitcase with four spare things -->
+  <g transform="translate(450,30)">
+    <rect x="30" y="0" width="300" height="150" rx="22" fill="#8a4d2b"/>
+    <rect x="46" y="14" width="268" height="122" rx="14" fill="#d9b48f"/>
+    <rect x="130" y="-18" width="100" height="24" rx="10" fill="none" stroke="#5e341c" stroke-width="9"/>
+    <rect x="46" y="60" width="268" height="12" fill="#b66a3c"/>
+    <path d="M0 175 L360 175 L340 395 Q338 405 328 405 L32 405 Q22 405 20 395 Z" fill="#8a4d2b"/>
+    <path d="M24 192 L336 192 L322 380 L38 380 Z" fill="#efe0cc"/>
+    <rect x="52" y="396" width="26" height="14" rx="3" fill="#d9a441"/>
+    <rect x="282" y="396" width="26" height="14" rx="3" fill="#d9a441"/>
+
+    <!-- LAMP -->
+    <g transform="translate(42,198)">
+      <path d="M22 4 L66 4 L82 50 L6 50 Z" fill="#e8c34a"/>
+      <path d="M22 4 L66 4 L70 16 L18 16 Z" fill="#f3da7a"/>
+      <circle cx="44" cy="52" r="6" fill="#fff3b0"/>
+      <rect x="41" y="52" width="6" height="56" fill="#4f4a3f"/>
+      <path d="M18 116 Q18 106 44 106 Q70 106 70 116 Z" fill="#4f4a3f"/>
+      <line x1="76" y1="50" x2="76" y2="72" stroke="#4f4a3f" stroke-width="2"/><circle cx="76" cy="75" r="3" fill="#4f4a3f"/>
+    </g>
+    <!-- MUG with steam -->
+    <g transform="translate(160,214)">
+      <path d="M22 0 C14 12 30 18 22 30" fill="none" stroke="#b8a98f" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M40 0 C32 12 48 18 40 30" fill="none" stroke="#b8a98f" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M58 0 C50 12 66 18 58 30" fill="none" stroke="#b8a98f" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M8 38 L80 38 L74 98 Q73 108 63 108 L25 108 Q15 108 14 98 Z" fill="#e8795a"/>
+      <ellipse cx="44" cy="38" rx="36" ry="8" fill="#8a4d2b"/>
+      <ellipse cx="44" cy="38" rx="36" ry="8" fill="none" stroke="#c4553a" stroke-width="3"/>
+      <path d="M80 50 Q106 50 102 72 Q98 92 76 90" fill="none" stroke="#e8795a" stroke-width="9" stroke-linecap="round"/>
+    </g>
+    <!-- NEWSPAPER -->
+    <g transform="translate(46,332)">
+      <path d="M0 6 L118 0 L124 46 L4 50 Z" fill="#fffaf3" stroke="#8a8272" stroke-width="2.5"/>
+      <rect x="10" y="9" width="104" height="11" fill="#4f4a3f" transform="rotate(-2.5 10 9)"/>
+      <rect x="12" y="25" width="34" height="19" fill="#b8c9d4" transform="rotate(-2.5 12 25)"/>
+      <g stroke="#8a8272" stroke-width="3" transform="rotate(-2.5 52 25)"><line x1="54" y1="28" x2="112" y2="28"/><line x1="54" y1="35" x2="112" y2="35"/><line x1="54" y1="42" x2="112" y2="42"/></g>
+    </g>
+    <!-- BOOK -->
+    <g transform="translate(200,320)">
+      <rect x="0" y="0" width="108" height="54" rx="4" fill="#3f7d97"/>
+      <rect x="0" y="0" width="14" height="54" rx="4" fill="#2f5f74"/>
+      <rect x="26" y="10" width="64" height="16" rx="3" fill="#e8c34a"/>
+      <rect x="26" y="34" width="44" height="6" rx="3" fill="#e8f3f8"/>
+    </g>
+  </g>
+</svg>
