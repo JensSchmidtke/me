@@ -147,6 +147,7 @@ function parseTeachingCsv(csvText) {
   const titleIndex = headers.indexOf("course title");
   const descriptionIndex = headers.indexOf("course description");
   const programIndex = headers.indexOf("program");
+  const frontPageIndex = headers.indexOf("front page");
 
   if ([semesterIndex, titleIndex, descriptionIndex, programIndex].some((i) => i === -1)) {
     return [];
@@ -159,6 +160,7 @@ function parseTeachingCsv(csvText) {
       title: cols[titleIndex] || "",
       description: cols[descriptionIndex] || "",
       program: cols[programIndex] || "",
+      frontPage: frontPageIndex !== -1 && (cols[frontPageIndex] || "").toLowerCase() === "yes",
     };
   }).filter((row) => row.semester && row.title);
 }
@@ -168,7 +170,11 @@ function renderTeaching(items) {
   teachingGrid.innerHTML = "";
 
   const limit = Number(teachingGrid.dataset.limit || 0);
-  const visibleItems = Number.isFinite(limit) && limit > 0 ? items.slice(0, limit) : items;
+  let visibleItems = items;
+  if (Number.isFinite(limit) && limit > 0) {
+    const featured = items.filter((item) => item.frontPage);
+    visibleItems = (featured.length ? featured : items).slice(0, limit);
+  }
 
   visibleItems.forEach((item) => {
     const card = document.createElement("div");
