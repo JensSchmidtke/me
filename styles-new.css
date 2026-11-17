@@ -1,0 +1,189 @@
+/* Plain layout: one column, one typeface, no cards or shadows. */
+:root {
+  --text: #1c1c1c;
+  --muted: #5d5d5d;
+  --rule: #d9d6cf;
+  --bg: #fcfbf8;
+  --link: #1d4e89;
+}
+
+@font-face {
+  font-family: "Jens Hand";
+  src: url("assets/fonts/handwriting.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jens Hand Name";
+  src: url("assets/fonts/handwriting-name.woff2") format("woff2");
+  font-display: swap;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Charter, "Bitstream Charter", "Iowan Old Style", "Sitka Text", Cambria, Georgia, serif;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.page {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 4rem;
+}
+
+a { color: var(--link); text-underline-offset: 0.15em; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+
+/* Header */
+.intro {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+.intro img {
+  width: 6.5rem;
+  height: 6.5rem;
+  object-fit: cover;
+  border-radius: 2px;
+  filter: grayscale(15%);
+}
+h1 {
+  font-family: "Jens Hand Name", Charter, Georgia, serif;
+  font-size: 2.6rem;
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0 0 0.3rem;
+  letter-spacing: -0.02em;
+}
+.role { color: var(--muted); margin: 0 0 1rem; }
+.intro p { margin: 0 0 0.8rem; }
+
+nav.links {
+  margin: 1.5rem 0 0;
+  padding: 0.6rem 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  font-size: 0.95rem;
+}
+nav.links a {
+  margin-right: 1.5rem;
+  font-family: "Jens Hand", Charter, Georgia, serif;
+  font-size: 1.3rem;
+  color: var(--text);
+  text-decoration: none;
+}
+nav.links a:hover { color: var(--link); text-decoration: underline; }
+
+/* Sections */
+section { margin-top: 3rem; }
+h2 {
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin: 0 0 1rem;
+}
+h3 { font-size: 1rem; font-weight: bold; margin: 0; }
+p { margin: 0 0 1rem; }
+.more { font-size: 0.95rem; margin-top: 0.8rem; }
+
+.note {
+  border-left: 3px solid var(--link);
+  padding: 0.2rem 0 0.2rem 1rem;
+}
+.note p:last-child { margin-bottom: 0; }
+
+ul.plain { list-style: none; padding: 0; margin: 0 0 1rem; }
+ul.plain li { margin-bottom: 0.3rem; }
+
+/* Projects */
+.project {
+  display: grid;
+  grid-template-columns: 1fr 9rem;
+  gap: 1.25rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--rule);
+}
+.project:last-child { border-bottom: 1px solid var(--rule); }
+.project.no-image { grid-template-columns: 1fr; }
+.project p { margin: 0.25rem 0 0; }
+.project .meta { color: var(--muted); font-size: 0.9rem; margin-top: 0.3rem; }
+.project img {
+  width: 9rem;
+  height: 6.5rem;
+  object-fit: cover;
+  object-position: top;
+  border: 1px solid var(--rule);
+  background: #fff;
+}
+
+/* Teaching (rendered by script.js into #teaching-grid) */
+.teaching-card {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  column-gap: 1rem;
+  row-gap: 0;
+  padding: 0.7rem 0;
+  border-top: 1px solid var(--rule);
+}
+.teaching-card:last-child { border-bottom: 1px solid var(--rule); }
+.teaching-term { color: var(--muted); font-size: 0.95rem; grid-row: span 2; }
+.teaching-card p { margin: 0.15rem 0 0; color: var(--muted); font-size: 0.95rem; }
+
+/* Papers */
+.paper {
+  display: grid;
+  grid-template-columns: 3.5rem 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.paper-year { color: var(--muted); }
+.paper p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+.paper h3 { font-weight: normal; }
+
+/* Contact */
+.contact-button {
+  font: inherit;
+  font-size: 0.95rem;
+  color: var(--link);
+  background: none;
+  border: 0;
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  cursor: pointer;
+}
+.contact-button:disabled { display: none; }
+
+footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 600px) {
+  body { font-size: 17px; }
+  .page { padding-top: 2rem; }
+  .intro { grid-template-columns: 1fr; }
+  .project, .teaching-card { grid-template-columns: 1fr; gap: 0.4rem; }
+  .project img { width: 100%; height: 10rem; }
+  .teaching-term { grid-row: auto; }
+}
+
+/* Project titles in the handwriting font */
+.project h3 a {
+  font-family: "Jens Hand", Charter, Georgia, serif;
+  font-weight: normal;
+  font-size: 1.35rem;
+  color: var(--text);
+  text-decoration: none;
+}
+.project h3 a:hover { color: var(--link); text-decoration: underline; }
