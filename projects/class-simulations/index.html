@@ -31,6 +31,9 @@
       .acc-imgs { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1rem; align-items: start; margin: 0.4rem 0 1rem; max-width: 720px; }
       .acc-imgs img { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
       .acc-thumb { object-position: top; }
+      .acc-float { float: right; width: 230px; height: auto; margin: 0 0 0.5rem 1.2rem; shape-outside: url(img/kellner.png); shape-image-threshold: 0.2; shape-margin: 0.8rem; }
+      #panel-fruehstueck::after { content: ""; display: block; clear: both; }
+      @media (max-width: 560px) { .acc-float { width: 130px; } }
       .acc-img { display: block; width: 100%; max-width: 640px; border-radius: 10px; border: 1px solid var(--line); margin: 0.4rem 0 1rem; }
       @media (max-width: 560px) { .acc-thumb { width: 64px; height: 40px; } }
       @media (prefers-reduced-motion: reduce) { .acc-icon { transition: none; } }
@@ -63,7 +66,7 @@
       <section class="section sim">
         <div class="container">
           <h1>Simulating information gap activities</h1>
-          <p class="lead">Information gap activities are a popular kind of class activity because they put students into semi-authentic communicative situations: they have to solve a task that they might also face outside the classroom. Information gap activities are often done in pairs, but it is more fun, and gives more speaking practice, if the information is distributed among the whole class. Students then talk to many classmates, and there is a competitive element: everyone wants to finish first. For the teacher this creates a challenge. Every student gets a different task card, so the activity only works if everyone can find all the information they need from their classmates; otherwise someone is stuck. Trying this out in class costs lesson time, and class size changes from day to day. Instead, the activity can be simulated on the computer: virtual students play it thousands of times for different class sizes. The simulation shows whether everyone can finish and how many interactions are needed, on average and in a bad case.</p>
+          <p class="lead">Information gap activities are a popular kind of class activity because they put students into semi-authentic communicative situations: they have to solve a task that they might also face outside the classroom. Information gap activities are often done in pairs, but it is more fun, and gives more speaking practice, if the information is distributed among the whole class. Students then talk to many classmates, and there is a competitive element: everyone wants to finish first. For the teacher this creates a challenge. Every student gets a different task card, so the activity only works if everyone can find all the information they need from their classmates; otherwise someone is stuck. Trying this out in class costs lesson time, and class size changes from day to day. Instead, the activity can be simulated on the computer: virtual students play it thousands of times for different class sizes. The simulation shows whether everyone can finish and how many interactions are needed, on average and in a bad case. The following are four examples of activities I created for my classroom and how I used simulations in each.</p>
           <div class="acc-list">
           <article class="acc" id="wegspiel">
             <h3>
@@ -473,6 +476,23 @@
               <p><strong>The activity. </strong>All students are guests in the same hotel. Everyone forgot to bring a few things but luckily the classmates have what they need, they only need to ask the right person. Every guest needs three things (for example a hair dryer, a towel, a phone charger) and has four spare things that other guests need. Students ask each other: "I need a hair dryer. Do you have a hair dryer?" – If the other student has the item on their list, they cross it out and say “Here you go.” The borrower writes down the name of the lender so they know who to return the item to. Every item can be lent only once. When a student has three names, they sit down and report who has what.</p>
               <p><strong>Language goal:</strong> asking to borrow things, the verbs “to have” and “to need” with the accusative case</p>
               <p><strong>What the simulation checks.</strong> For a given class size, every item that somebody needs has to be on the "spare" list of at least two other students present, and there are always at least as many spare items as needed items. A simulated mingle with random partners checks how many interactions are needed on average and if everyone can finish.</p>
+            </div>
+          </article>
+          <article class="acc" id="fruehstueck">
+            <h3>
+              <button class="acc-head" type="button" aria-expanded="false" aria-controls="panel-fruehstueck" id="head-fruehstueck">
+                <img class="acc-thumb" src="img/fruehstueck_tray.png" alt="" width="96" height="60" loading="lazy" />
+                <span class="acc-text"><span class="acc-title">4. Breakfast mix-up</span><span class="acc-teaser">Waiters look for the guest who ordered their tray.</span></span>
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="panel-fruehstueck" role="region" aria-labelledby="head-fruehstueck" hidden>
+              <img class="acc-img" style="max-width:300px" src="img/fruehstueck_tray.png" alt="A breakfast tray shown as four pictures: orange juice, bread, cheese and an apple, with a line for the guest's name" loading="lazy" />
+              <img class="acc-float" src="img/kellner.png" alt="A waiter carrying a glass of water and a cup of coffee on a tray" loading="lazy" />
+              <p><strong>The activity. </strong>The kitchen of a hotel has mixed up the breakfast orders. Half of the students are waiters, each with a tray card showing four items as pictures. The other half are guests, who stay seated and have their own order card. Each waiter walks around and asks the guests until they find the one whose order matches the tray in all four items, then writes the guest's name on the card. Many items overlap between trays, so a waiter usually has to ask a few questions before moving on to the next guest. In the second round the roles switch, so the guests become waiters and nobody gets the same order again.</p>
+              <p><strong>Variant: a competition.</strong> Each guest has more than one order. A waiter who has found the guest for a tray takes a new order from a stack and starts looking again. The waiters play for a set time, and the waiter who has delivered the most orders when time is up wins.</p>
+              <p><strong>Language goal:</strong> ordering food and drink at breakfast, “would like” (<em>möchten</em>) with the accusative case</p>
+              <p><strong>What the simulation checks.</strong> The simulation counts how many guests a waiter has to ask before the tray fits, for different class sizes. It also checks that for each of the four items some guests match and some do not, so every question tells the waiter something.</p>
             </div>
           </article>
           </div>
