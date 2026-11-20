@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>German Vowel Test | Jens Schmidtke</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script>window.goatcounter = { path: function (p) { return location.host.replace(/^www\./, "") + p; } };</script>
+    <script data-goatcounter="https://herbertfeuerschmitt.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+    <style>
+      .vw-frame { max-width: 760px; margin: 0 auto; border: 1px solid var(--line); border-radius: 14px; background: var(--card); overflow: hidden; }
+      .vw-frame iframe { display: block; width: 100%; height: 820px; border: 0; }
+      .vw-load { text-align: center; padding: 2.5rem 1.5rem; }
+      .vw-load button { font: inherit; font-size: 1rem; padding: 10px 22px; border: 1px solid var(--accent); background: var(--accent); color: #fff; border-radius: 999px; cursor: pointer; }
+      .vw-load button:hover { background: var(--accent-dark); }
+      .vw-load button:focus-visible { outline: 3px solid var(--line); outline-offset: 2px; }
+      .vw-load p { color: var(--muted); font-size: 0.9rem; max-width: 520px; margin: 1rem auto 0; }
+    </style>
+  </head>
+  <body class="project-page">
+    <div class="bg"></div>
+    <header class="site-header">
+      <div class="container">
+        <div class="brand">
+          <div class="monogram monogram-photo">
+            <img src="../assets/IMG_6203.PNG" alt="Portrait of Jens Schmidtke" />
+          </div>
+          <div class="brand-text">
+            <div class="name">Jens Schmidtke, Ph.D.</div>
+            <div class="role">Data Analyst • Research Methodology • Language Assessment and Teaching</div>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="../index.html#about">About</a>
+          <a href="../index.html#work">Projects</a>
+          <a href="../index.html#teaching">Teaching</a>
+          <a href="../index.html#tabs">Research</a>
+          <a href="../index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1>German Vowel Test</h1>
+          <p class="section-lead">A pronunciation test for learners of German. The learner reads short words aloud, and an acoustic analysis shows which vowels need practice.</p>
+
+          <h2>Try it</h2>
+          <div class="vw-frame" id="vw-frame">
+            <div class="vw-load">
+              <button type="button" id="vw-start">Load the test</button>
+              <p>The test runs on Hugging Face and needs your microphone. Loading it connects your browser to Hugging Face. Recordings are analysed and not stored. If the test has not been used for a while, starting it can take up to a minute.</p>
+            </div>
+          </div>
+
+          <h2>How it works</h2>
+          <p>The test covers the 14 stressed vowels of standard German, with two or three words per vowel. Each recording is analysed with Praat (through Parselmouth): the program finds the vowel and measures its duration and its first two formants, which reflect tongue height and tongue position. The learner's values are normalised and compared with reference values for German (Pätzold &amp; Simpson, 1997).</p>
+          <p>The evaluation checks whether a vowel is close enough to its target, whether rounded vowels (ü, ö) are kept apart from unrounded ones (i, e) and from back vowels (u, o), and whether long vowels are clearly longer than their short counterparts. The written words mark vowel length with a line (long) or a dot (short), as in many German textbooks, so the test measures pronunciation rather than knowledge of spelling rules.</p>
+
+          <h2>Status</h2>
+          <p>This is a working prototype. The thresholds for flagging a vowel are provisional and are being calibrated with recordings of native speakers.</p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <span>© 2026 Jens Schmidtke</span>
+        <span>Last updated: November 2026</span>
+      </div>
+    </footer>
+    <script>
+      document.getElementById('vw-start').addEventListener('click', function () {
+        var f = document.createElement('iframe');
+        f.src = 'https://jaynest-vokaltest.hf.space';
+        f.title = 'German vowel test';
+        f.allow = 'microphone';
+        var box = document.getElementById('vw-frame');
+        box.replaceChildren(f);
+      });
+    </script>
+  </body>
+</html>
