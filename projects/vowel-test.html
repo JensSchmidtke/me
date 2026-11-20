@@ -14,7 +14,14 @@
       .vw-load button { font: inherit; font-size: 1rem; padding: 10px 22px; border: 1px solid var(--accent); background: var(--accent); color: #fff; border-radius: 999px; cursor: pointer; }
       .vw-load button:hover { background: var(--accent-dark); }
       .vw-load button:focus-visible { outline: 3px solid var(--line); outline-offset: 2px; }
-      .vw-load p { color: var(--muted); font-size: 0.9rem; max-width: 520px; margin: 1rem auto 0; }
+      .vw-load p { color: var(--muted); font-size: 0.9rem; max-width: 560px; margin: 1rem auto 0; }
+      .vw-load p.vw-info { text-align: center; margin: 0 auto 0.8rem; color: inherit; }
+      .vw-consent { display: block; max-width: 560px; margin: 0.4rem auto 1.2rem; text-align: center; font-size: 0.95rem; }
+      .vw-consent input { margin-right: 0.4rem; }
+      .vw-privacy { max-width: 560px; margin: 0 auto 0.6rem; font-size: 0.85rem; text-align: left; }
+      .vw-privacy summary { cursor: pointer; text-align: center; color: var(--muted); }
+      .vw-privacy p { margin: 0.5rem 0 0; color: var(--muted); }
+      .vw-load button:disabled { opacity: 0.45; cursor: default; }
     </style>
   </head>
   <body class="project-page">
@@ -49,8 +56,20 @@
           <h2>Try it</h2>
           <div class="vw-frame" id="vw-frame">
             <div class="vw-load">
-              <button type="button" id="vw-start">Load the test</button>
-              <p>The test runs on Hugging Face and needs your microphone. Loading it connects your browser to Hugging Face. Recordings are analysed and not stored. If the test has not been used for a while, starting it can take up to a minute.</p>
+              <p class="vw-info">The test runs on Hugging Face (<a href="https://huggingface.co/privacy" target="_blank" rel="noopener">privacy policy</a>). Your recordings are sent there for analysis and deleted immediately afterwards.</p>
+              <details class="vw-privacy">
+                <summary>Privacy details</summary>
+                <p><b>Responsible:</b> Jens Schmidtke (<a href="../index.html#contact">contact</a>).
+                <b>What is sent:</b> your voice recordings of the test words and, as with any web request, your IP address.
+                <b>Recipient:</b> Hugging Face, Inc. (USA), which hosts the analysis program.
+                <b>Purpose:</b> measuring your vowels and showing you the result.
+                <b>Legal basis:</b> your consent (Art. 6(1)(a) GDPR), which you can withdraw at any time by closing the page.
+                <b>Storage:</b> each recording is deleted right after it has been measured; no recordings or results are kept.
+                <b>Your rights:</b> since nothing is kept, there is nothing to access or delete afterwards; for Hugging Face's own server logs, please contact Hugging Face. You can also complain to a data protection authority.</p>
+              </details>
+              <label class="vw-consent"><input type="checkbox" id="vw-ok" /> I agree.</label>
+              <button type="button" id="vw-start" disabled>Load the test</button>
+              <p>If the test has not been used for a while, starting it can take up to a minute.</p>
             </div>
           </div>
 
@@ -70,7 +89,11 @@
       </div>
     </footer>
     <script>
+      document.getElementById('vw-ok').addEventListener('change', function () {
+        document.getElementById('vw-start').disabled = !this.checked;
+      });
       document.getElementById('vw-start').addEventListener('click', function () {
+        if (!document.getElementById('vw-ok').checked) return;
         var f = document.createElement('iframe');
         f.src = 'https://jaynest-vokaltest.hf.space';
         f.title = 'German vowel test';
