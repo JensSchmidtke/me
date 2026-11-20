@@ -94,6 +94,10 @@
       });
       document.getElementById('vw-start').addEventListener('click', function () {
         if (!document.getElementById('vw-ok').checked) return;
+        // count how often the test is actually loaded, not just the page viewed
+        if (window.goatcounter && window.goatcounter.count) {
+          window.goatcounter.count({ path: 'vowel-test-loaded', title: 'Vowel test loaded', event: true });
+        }
         var f = document.createElement('iframe');
         f.src = 'https://jaynest-vokaltest.hf.space';
         f.title = 'German vowel test';
